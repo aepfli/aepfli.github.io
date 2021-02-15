@@ -1,4 +1,4 @@
-![Simon Schrottner Banner](https://twitter.com/aepfli/header_photo)
+![Simon Schrottner Banner](https://github.com/aepfli/aepfli.github.io/blob/main/banner.jpeg?raw=true)
 
 # Simon Schrottner @aepfli
 
