@@ -2,8 +2,6 @@
 title: "About Me"
 ---
 
-# About Me
-
 I am Simon, a Software Developer, a Father, a passionated Couchsurfer.
 
 My focus is arround Java and the toolchain for Java applications like CI/CD, build tools and code quality tools.

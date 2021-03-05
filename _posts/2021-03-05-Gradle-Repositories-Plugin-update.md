@@ -4,6 +4,8 @@ title: "Gradle Repositories Plugin Update"
 categories: 
 - gradle
 - gitlab
+author:
+- Simon Schrottner
 ---
 
 My work on tthe Gradle Repositories Plugin is progressing quiet fast.
