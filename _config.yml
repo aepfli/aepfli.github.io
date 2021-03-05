@@ -1,15 +1,17 @@
 
 title: Simon Schrottner - @aepfli
 description: Bearded Austrian Guy who loves to code
-author:
-  name: Simon Schrottner - @aepfli
-  email: simon.schrottner@netconomy.net
+#author:
+#  name: Simon Schrottner - @aepfli
+#  email: simon.schrottner@netconomy.net
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%Y-%d-%d"
+  
+  skin: solarized
 
   # generate social links in footer
   social_links:
