@@ -1,12 +1,14 @@
 
 title: Simon Schrottner - @aepfli
 description: Bearded Austrian Guy who loves to code
-site.author: Simon Schrottner
-#author:
-#  name: Simon Schrottner - @aepfli
-#  email: simon.schrottner@netconomy.net
+author:
+  name: Simon Schrottner - @aepfli
+  email: simon.schrottner@netconomy.net
 show_excerpts: false # set to true to show excerpts on the homepage
 
+twitter_username: aepfli
+github_username: aepfli
+facebook_username: simon.schrottner
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -18,29 +20,17 @@ minima:
   social_links:
     twitter: aepfli
     github:  aepfli
-    # devto: jekyll
-    # dribbble: jekyll
     facebook: simon.schrottner
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
 
-# Build settings
-theme: minima
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-remote-theme
+
+# set up remote_theme
+remote_theme: jekyll/minima
