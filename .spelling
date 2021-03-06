@@ -6,6 +6,11 @@ JUnit
 SonarJava
 GradleTestKit
 StackOverflow
+linters
+Node.js
+yaml
+note.html
+NPX
 
  - about.md
 Couchsurfer
@@ -19,3 +24,8 @@ PHP
 AS3
 NETCONOMY
 SonarQube
+ - _posts/2021-03-06-Linting-and-Spellchecking-my-blog.md
+markdownlint-cli
+markdownlint
+PySpelling
+Markdown-cli
