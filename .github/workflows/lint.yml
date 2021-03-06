@@ -36,8 +36,6 @@ jobs:
     - name: Install Spellcheck
       run: npm i markdown-spellcheck -g
     - name: Run Spellcheck
-      env:
-        FORCE_COLOR: 1
       run: |
         shopt -s globstar && ls -1 **/*.md
-        shopt -s globstar && mdspell --en-us -n -r **/*.md
+        shopt -s globstar && mdspell --en-us -r **/*.md
