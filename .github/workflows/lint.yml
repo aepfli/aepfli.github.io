@@ -16,16 +16,26 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
-    - name: Lint file
-      uses: avto-dev/markdown-lint@v1
+    - name: Run spell check    
+      uses: actions/setup-node@v1
       with:
-        args: "**/*.md"
+        node-version: "15"
+    - name: Run Lint
+      run: npx markdownlint-cli ./
 
   markdown-spellcheck:
     name: Spellcheck
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@master
-    - name: Spellcheck
-      uses: check-spelling/check-spelling@prerelease
+      uses: actions/checkout@master  
+    - name: Run spell check    
+      uses: actions/setup-node@v1
+      with:
+        node-version: "15"
+    - name: Install Spellcheck
+      run: npm i markdown-spellcheck -g
+    - name: Run Spellcheck
+      run: |
+        shopt -s globstar && ls -1 **/*.md
+        shopt -s globstar && mdspell --en-us -r **/*.md
