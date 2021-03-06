@@ -15,3 +15,4 @@ This is a small (not up-to-date) list of all my note-worthy contributions.
   - [JUnit5](https://github.com/junit-team/junit5/pulls?q=is%3Apr+author%3Aaepfli+is%3Aclosed)
   - [GitLab](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=all&author_username=s.schrottner)
   - [SonarJava](https://github.com/SonarSource/sonar-java/pulls?q=is%3Apr+author%3Aaepfli+is%3Aclosed)
+  
