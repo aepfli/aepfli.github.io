@@ -11,33 +11,27 @@ on:
 
 jobs:
   lint:
-    name: Lint changelog file
+    name: Linting
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
       uses: actions/checkout@v2
-    - name: Run spell check    
+    - name: linting   
       uses: actions/setup-node@v1
       with:
         node-version: "15"
-    - name: Run Lint
-      run: npx markdownlint-cli ./
+    - run: npx markdownlint-cli ./
 
   markdown-spellcheck:
-    name: Spellcheck
+    name: Spellchecking
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
       uses: actions/checkout@master  
-    - name: Run spell check    
+    - name: Spellchecking
       uses: actions/setup-node@v1
       with:
         node-version: "15"
-    - name: Install Spellcheck
-      run: npm i markdown-spellcheck -g
-    - name: Run Spellcheck
-      env:
+    - env:
         FORCE_COLOR: 1
-      run: |
-        shopt -s globstar && ls -1 **/*.md
-        shopt -s globstar && mdspell --en-us -n -r **/*.md
+      run: npx markdown-spellcheck --en-us -n -r - **/*.md *.md
