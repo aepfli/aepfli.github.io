@@ -38,4 +38,4 @@ jobs:
     - name: Run Spellcheck
       run: |
         shopt -s globstar && ls -1 **/*.md
-        shopt -s globstar && mdspell --en-us -r **/*.md
+        shopt -s globstar && mdspell --en-us -n -r **/*.md
