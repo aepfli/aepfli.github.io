@@ -39,7 +39,7 @@ gitLab {
 }
 ```
 
-Tnis is somewhat ugly and forces the user to a certain level of implementation knowledge, which is imho too much.
+This is somewhat ugly and forces the user to a certain level of implementation knowledge, which is imho too much.
 Why should the user want to know about the package for this classes.
 
 Luckily there is a simply by pass to this.
