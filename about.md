@@ -30,7 +30,6 @@ I am known for my crazy cooking methods, and my urge to try the craziest things 
 
 I am an active Couchsurfer, i like to host and surf - so far this has been one of the best decisions, as i met a lot of nice people, and learned a lot of other cultures.
 
-
 ## Work
 
 I did a lot of summer jobs starting the age of 14 - at the beginning it was mainly gastronomy, i even ended up two summers in Switzerland for the whole summer.
