@@ -1,7 +1,8 @@
 ---
 layout: home
 ---
-![Simon Schrottner Banner](https://github.com/aepfli/aepfli.github.io/blob/main/banner.jpeg?raw=true)
+
+![Simon Schrottner Banner](/assets/banner.jpeg)
 
 ## Welcome to my Blog/Site
 

@@ -10,6 +10,8 @@ I like to invest in build tools and automation to make the life of others easier
 
 I was the driver behind different initiatives in my previous companies for code quality and improvements of the builds and build infrastructure.
 
+![Afro](/assets/afro.jpg)
+
 ## Life
 
 I was born in 1987 in Graz.
@@ -30,6 +32,8 @@ I am known for my crazy cooking methods, and my urge to try the craziest things 
 
 I am an active Couchsurfer, i like to host and surf - so far this has been one of the best decisions, as i met a lot of nice people, and learned a lot of other cultures.
 
+![Afro](/assets/offline.jpg)
+
 ## Work
 
 I did a lot of summer jobs starting the age of 14 - at the beginning it was mainly gastronomy, i even ended up two summers in Switzerland for the whole summer.
@@ -42,11 +46,15 @@ This was also the place where i started working with Grails.
 After university was done, i had a 3 years interaction as a "CEO" of a 2 man company - money-wise the worst decision, experience-wise a really good one.
 Since 2014 i am working at NETCONOMY and utilize Java.
 
+![Afro](/assets/morphsuite.jpg)
+
 ## Personality
 
 Actually i am (or used to be) a pretty shy person - nobody expected that :D - and i need either, time or knowledge about the topics to discuss them.
 Since i am 16, i actively try to tackle my shyness with jobs in gastronomy, where i have to reach out to person, and this is evolving quite great.
 I think i have a good understanding of social interaction, but fail to react appropriately (so do not try to bring me in some fancy situations) - hugs and things are the horror.
+
+![Afro](/assets/morphsuite2.jpg)
 
 ## Interests
 
