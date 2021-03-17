@@ -38,7 +38,7 @@ But finally it works, and we are at a usable state.
 
 Simply said, reduce complexity and make it more elegant.
 Currently there is too much code in the plugin from trial and error.
-I think it is cluttered, it is missing strucuture, and it is confusing as hell.
+I think it is cluttered, it is missing structure, and it is confusing as hell.
 
 ### DSL-like API
 
@@ -55,7 +55,7 @@ The current way is a little bit clumsy and suboptimal - fetching, recreation, ap
 
 I would love to clean this up, make it more concise and easier to grasp.
 
-Currently I also think that some of those limitations might be also caused by my need to support gradle 4.10.3.
+Currently I also think that some of those limitations might be also caused by my need to support Gradle 4.10.3.
 If my understandings are correct, i can remove this handover of artifacts to the projects in the future.
 As soon as i can drop support of 4.10.3 - the question is, if i leave the functionality, but just ignore it in that case.
 
@@ -82,8 +82,7 @@ repositories {
     gitLab.groups('groupId')
     // 1. if i manage to extend DefaultRepositoryHandler
     gitLabGroups('groupId')
-    // 2. not having influence on the objects, and forced to have the plugin calls within the repository
+    // 2. not having influence on where it is added
     maven gitLab.groups('groupId')
 }
 ```
-
