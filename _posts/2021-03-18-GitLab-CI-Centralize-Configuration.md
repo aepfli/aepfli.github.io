@@ -8,11 +8,14 @@ categories:
 - gitlab
 author:
 - Simon Schrottner
+excerpt_separator: <!--more-->
 ---
 
 My company is currently migrating to GitLab and also to GitLab CI.
 We do have a lot of similar projects which rely on similar tooling and therefore the CI configuration is also pretty similar.
 This created the need to centralize it but we still wanted to provide some configurational options with an explanation without spoiling the run pipeline UI.
+
+<!--more-->
 
 This is the first post of a series on our approaches.
 

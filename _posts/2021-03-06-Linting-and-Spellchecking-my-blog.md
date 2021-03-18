@@ -10,11 +10,14 @@ categories:
 - Automation
 author:
 - Simon Schrottner
+excerpt_separator: <!--more-->
 ---
 
 My biggest problem with my Blog is my bad writing.
 I am making to many mistakes, either typos or bad formatting.
 This bothered my heavily and it is also something, which can be easily prevented (to some degree) by automation.
+
+<!--more-->
 
 In this Blog Post i will shortly talk about:
 

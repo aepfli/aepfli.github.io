@@ -6,12 +6,14 @@ categories:
 - gitlab
 author:
 - Simon Schrottner
+excerpt_separator: <!--more-->
 ---
 
 My work on the Gradle Repositories Plugin is progressing quite fast.
 I released version `0.2.0` today.
 Mainly because i setup proper CI and also think that i reached a fine maturity level.
 
+<!--more-->
 ## Findings
 
 Furthermore i found some interesting improvements along the way.
