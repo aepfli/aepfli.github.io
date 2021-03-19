@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gradle Repositories Plugin - The Struggle is Real"
-categories: 
+tags: 
 - gradle
 - gitlab
 author:

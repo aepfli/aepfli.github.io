@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "GitLab CI - Centralization Configuration"
-categories: 
+tags: 
 - ci
 - configuration
 - centralization
 - gitlab
+categories:
+- gitlab-ci
 author:
 - Simon Schrottner
 excerpt_separator: <!--more-->
@@ -17,7 +19,15 @@ This created the need to centralize it but we still wanted to provide some confi
 
 <!--more-->
 
-This is the first post of a series on our approaches.
+This is a post of a series on our approaches.
+<!-- markdownlint-disable no-inline-html -->
+<ol>
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'gitlab-ci'" %}
+{% for post in posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ol>
+<!-- markdownlint-enable no-inline-html -->
 
 ## Centralized Configuration
 

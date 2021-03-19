@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linting and Spellchecking my Blog"
-categories: 
+tags: 
 - GitHub Actions
 - GitHub Pages
 - Blog

@@ -14,6 +14,9 @@ NPX
 UI
 lifecycle
 versioned
+href
+gitlab-ci
+yml
 
  - about.md
 Couchsurfer
@@ -34,3 +37,6 @@ PySpelling
 Markdown-cli
  - _posts/2021-03-17-Grade-Repositories-Plugin-the-struggle-is-real.md
 DSL-like
+ - _posts/2021-03-19-GitLab-CI-Environment-Variable.md
+tools.gitlab
+ci.yml
