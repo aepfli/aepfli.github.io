@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gradle Repositories Plugin Update"
-categories: 
+tags: 
 - gradle
 - gitlab
 author:
