@@ -1,16 +1,26 @@
 ---
-title: "Projects and Contributions"
+layout: default
+title: Projects
+permalink: /projects/
 ---
 
-This is a small (not up-to-date) list of all my note-worthy contributions.
+# Projects & Contributions
 
-## Maintainer/Owner
+## Maintainer
 
-- [Gradle GitLab Repository Plugin](https://github.com/aepfli/gradle-gitlab-repositories)
-- [JUnit Pioneer](https://junit-pioneer.org)
+- [OpenFeature](https://openfeature.dev) — vendor-neutral standard for feature flagging (CNCF)
+- [JUnit Pioneer](https://junit-pioneer.org) — JUnit 5 extension pack
+- [gradle-gitlab-repositories](https://github.com/aepfli/gradle-gitlab-repositories) — Gradle plugin for multi-token GitLab dependency management
+- [markdownlint-rule-max-one-sentence-per-line](https://github.com/aepfli/markdownlint-rule-max-one-sentence-per-line) — custom markdownlint rule
 
-## Contributions
+## Notable contributions
 
-- [JUnit5](https://github.com/junit-team/junit5/pulls?q=is%3Apr+author%3Aaepfli+is%3Aclosed)
-- [GitLab](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=all&author_username=s.schrottner)
-- [SonarJava](https://github.com/SonarSource/sonar-java/pulls?q=is%3Apr+author%3Aaepfli+is%3Aclosed)
+- [JUnit 5](https://github.com/junit-team/junit5/pulls?q=is%3Apr+author%3Aaepfli)
+- [Keptn](https://github.com/keptn)
+- [SonarJava](https://github.com/SonarSource/sonar-java/pulls?q=is%3Apr+author%3Aaepfli)
+- [GitLab](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?author_username=s.schrottner)
+
+## Roles
+
+- CNCF Ambassador
+- OpenFeature maintainer

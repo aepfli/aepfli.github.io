@@ -17,6 +17,33 @@ versioned
 href
 gitlab-ci
 yml
+CNCF
+OpenFeature
+Schrottner
+aepfli
+Pernegg
+Keptn
+keptn
+Sessionize
+Bluesky
+bsky
+KubeCon
+Devoxx
+JavaCro
+JCON
+Cloudland
+ContainerDays
+JNation
+ActionScript
+toolchain
+polyglot
+Dynatrace
+vendor-neutral
+Mur
+multi-token
+gradle-gitlab-repositories
+markdownlint-rule-max-one-sentence-per-line
+markdownlint
 
  - about.md
 Couchsurfer

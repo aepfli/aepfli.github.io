@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <nav>
+      <a href="{{ '/' | relative_url }}">home</a>
+      · <a href="{{ '/about/' | relative_url }}">about</a>
+      · <a href="{{ '/projects/' | relative_url }}">projects</a>
+      · <a href="{{ '/archive/' | relative_url }}">archive</a>
+      · <a href="{{ '/feed.xml' | relative_url }}">feed</a>
+    </nav>
+  </footer>
+</body>
+</html>
