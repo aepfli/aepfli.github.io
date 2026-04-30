@@ -45,6 +45,7 @@ I speak regularly on feature flagging, observability, developer experience, and 
 - **Cloud Native Linz** — Feb 2026. *18 Bluetooth Controllers Walk Into a Bar* — with Manuel Timelthaler. [Event](https://www.meetup.com/cloud-native-linz/events/313186726/)
 - **Java User Group Switzerland** — Jun 2025, Zürich. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.jug.ch/html/events/2025/fun-with-flags.html)
 - **Java Vienna Meetup** — May 2025. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.meetup.com/java-vienna/events/305897200/)
+- **Platform Engineering Vienna — OpenFeature Special Edition** — Apr 2025. *OpenFeature's Positive Impact on Confidence at Dynatrace.* [Event](https://www.meetup.com/platform-engineering-vienna/events/306913081/)
 - **Platform Engineering Vienna Meetup** — Dec 2024. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.meetup.com/platform-engineering-vienna/events/304557618/)
 - **Cloud Native Graz (CNCG) Meetup** — Oct 2024. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.meetup.com/cncf-graz/events/301870753/)
 - **Grazer Linuxtage 2023** — *Beyond Pushing Code: Dynatrace's Open Source Journey on GitHub.*
