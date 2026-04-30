@@ -45,4 +45,4 @@ I speak regularly on feature flagging, observability, developer experience, and 
 
 ---
 
-Want me to speak at your event? [Get in touch](mailto:simon.schrottner@gmail.com) or check the [Sessionize profile](https://sessionize.com/simon-schrottner) for a session catalogue.
+Want me to speak at your event? [Get in touch](mailto:simon@schrottner.at) or check the [Sessionize profile](https://sessionize.com/simon-schrottner) for a session catalogue.

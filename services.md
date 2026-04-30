@@ -31,6 +31,6 @@ Hands-on rollout work: integrating OpenFeature into your stack, wiring it into O
 Send a short note — what you're trying to build, where it's stuck, and roughly when. I'll come back honestly about whether I can help.
 
 <p class="cta">
-  <a href="mailto:simon.schrottner@gmail.com" class="cta-button">simon.schrottner@gmail.com</a>
+  <a href="mailto:simon@schrottner.at" class="cta-button">simon@schrottner.at</a>
   <a href="https://www.linkedin.com/in/aepfli/" class="cta-button cta-button-secondary">LinkedIn</a>
 </p>

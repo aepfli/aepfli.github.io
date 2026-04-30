@@ -33,7 +33,7 @@ KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, ContainerDays, JNation, 
 Working on feature flagging, developer experience, or open-standards adoption and want a second pair of hands or eyes? Send me a short note about what you're trying to ship — I'll come back honestly about whether I can help.
 
 <p class="cta">
-  <a href="mailto:simon.schrottner@gmail.com" class="cta-button">simon.schrottner@gmail.com</a>
+  <a href="mailto:simon@schrottner.at" class="cta-button">simon@schrottner.at</a>
   <a href="https://www.linkedin.com/in/aepfli/" class="cta-button cta-button-secondary">LinkedIn</a>
 </p>
 
