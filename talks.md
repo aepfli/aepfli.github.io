@@ -20,8 +20,8 @@ I speak regularly on feature flagging, observability, developer experience, and 
 ## Upcoming
 
 - **DevoxxUK 2026** — London, May 6–7. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.*
-- **JNation 2026** — *Fun with Flags.*
-- **ContainerDays Hamburg 2026** — *Fun with Flags.*
+- **JNation 2026** — May 26–27, Coimbra, Portugal. *Fun with Flags.* [Conference](https://jnation.pt/)
+- **ContainerDays Hamburg 2026** — Sep 2–4. *Fun with Flags.* [Conference](https://www.containerdays.io/containerdays-hamburg-2026/speakers/)
 
 ## 2026
 
@@ -38,9 +38,12 @@ I speak regularly on feature flagging, observability, developer experience, and 
 
 ## Meetups & community
 
-- **Java Vienna Meetup** — *Fun with Flags.*
-- **Platform Engineering Meetup Vienna**.
-- **Cloud Native Graz Meetup**.
+- **Java User Group Graz** — Apr 2026. *Fun with Flags.* [Event](https://www.meetup.com/java-user-group-graz/events/313960173)
+- **Cloud Native Linz** — Feb 2026. *18 Bluetooth Controllers Walk Into a Bar* — with Manuel Timelthaler. [Event](https://www.meetup.com/cloud-native-linz/events/313186726/)
+- **Java User Group Switzerland** — Jun 2025, Zürich. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.jug.ch/html/events/2025/fun-with-flags.html)
+- **Java Vienna Meetup** — May 2025. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.meetup.com/java-vienna/events/305897200/)
+- **Platform Engineering Vienna Meetup** — Dec 2024. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.meetup.com/platform-engineering-vienna/events/304557618/)
+- **Cloud Native Graz (CNCG) Meetup** — Oct 2024. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.meetup.com/cncf-graz/events/301870753/)
 - **Grazer Linuxtage 2023** — *Beyond Pushing Code: Dynatrace's Open Source Journey on GitHub.*
 
 ---
