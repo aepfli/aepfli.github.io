@@ -20,7 +20,9 @@ I speak regularly on feature flagging, observability, developer experience, and 
 ## Upcoming
 
 - **DevoxxUK 2026** — London, May 6–7. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.*
-- **Cloudland 2026** — May 19–22, Heide Park (Germany). *CNCF Showcase: Cloud Native zum Anfassen* (May 20). [Agenda](https://meine.doag.org/events/cloudland/2026/agenda/)
+- **Cloudland 2026** — May 19–22, Heide Park (Germany). [Agenda](https://meine.doag.org/events/cloudland/2026/agenda/)
+  - *Quo vadis Cloud Native – Aufbruch ins zweite Jahrzehnt* — keynote with Mario Fahlandt (Kubermatic). May 20, in German.
+  - *CNCF Showcase: Cloud Native zum Anfassen* — workshop, May 20, in German.
 - **JNation 2026** — May 26–27, Coimbra, Portugal. *Fun with Flags.* [Conference](https://jnation.pt/)
 - **ContainerDays Hamburg 2026** — Sep 2–4. *Fun with Flags.* [Conference](https://www.containerdays.io/containerdays-hamburg-2026/speakers/)
 
