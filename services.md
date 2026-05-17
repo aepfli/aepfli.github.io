@@ -22,9 +22,9 @@ Fractional, ongoing input on the parts of the engineering org that determine whe
 
 ## Implementation consulting
 
-Hands-on rollout work: integrating OpenFeature into your stack, wiring it into OpenTelemetry for SRE-grade observability, building the internal tooling around evaluation and audit, and helping the in-house team carry it forward after I'm gone.
+OpenFeature, end-to-end, from a maintainer's perspective. Hands-on rollout work: integrating OpenFeature into your stack, wiring it into OpenTelemetry for SRE-grade observability, building the internal tooling around evaluation and audit, and unblocking edge cases by going to the source. As one of the project's maintainers I can shape the spec where it needs to bend — and help the in-house team carry the work forward after I'm gone.
 
-**Who it's for:** teams that have decided the direction and need someone with the scars to actually ship it.
+**Who it's for:** teams adopting OpenFeature without in-house insider context, and anyone hitting the edges where the spec meets reality.
 
 ## How to get in touch
 
