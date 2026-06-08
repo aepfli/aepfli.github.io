@@ -22,6 +22,12 @@ Based in Pernegg an der Mur, Austria. Available for consulting across the DACH r
 
 [More on services →]({{ '/services/' | relative_url }})
 
+## Writing
+
+Occasional notes on feature flagging, observability, and where open standards are heading.
+
+[Read the blog →]({{ '/blog/' | relative_url }})
+
 ## Recent stages
 
 KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, ContainerDays, JNation, and meetups across Europe.

@@ -44,10 +44,10 @@ The organism's awareness of its own state.
 Where its limbs are.
 What's alive and what isn't.
 
-Your system doesn't have that.
-You have dashboards.
-You have flag states nobody queries.
-You have business outcomes disconnected from the behaviors that caused them.
+Most modern systems don't have that.
+They have dashboards.
+They have flag states nobody queries.
+They have business outcomes disconnected from the behaviors that caused them.
 
 Mauricio Salatino [published something today](https://www.salaboy.com/2026/06/08/reacting-to-ai/) that I keep thinking about.
 He calls for a "learning layer" on top of Kubernetes, one that records, synthesizes, and lets agents make grounded decisions.

@@ -1,7 +1,6 @@
-
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -15,11 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@v2
-    - name: linting   
-      uses: actions/setup-node@v1
+      uses: actions/checkout@v4
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
       with:
-        node-version: "15"
+        node-version: "20"
     - run: npx markdownlint-cli ./
 
   markdown-spellcheck:
@@ -27,11 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@master  
-    - name: Spellchecking
-      uses: actions/setup-node@v1
+      uses: actions/checkout@v4
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
       with:
-        node-version: "15"
+        node-version: "20"
     - env:
         FORCE_COLOR: 1
-      run: npx markdown-spellcheck --en-us -n -r - **/*.md *.md
+      run: npx markdown-spellcheck --en-us -n -r '**/*.md' '*.md'
