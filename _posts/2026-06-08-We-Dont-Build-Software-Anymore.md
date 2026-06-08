@@ -93,3 +93,5 @@ Not yet scheduled.
 But the idea needed to exist somewhere first.
 
 This is the rough version.
+
+> Typing code is no longer the defining skill, but software engineering isn't becoming unnecessary — the value moves up, from writing implementations to designing the systems that frame, decide, and regulate themselves.
