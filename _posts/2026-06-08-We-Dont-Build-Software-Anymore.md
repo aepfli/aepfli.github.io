@@ -76,8 +76,8 @@ Platform engineering.
 Each built for a specific problem.
 Each quietly doing more than we designed it for.
 
-I'm not sure they're assembling into something.
-But I'm not sure they aren't.
+They don't add up to something yet.
+But I'd bet against that staying true.
 
 And now vendors are naming it for us.
 Proprietary agent control layers.
