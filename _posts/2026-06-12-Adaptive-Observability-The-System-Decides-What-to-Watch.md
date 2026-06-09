@@ -54,6 +54,6 @@ Maybe that's on us.
 The maintainers, the spec writers, the standard builders.
 Making that easier to do, and harder to get wrong, is probably the next thing to work on.
 
-Funny enough, this is the same problem I wrote about earlier today.
+Funny enough, this is the same problem I wrote about earlier this week.
 [We don't build software anymore]({% post_url 2026-06-08-We-Dont-Build-Software-Anymore %}) — we grow it.
 Turns out we are still figuring out how to grow the nervous system itself.
