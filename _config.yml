@@ -6,6 +6,9 @@ author:
 
 url: https://schrottner.at
 
+# Do not publish posts dated in the future until that date passes.
+future: false
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

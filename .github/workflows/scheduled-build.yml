@@ -1,0 +1,25 @@
+name: Scheduled Pages rebuild
+
+# GitHub Pages only rebuilds on push. Future-dated posts (future: false in
+# _config.yml) therefore need a rebuild triggered on or after their date.
+# This requests a Pages build on a schedule so those posts go live on time.
+
+on:
+  schedule:
+    # 07:05 UTC ~= 09:05 Vienna (CEST) — primary, just after 09:00 post times
+    - cron: "5 7 * * *"
+    # 11:00 UTC — midday safety net in case the morning run is delayed/skipped
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  pages: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Request a GitHub Pages build
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: gh api --method POST "repos/${{ github.repository }}/pages/builds"
