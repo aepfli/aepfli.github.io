@@ -6,7 +6,7 @@ permalink: /blog/
 
 # Blog
 
-Occasional notes on feature flagging, observability, and where open standards are heading.
+Occasional notes on feature flagging, observability, and where open standards are heading — plus the occasional personal reflection on the work, the community, and life around it.
 
 <ul class="links">
 {% for post in site.posts %}
