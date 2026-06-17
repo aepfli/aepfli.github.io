@@ -143,6 +143,40 @@ ul.links .handle {
   margin-bottom: 1.5rem;
 }
 
+ul.tags {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+ul.tags .tag {
+  font-size: 0.75rem;
+  line-height: 1;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.3rem 0.6rem;
+  letter-spacing: 0.02em;
+}
+
+ul.tags .tag a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul.tags .tag:hover {
+  border-color: var(--accent);
+}
+
+ul.tags .tag .count {
+  color: var(--muted);
+  margin-left: 0.15rem;
+}
+
 hr {
   border: none;
   border-top: 1px solid var(--border);
