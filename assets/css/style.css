@@ -106,14 +106,14 @@ ul.links {
   margin: 1.5rem 0;
 }
 
-ul.links li {
+ul.links > li {
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--border);
 }
 
-ul.links li:last-child { border-bottom: none; }
+ul.links > li:last-child { border-bottom: none; }
 
-ul.links a {
+ul.links > li > a {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -122,7 +122,7 @@ ul.links a {
   color: var(--fg);
 }
 
-ul.links a:hover { color: var(--accent); }
+ul.links > li > a:hover { color: var(--accent); }
 
 ul.links .handle {
   color: var(--muted);
