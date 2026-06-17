@@ -30,10 +30,17 @@ The only thing that changed is how the code gets typed.
 The tool got added.
 The process didn't move.
 
+And it breaks down fast.
+One power user with AI can produce more code than a team can review.
+Two or three power users in the same team and the review process is basically gone.
+Nobody can keep up.
+The code ships anyway.
+
 There's a term worth knowing here: Spec-Driven Development.
 The idea is that a detailed specification becomes the source of truth, not the code.
 Agents implement from it.
 Requirements change, you update the spec.
+[AI Unified Process](https://unifiedprocess.ai/) is one example of this in practice.
 It's a sound technical approach.
 
 But I think it stops short of the actual problem.
@@ -63,6 +70,10 @@ Not on anyone's laptop — it's sitting in your infrastructure, watching for rea
 It implements, an AI reviewer checks the output, flags what doesn't fit, cycles back.
 That loop runs until it's done.
 The human comes back in at the end to review the final output — not to write code in the middle.
+
+Stacked diffs are probably the right format here.
+Smaller, sequential changesets the agent ships incrementally — easier to reason about, easier to review.
+[Gergely Orosz wrote a good primer](https://newsletter.pragmaticengineer.com/p/stacked-diffs) on why this workflow matters if you're not familiar.
 
 Ambiguous acceptance criteria used to be something a developer resolved mid-sprint.
 In this model they surface in the Spec Session, where the whole team can catch them.
