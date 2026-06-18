@@ -89,6 +89,14 @@ The thinking stays the same depth as before.
 
 I think the teams that treat the Spec Session as the primary engineering output — and let the loop handle the rest — will end up somewhere different.
 
+One thing I haven't figured out yet is what to call it.
+Mob Planning.
+Mob Specing.
+Spec Session.
+Extreme Specing.
+All of them borrow from XP deliberately — the idea is the same, just one level up from code.
+If you have a better name, I'd genuinely like to know.
+
 I don't know if anyone is actually running this way yet.
 But I want to try.
 Especially the part where the agent just picks up the work and runs.
