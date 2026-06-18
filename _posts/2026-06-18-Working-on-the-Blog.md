@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Working on the Blog"
+title: "Somewhere to Put the Ideas"
 tags:
 - Blog
 - Personal
