@@ -9,6 +9,21 @@ url: https://schrottner.at
 # Do not publish posts dated in the future until that date passes.
 future: false
 
+# GoatCounter analytics (hosted, cookieless, no consent banner).
+# Set to your site code, e.g. "schrottner" for https://schrottner.goatcounter.com.
+# Left empty, the analytics script is not emitted.
+goatcounter_code: "aepfli"
+
+# Giscus comments, backed by GitHub Discussions.
+giscus:
+  repo: "aepfli/aepfli.github.io"
+  repo_id: "MDEwOlJlcG9zaXRvcnkzMzkxODI3Nzc="
+  category: "Announcements"
+  category_id: "DIC_kwDOFDeEuc4C_Y2i"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  theme: "preferred_color_scheme"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
