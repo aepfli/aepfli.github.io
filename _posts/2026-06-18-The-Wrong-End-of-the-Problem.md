@@ -33,8 +33,7 @@ The process didn't move.
 And it breaks down fast.
 One power user with AI can produce more code than a team can review.
 Two or three power users in the same team and the review process is basically gone.
-Nobody can keep up.
-The code ships anyway.
+Nobody can keep up, and the code ships anyway.
 
 There's a term worth knowing here: Spec-Driven Development.
 The idea is that a detailed specification becomes the source of truth, not the code.
@@ -46,8 +45,7 @@ It's a sound technical approach.
 But I think it stops short of the actual problem.
 
 The spec has to come from somewhere.
-Someone has to write it.
-Someone has to agree on it.
+Someone has to write it, and someone has to agree on it.
 That part is still the old process, just with a new artifact at the end.
 
 What I'd suggest looks a bit different.
