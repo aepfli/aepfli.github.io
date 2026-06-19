@@ -47,14 +47,19 @@ But there's something else happening in that room that I think gets underestimat
 
 It's where the learning happens.
 
-Right now a lot of teams are struggling with something quiet: prompting knowledge isn't being shared.
+Not just prompting.
+System thinking.
+Architectural patterns.
+How to decompose a problem.
+Why a certain approach fits this codebase and another doesn't.
+How a senior frames a problem before an agent ever touches it — the mental model that makes the output actually good.
+
+Right now that knowledge isn't transferring.
+Everyone is heads-down with their own tools, developing their own habits in isolation.
 Engineer A gets dramatically better output than engineer B.
 Nobody knows why.
-Everyone is heads-down with their own tools, developing their own habits, and none of it transfers.
-
-What does A do differently?
-What system patterns is she applying?
-What context is he giving the agent that makes the output actually usable?
+Prompting approaches are one small part of it — but the bigger part is the system thinking underneath.
+And that only surfaces if there's a room where people talk through problems together before they hand them to an agent.
 
 That conversation only exists if there's a room to have it in.
 
@@ -64,7 +69,9 @@ Everyone gets faster individually.
 And the shared craft — the thing that used to live in code reviews, in pairing sessions, in hallway conversations about why the last approach didn't work — starts to disappear.
 
 The mob planning session gives it back.
-It becomes the place where system design gets discussed, where prompting approaches get shared, where a junior watches how a senior frames a problem for an agent and learns something they couldn't have learned from reading the code.
+It becomes the place where system design gets discussed, where architectural decisions get challenged before the agent runs with them, where a junior watches how a senior thinks through a problem and learns something they couldn't have learned from reading generated code.
+Prompting is part of that.
+But it's the smaller part.
 
 The artifact changed.
 The need for the room didn't.
