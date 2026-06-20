@@ -7,6 +7,7 @@ tags:
 - Software Engineering
 author:
 - Simon Schrottner
+series: "Left of the Loop"
 excerpt_separator: <!--more-->
 date: 2026-06-18 09:00:00 +0200
 ---

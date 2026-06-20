@@ -257,3 +257,22 @@ img { max-width: 100%; height: auto; }
 .featured h3 { margin-top: 0; }
 .featured .meta { margin-bottom: 0.75rem; }
 
+.series {
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  margin: 2.5rem 0 0;
+  font-size: 0.95rem;
+}
+
+.series-label { margin: 0 0 0.5rem; color: var(--muted); }
+
+.series-list { margin: 0; padding-left: 1.25rem; }
+.series-list li { margin: 0.2rem 0; }
+.series-list .handle {
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8em;
+}
+

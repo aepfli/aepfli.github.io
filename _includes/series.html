@@ -1,0 +1,25 @@
+{%- comment -%}
+Series navigation: when a post sets `series:` in its front matter, list every
+post sharing that series (in date order) at the foot of the post, marking the
+current one. Renders only when there is more than one part, so a series with a
+single published part stays quiet until the next one goes live.
+{%- endcomment -%}
+{%- if page.series -%}
+{%- assign parts = site.posts | where: "series", page.series | sort: "date" -%}
+{%- if parts.size > 1 -%}
+<nav class="series" aria-label="Series navigation">
+  <p class="series-label">Part of the series: <strong>{{ page.series }}</strong></p>
+  <ol class="series-list">
+    {%- for part in parts -%}
+    <li>
+      {%- if part.url == page.url -%}
+      <strong>{{ part.title }}</strong> <span class="handle">you are here</span>
+      {%- else -%}
+      <a href="{{ part.url | relative_url }}">{{ part.title }}</a>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ol>
+</nav>
+{%- endif -%}
+{%- endif -%}
