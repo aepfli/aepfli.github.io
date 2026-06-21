@@ -7,8 +7,9 @@ single published part stays quiet until the next one goes live.
 {%- if page.series -%}
 {%- assign parts = site.posts | where: "series", page.series | sort: "date" -%}
 {%- if parts.size > 1 -%}
+{%- assign series_slug = page.series | slugify -%}
 <nav class="series" aria-label="Series navigation">
-  <p class="series-label">Part of the series: <strong>{{ page.series }}</strong></p>
+  <p class="series-label">Part of the series: <a href="{{ '/series/' | append: series_slug | append: '/' | relative_url }}"><strong>{{ page.series }}</strong></a></p>
   <ol class="series-list">
     {%- for part in parts -%}
     <li>

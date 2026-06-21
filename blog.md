@@ -10,6 +10,8 @@ Brain dumps, mostly. Thoughts that needed somewhere to go.
 Unstructured by nature, shaped with AI help. The ideas are mine — the readability is a team effort.
 Read it like a conversation starter, not a finished argument.
 
+There's a series running right now: [Left of the Loop]({{ '/series/left-of-the-loop/' | relative_url }}) — a working mental model for how AI shifts the engineering process left, brain-dumped a post at a time.
+
 <ul class="links">
 {% for post in site.posts %}
   {% assign postyear = post.date | date: "%Y" | plus: 0 %}
