@@ -6,6 +6,8 @@ permalink: /series/left-of-the-loop/
 
 # Left of the Loop
 
+> As implementation becomes abundant, organizations that preserve constructive friction will outperform organizations that optimize it away.
+
 Left of the Loop is a mental model I'm building in the open.
 
 The premise: as agents take over more of the implementation, the engineering work moves earlier — left, toward defining what the system should do, before anything gets built.
