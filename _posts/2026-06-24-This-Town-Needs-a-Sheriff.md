@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Town Needs a Sheriff"
+title: "This Town Needs a Sheriff, and I Am One of the Deputies"
 tags:
 - Agentic Systems
 - CNCF
