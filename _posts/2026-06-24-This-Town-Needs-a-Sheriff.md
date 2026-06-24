@@ -6,6 +6,7 @@ tags:
 - CNCF
 - OpenFeature
 - Open Standards
+- AAIF
 author:
 - Simon Schrottner
 excerpt_separator: <!--more-->
