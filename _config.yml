@@ -25,7 +25,6 @@ giscus:
   theme: "preferred_color_scheme"
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 exclude:

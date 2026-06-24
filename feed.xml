@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title type="html">{{ site.title | smartify | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ '/feed.xml' | absolute_url | xml_escape }}</id>
+  <author>
+    <name>{{ site.author.name | default: site.title | xml_escape }}</name>
+  </author>
+  {%- assign posts = site.posts | limit: 10 -%}
+  {%- for post in posts %}
+  <entry>
+    <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
+    {%- comment -%} ?ref=rss tags feed click-throughs as source "rss" in GoatCounter. The <id> stays clean and stable so readers don't re-flag old posts. {%- endcomment -%}
+    <link href="{{ post.url | absolute_url }}?ref=rss" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+    <id>{{ post.id | absolute_url | xml_escape }}</id>
+    <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">{{ post.content | strip | xml_escape }}</content>
+    <author>
+      <name>{{ post.author | first | default: site.author.name | xml_escape }}</name>
+    </author>
+    {%- for tag in post.tags %}
+    <category term="{{ tag | xml_escape }}" />
+    {%- endfor %}
+  </entry>
+  {%- endfor %}
+</feed>
