@@ -12,15 +12,23 @@ excerpt_separator: <!--more-->
 date: 2026-06-26 09:00:00 +0200
 ---
 
-There's a version of the AI-native team that looks like it's working.
-Fast output.
-Fewer meetings.
-Everyone moving independently, validating with the model, shipping quickly.
+Anthropic's engineers are shipping eight times more code than they were a few years ago.
 
-It probably is working.
-For now.
+And they had to schedule lunches so people would talk to each other.
 
-The thing it's missing is harder to notice because it doesn't produce an error.
+Fiona Fung, who leads the Claude Code team, said it plainly on Lenny's Podcast last week.
+Working with agents all day had started to feel isolating.
+The team was moving fast.
+They had stopped running into each other.
+Anthropic's response was pairwise programming lunches and hackathons — deliberate rituals to restore the thing that used to happen by default.
+
+Eight times the output.
+Scheduled conversation.
+
+That ratio is worth sitting with.
+
+The thing that goes missing isn't visible in the metrics.
+It doesn't produce an error.
 It just quietly stops being available.
 
 <!--more-->
@@ -95,7 +103,10 @@ You can read every document a senior engineer wrote and not understand how they 
 The thing that transfers is the friction.
 The moment when a senior says "why this approach and not that one" and you have to defend your reasoning out loud.
 The moment when you watch someone frame a problem and realise you had been framing it wrong.
-The correction that lands because there's a relationship and a context behind it.
+
+Fung put it well: "Every time I watch someone work, I learn something myself as well."
+That's not a feature of pair programming.
+That's a feature of being in the room with another person who does things differently than you do.
 
 AI will give you an answer.
 It won't ask you to justify yours.
