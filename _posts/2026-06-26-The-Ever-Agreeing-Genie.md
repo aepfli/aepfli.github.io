@@ -64,6 +64,11 @@ Fewer syncs, more async, everyone in their own context.
 They do move faster.
 They also stop catching what the friction was catching, and nobody notices for a while because the output looks the same.
 
+DORA's research puts a number on it.
+A 25% increase in AI adoption lines up with real gains in the local metrics — code quality, documentation, review speed — and, at the same time, a 1.5% drop in delivery throughput and a 7.2% drop in delivery stability.
+Faster generation means bigger changesets, and bigger changesets are harder to review, riskier to merge, harder to roll back.
+The speed shows up upstream; the cost lands downstream.
+
 The team was never the productivity tax.
 It was where the disagreement and the scope calls and the missing context and the teaching all happened at once.
 Skip that and you're not faster — you're moving confidently in whatever direction felt right to whoever wrote the prompt.
