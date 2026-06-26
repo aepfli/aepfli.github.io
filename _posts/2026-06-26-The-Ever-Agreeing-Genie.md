@@ -41,6 +41,7 @@ They're going to maintain this too.
 They might be wrong — but wrong in a direction you hadn't thought of.
 An agent can't disagree with you like that.
 It agrees faster.
+
 It's the ever-agreeing genie: it grants the wish exactly as you worded it, never the one you meant, and never asks whether you should have wished for something else.
 
 Same with scope.
