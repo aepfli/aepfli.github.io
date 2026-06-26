@@ -16,7 +16,7 @@ Anthropic's engineers ship eight times more code than they did a few years ago.
 
 And they had to start scheduling lunches so people would talk to each other.
 
-Fiona Fung, who leads the Claude Code team, said it on Lenny's Podcast last week.
+Fiona Fung, who leads the Claude Code team, said it on [Lenny's Podcast](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering) last week.
 Working with agents all day had started to feel isolating.
 The team was fast, but they'd stopped running into each other.
 So they added pairwise programming lunches and hackathons — rituals to put back the thing that used to happen on its own.
@@ -41,6 +41,7 @@ They're going to maintain this too.
 They might be wrong — but wrong in a direction you hadn't thought of.
 An agent can't disagree with you like that.
 It agrees faster.
+It's the ever-agreeing genie: it grants the wish exactly as you worded it, never the one you meant, and never asks whether you should have wished for something else.
 
 Same with scope.
 The agent builds what you ask for, all of it, thoroughly.
@@ -64,7 +65,7 @@ Fewer syncs, more async, everyone in their own context.
 They do move faster.
 They also stop catching what the friction was catching, and nobody notices for a while because the output looks the same.
 
-DORA's research puts a number on it.
+[DORA's research](https://dora.dev/research/2024/dora-report/) puts a number on it.
 A 25% increase in AI adoption lines up with real gains in the local metrics — code quality, documentation, review speed — and, at the same time, a 1.5% drop in delivery throughput and a 7.2% drop in delivery stability.
 Faster generation means bigger changesets, and bigger changesets are harder to review, riskier to merge, harder to roll back.
 The speed shows up upstream; the cost lands downstream.
