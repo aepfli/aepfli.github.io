@@ -12,6 +12,8 @@ excerpt_separator: <!--more-->
 date: 2026-06-26 09:00:00 +0200
 ---
 
+> *In folklore, a genie grants wishes without judgment — it gives you exactly what you asked for, whether or not it is what you needed. The danger was never the genie. It was the wish.*
+
 Anthropic's engineers ship eight times more code than they did a few years ago.
 
 And they had to start scheduling lunches so people would talk to each other.

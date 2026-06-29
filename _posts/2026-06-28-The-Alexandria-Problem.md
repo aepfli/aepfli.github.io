@@ -12,6 +12,8 @@ excerpt_separator: <!--more-->
 date: 2026-06-28 09:00:00 +0200
 ---
 
+> *The Library of Alexandria was the ancient world's greatest repository of knowledge — and its greatest single point of failure. It didn't burn in a single night. It declined across decades, through neglect, through the slow erosion of what it had been. By the time it was gone, almost no one had noticed it going.*
+
 There's a pattern I've been watching for a while, and I don't think it's going well.
 
 A junior engineer gets stuck.
