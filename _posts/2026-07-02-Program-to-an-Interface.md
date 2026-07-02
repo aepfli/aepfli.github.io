@@ -8,7 +8,7 @@ tags:
 author:
 - Simon Schrottner
 excerpt_separator: <!--more-->
-date: 2026-07-02 12:00:00 +0200
+date: 2026-07-02 08:00:00 +0200
 ---
 
 Every engineer learns it early. Program to an interface, not an implementation. Depend on the contract, not the concrete class.
