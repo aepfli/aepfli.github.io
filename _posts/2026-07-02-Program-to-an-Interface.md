@@ -31,9 +31,9 @@ Some units will implement stakeholder handling as a dedicated role. Some will ro
 
 The responsibility cuts both ways. Ill-defined interfaces leak chaos into the outer system, and the outer system responds the only way it knows: by prescribing implementations again. Autonomy is earned by being easy to depend on.
 
-Team Topologies calls this a team API. Amazon forced every internal system behind service interfaces. Both stayed on the technical side — systems talking to systems. The harder version is process and roles: your way of working is yours, as long as the contract holds.
+Team Topologies calls this a team API. Amazon forced every internal system behind service interfaces. The team API goes beyond code — it includes how a team wants to be communicated with. The idea isn't new. What's telling is what happens to it: Team Topologies itself gets rolled out as four team types and three interaction modes, mandated everywhere. The book about interfaces becomes another implementation.
 
-That version asks something the technical one doesn't. Trust.
+Escaping that fate asks for something no rollout can mandate. Trust.
 
 A leader in this model does less than the job description suggests. Mostly it's refusing to standardize things that don't need standardizing. Shielding the unit from the next rollout. That produces nothing visible — no framework, no transformation deck, no reorg to point at. Just room.
 
