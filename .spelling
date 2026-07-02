@@ -209,3 +209,5 @@ DSL-like
  - _posts/2021-03-19-GitLab-CI-Environment-Variable.md
 tools.gitlab
 ci.yml
+ - _posts/2026-07-02-Program-to-an-Interface.md
+rollouts
