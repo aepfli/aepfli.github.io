@@ -44,6 +44,11 @@ They might be wrong — but wrong in a direction you hadn't thought of.
 An agent can't disagree with you like that.
 It agrees faster.
 
+Kent Beck has been calling his AI pair a genie since 2025.
+He uses it across a run of posts, most notably [Genie Wants to Leap](https://tidyfirst.substack.com/p/genie-wants-to-leap).
+A genie grants exactly what you asked for, not what you meant.
+I want to push on the second half: what happens when the genie never disagrees with the wish.
+
 It's the ever-agreeing genie: it grants the wish exactly as you worded it, never the one you meant, and never asks whether you should have wished for something else.
 
 Same with scope.
