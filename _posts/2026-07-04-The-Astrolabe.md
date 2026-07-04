@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 date: 2026-07-04 09:00:00 +0200
 ---
 
-An astrolabe doesn't map every star. It gives you a way to find your position relative to the ones that hold still.
+> *An astrolabe doesn't map every star. It gives you a way to find your position relative to the ones that hold still.*
 
 That's the instrument I reach for when someone asks which AI tool they should be using. The honest answer is that the tools will be different in six months. The layers won't.
 
