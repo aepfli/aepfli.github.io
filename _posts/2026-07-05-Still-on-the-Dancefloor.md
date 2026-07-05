@@ -26,7 +26,7 @@ The team captain was a role I loved, but I also feel like part of this is a resp
 
 Additionally, it was an interface to the outside — to check on team health, find friction, and handle the bureaucratic efforts. Defining goals for us, trying to reach those, and pushing for greatness in a sense that people see us as a good example. This was great.
 
-Lastly, the tech evangelist. An add-on role which allowed me to share the foundation of our internal tooling with the world. Fostering community and engaging with other developers to help OpenFeature succeed, and to present my employer the way I thought they deserved to be seen.
+Lastly, the tech evangelist. An add-on role which allowed me to share the foundation of our internal tooling with the world. Fostering community and engaging with other developers to help OpenFeature succeed, and to present my employer the way I thought they were.
 
 The hard part is finding something like this again. I love to solve puzzles. Not necessarily engineering-wise, also team-dynamics-related. AI is a good example of that. It has such a big impact on implementation but also on team dynamics.
 
