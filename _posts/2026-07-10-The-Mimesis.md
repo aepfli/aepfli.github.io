@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 date: 2026-07-10 09:00:00 +0200
 ---
 
-> *Mimesis was the Greek word for imitation, and for the actor's craft: the faithful representation of an action, watched closely enough to be reproduced.*
+> *Mimesis was the Greek word for imitation, and the oldest theory of how we learn: by copying a thing long before we understand it. Understanding, if it comes, comes after.*
 
 [The End of the Craftsman](https://schrottner.at/2026/06/24/The-End-of-the-Craftsman.html) ended with a promise. The junior question deserved more than a paragraph, I said, and would get its own post later. This is that post.
 
