@@ -2,9 +2,9 @@
 layout: post
 title: "Program to an Interface"
 tags:
-- Agentic Systems
-- Platform Engineering
 - Software Engineering
+- Leadership
+- Organization Design
 author:
 - Simon Schrottner
 excerpt_separator: <!--more-->
@@ -37,6 +37,6 @@ Escaping that fate asks for something no rollout can mandate. Trust.
 
 A leader in this model does less than the job description suggests. Mostly it's refusing to standardize things that don't need standardizing. Shielding the unit from the next rollout. That produces nothing visible — no framework, no transformation deck, no reorg to point at. Just room.
 
-A unit that owns its implementation will fail sometimes. It will also, occasionally, find a way of working that fits its people better than anything a central rollout could design. Sometimes that way is worth stealing for the level above.
+A unit that owns its implementation doesn't innovate in leaps. It iterates. One small change at a time, behind a stable contract, without disturbing anyone outside. That's the part rollouts can't replicate — a rollout is one big bet, placed once, for everyone. Small iterations fail small and compound quietly. Sometimes what they compound into is worth stealing for the level above.
 
 Maybe the org chart was always an implementation detail. We just kept treating it as the architecture.
