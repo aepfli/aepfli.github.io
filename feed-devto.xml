@@ -28,8 +28,8 @@ future: false keeps scheduled (future-dated) posts out until their date.
   <author>
     <name>{{ site.author.name | default: site.title | xml_escape }}</name>
   </author>
-  {%- assign posts = site.posts | limit: 15 -%}
-  {%- for post in posts %}
+  {%- comment -%} limit: is a for-loop parameter, NOT a filter (`| limit` is a silent no-op). {%- endcomment -%}
+  {%- for post in site.posts limit:15 %}
   <entry>
     {%- capture entry_title -%}{% if post.series %}{{ post.series }}: {% endif %}{{ post.title }}{%- endcapture -%}
     <title type="html">{{ entry_title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
