@@ -12,30 +12,22 @@ excerpt_separator: <!--more-->
 date: 2026-07-10 09:00:00 +0200
 ---
 
-> *Mimesis was the classical word for imitation: the making of a copy, and also the way a person learns. Aristotle thought it our first form of knowledge. We watch, we imitate, and understand only later what we were copying.*
+> *Mimesis was the Greek word for imitation, and for the actor's craft: the faithful representation of an action, watched closely enough to be reproduced.*
 
-Somewhere in the last year I noticed I was talking to my colleagues less. Not because anything changed between us. Because when I hit a wall, I opened a chat window instead of walking over to a desk.
+[The End of the Craftsman](https://schrottner.at/2026/06/24/The-End-of-the-Craftsman.html) ended with a promise. The junior question deserved more than a paragraph, I said, and would get its own post later. This is that post.
 
-It felt efficient at the time. It still does, most days. But something was quietly going missing, and it took a while to notice what.
+Aristotle had a word for how humans learn a skill before they understand it: mimesis. We watch, we imitate, and only later do we understand what we were doing. A child doesn't learn to speak by studying grammar first. A junior doesn't learn to debug a production system by reading a postmortem. Both copy a move long before they can explain why the move works.
+
+That's the specific thing missing when a junior sits across from an agent instead of a senior. Not knowledge in the abstract. The move itself.
 
 <!--more-->
 
-Implementation used to be the thing that forced people to talk. Someone reviews your pull request and asks why you did it that way. Someone pairs with you and catches the assumption you didn't know you were making. Someone overhears a design discussion in the hallway and mentions the time their team hit the exact same wall two years ago.
+What actually gets copied in an apprenticeship is narrow and specific. Which log line to check first when a request times out. The half-second pause before touching a config file that's been stable for three years. The instinct that an elegant fix is wrong for this particular system, for reasons that have nothing to do with elegance and everything to do with a decision made two years ago that never made it into any document.
 
-None of that was designed as a teaching mechanism. It was a side effect of people having to look at each other's implementation to get anything done. The knowledge transfer wasn't the point. It was the tax that came bundled with the work.
+None of that is information you could write down and hand over. It's a sequence of attention - where to look first, what to distrust, what "off" feels like before you can name what's wrong. A junior doesn't absorb that from an answer. They absorb it from watching the question get asked.
 
-Take the implementation out of the shared space and the tax disappears along with the transfer. Not just for juniors. [Seniors are losing the habit of talking to each other too](https://schrottner.at/2026/06/28/The-Alexandria-Problem.html), one AI conversation at a time.
+This is the part a spec can't carry, no matter how well-written. A spec captures [what the team decided](https://schrottner.at/2026/06/30/The-Agora.html). It doesn't capture the moment a senior went quiet for a second before answering, because that pause was itself the thing worth learning from.
 
-The junior problem is the sharper version of this, because juniors were never learning from documentation in the first place. They were learning from watching. Watching a senior get paged at 2am and trace a slowdown back to a query that looked fine on paper. Watching someone explain why the elegant solution was wrong for this particular system, in this particular company, for reasons that never made it into any spec.
+A junior working next to an agent gets the outcome without the performance that produced it. Clean, fast, and stripped of the one part that was ever going to teach them anything.
 
-You cannot write that down in advance. You can't spec your way into knowing why a system behaves badly under load - that knowledge only exists on the other side of having hit the wall, or having stood next to someone who did. A perfect specification handed to an agent skips the part where a junior would have been standing in the room when the wall got hit.
-
-The [Spec Session](https://schrottner.at/2026/06/30/The-Agora.html) is the closest thing left to that room.
-
-It's not a coincidence that this is also where the team argues about intent, challenges assumptions, catches the edge case nobody thought to write down. All of that is visible, in real time, to whoever is in the session. A junior watching a senior push back on a vague requirement is watching the exact skill they'll need in five years, demonstrated live, for free.
-
-Mob programming already knew this. Pairing already knew this. The XP crowd has been saying for years that the value isn't just fewer bugs, it's the transfer that happens when people build something in the same room. Nothing about that principle changes when the room is planning a spec instead of writing code. The modality moved. The mechanism didn't.
-
-What that means in practice is uncomfortable for anyone optimizing for speed. Fewer sessions, run by fewer people, planning tickets that get thrown straight at an agent, will produce output faster than a whole team wrestling over a spec together. It will also produce a team that stops getting better at the thing that made them worth hiring.
-
-A team can survive being slower for a while. It has a much harder time surviving one that quietly stopped teaching itself.
+Understanding comes after the imitation, not before it. That's the order Aristotle had right, and the order most onboarding plans get backwards. You can't fast-track a junior past the copying phase by giving them better answers faster. You can only give them, or fail to give them, enough moments where the move is visible enough to copy.
