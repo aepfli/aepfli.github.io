@@ -1,0 +1,48 @@
+---
+layout: null
+permalink: /feed-devto.xml
+---
+{%- comment -%}
+Dedicated feed for cross-posting to dev.to.
+
+Differences from the canonical /feed.xml:
+  - The series name is prefixed into the entry <title> ("Left of the Loop: The
+    Metron"), so the series is visible on dev.to where there is no series widget.
+  - The entry <link> is the clean post URL (no ?ref= tracking param), because
+    dev.to uses it as the article's canonical_url. A tracking param there would
+    become a bad canonical. Referral tracking still happens on /feed.xml.
+
+Same as /feed.xml otherwise: 10 most recent published posts, full content.
+future: false keeps scheduled (future-dated) posts out until their date.
+{%- endcomment -%}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title type="html">{{ site.title | smartify | xml_escape }} (dev.to)</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link href="{{ '/feed-devto.xml' | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ '/feed-devto.xml' | absolute_url | xml_escape }}</id>
+  <author>
+    <name>{{ site.author.name | default: site.title | xml_escape }}</name>
+  </author>
+  {%- assign posts = site.posts | limit: 10 -%}
+  {%- for post in posts %}
+  <entry>
+    {%- capture entry_title -%}{% if post.series %}{{ post.series }}: {% endif %}{{ post.title }}{%- endcapture -%}
+    <title type="html">{{ entry_title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
+    {%- comment -%} Clean canonical URL: dev.to adopts this as the article's canonical_url. {%- endcomment -%}
+    <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+    <id>{{ post.id | absolute_url | xml_escape }}</id>
+    <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">{{ post.content | strip | xml_escape }}</content>
+    <author>
+      <name>{{ post.author | first | default: site.author.name | xml_escape }}</name>
+    </author>
+    {%- for tag in post.tags %}
+    <category term="{{ tag | xml_escape }}" />
+    {%- endfor %}
+  </entry>
+  {%- endfor %}
+</feed>
