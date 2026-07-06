@@ -8,11 +8,13 @@ Dedicated feed for cross-posting to dev.to.
 Differences from the canonical /feed.xml:
   - The series name is prefixed into the entry <title> ("Left of the Loop: The
     Metron"), so the series is visible on dev.to where there is no series widget.
-  - The entry <link> is the clean post URL (no ?ref= tracking param), because
-    dev.to uses it as the article's canonical_url. A tracking param there would
-    become a bad canonical. Referral tracking still happens on /feed.xml.
+  - The entry <link> carries ?ref=devto, so click-throughs from dev.to back to
+    the blog show up as source "devto" in GoatCounter (mirrors ?ref=rss on the
+    main feed). The <id> stays clean and stable so dev.to dedupes correctly and
+    doesn't create duplicate drafts. Note: if you enable dev.to's "mark as
+    canonical" option, the canonical_url it sets will include ?ref=devto.
 
-Same as /feed.xml otherwise: 10 most recent published posts, full content.
+Same as /feed.xml otherwise: 15 most recent published posts, full content.
 future: false keeps scheduled (future-dated) posts out until their date.
 {%- endcomment -%}
 <?xml version="1.0" encoding="utf-8"?>
@@ -26,13 +28,13 @@ future: false keeps scheduled (future-dated) posts out until their date.
   <author>
     <name>{{ site.author.name | default: site.title | xml_escape }}</name>
   </author>
-  {%- assign posts = site.posts | limit: 10 -%}
+  {%- assign posts = site.posts | limit: 15 -%}
   {%- for post in posts %}
   <entry>
     {%- capture entry_title -%}{% if post.series %}{{ post.series }}: {% endif %}{{ post.title }}{%- endcapture -%}
     <title type="html">{{ entry_title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
-    {%- comment -%} Clean canonical URL: dev.to adopts this as the article's canonical_url. {%- endcomment -%}
-    <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+    {%- comment -%} ?ref=devto tags dev.to click-throughs as source "devto" in GoatCounter. The <id> below stays clean so dev.to dedupes on a stable guid. {%- endcomment -%}
+    <link href="{{ post.url | absolute_url }}?ref=devto" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
     <id>{{ post.id | absolute_url | xml_escape }}</id>
