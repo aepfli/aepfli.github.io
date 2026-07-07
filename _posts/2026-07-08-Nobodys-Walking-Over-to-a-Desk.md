@@ -34,13 +34,22 @@ When sprint planning produced a bad story - vague, wrong scope, built on a conse
 
 That confusion was a safety net. Cheap, informal, and completely undocumented as a process, but it worked. It caught planning failures in week two, not in production. Late, but survivable.
 
-[An agent doesn't have that habit](https://schrottner.at/2026/06/26/The-Ever-Agreeing-Genie.html).
+An agent doesn't have that habit.
 It either runs with its best interpretation of an ambiguous spec, or it stops.
 Neither of those looks like walking over to a desk.
 Nobody notices the ambiguity the way a confused human notices it, because noticing ambiguity and pausing to ask were never things the process built on purpose.
 They were a side effect of the implementer being a person who got uncomfortable not understanding what they were building.
 
 Take that person out of the loop and the side effect goes with them. The same bad story that used to get caught two days into a sprint now rides straight through to production, because the thing that used to catch it was never the process. It was the discomfort of a human who didn't want to guess.
+
+The obvious objection: agents ask clarifying questions all the time now, that's half the marketing copy for every current tool.
+True, and it doesn't touch the actual claim.
+The agent asks the person who invoked it, inside that person's framing, at the moment of generation - before anything has been built, before the confusion has had a chance to turn into a specific question.
+The walk to the desk went somewhere else entirely.
+To whoever was actually in the room during planning, who might know something the confused person never did - "oh, we decided against that" - and it happened mid-implementation, once the ambiguity had ripened into something concrete enough to ask.
+A clarifying question aimed back at the same head that wrote the prompt isn't a second opinion.
+It's the [Ever-Agreeing Genie](https://schrottner.at/2026/06/26/The-Ever-Agreeing-Genie.html) checking in with its own owner.
+Same blind spot, asking itself for permission.
 
 There's one failure mode that's genuinely new, and it's this one. Not "will requirements drift" - drift is old news, teams have always discovered mid-sprint that the story didn't mean what everyone thought. What's new is the question of what happens next. Does the agent stop and pull the team back in? Push through on a guess and hope? Sit idle waiting on people who've already moved on to the next ticket?
 
