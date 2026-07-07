@@ -9,7 +9,7 @@ author:
 - Simon Schrottner
 series: "Left of the Loop"
 excerpt_separator: <!--more-->
-date: 2026-07-08 09:00:00 +0200
+date: 2026-07-10 09:00:00 +0200
 ---
 
 > *To be on the hook is to be the one who answers when something breaks. Every team carries a picture of where that hook hangs. This is about whether the picture was ever true.*

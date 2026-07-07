@@ -170,48 +170,31 @@ tradeoffs
 pushback
 relitigate
 2am
-
- - about.md
 Couchsurfer
 Graz
 togtrama
-Frohnleiten
 christkindlmarkets
 afro
 santa
 PHP
 AS3
-NETCONOMY
 SonarQube
- - _posts/2026-06-08-We-Dont-Build-Software-Anymore.md
-agentic
 Mauricio
 Salatino
 Kubernetes
 Proprioception
 proprioception
- - _posts/2026-06-10-The-Reaction-Path-Doesnt-Need-a-Dashboard.md
-OTel
-SaaS
 mortems
- - _posts/2026-06-14-Dancing-the-limbo.md
 Kent
 Beck
 check-ins
- - _posts/2026-06-12-Adaptive-Observability-The-System-Decides-What-to-Watch.md
- - _posts/2021-03-06-Linting-and-Spellchecking-my-blog.md
 markdownlint-cli
-markdownlint
 PySpelling
 Markdown-cli
- - _posts/2021-03-17-Grade-Repositories-Plugin-the-struggle-is-real.md
 DSL-like
- - _posts/2021-03-19-GitLab-CI-Environment-Variable.md
 tools.gitlab
 ci.yml
- - _posts/2026-07-02-Program-to-an-Interface.md
 rollouts
- - _posts/2026-07-04-The-Astrolabe.md
 Tessl
 Archestra
 Kestra
@@ -220,25 +203,18 @@ Crossplane
 Agent2Agent
 A2A
 ACP
- - _posts/2026-07-05-Still-on-the-Dancefloor.md
 Flagsmith
- - series-dancing-the-limbo.md
 dancefloor
 Dancefloor
- - _posts/2026-07-06-The-Oikonomos.md
 Oikonomos
 oikonomos
 MCPs
 config
- - _posts/2026-07-10-The-Kybernetes.md
 Kybernetes
 kybernetes
- - _posts/2026-07-14-The-Metron.md
 Metron
 metron
 metronome
- - _posts/2026-07-12-The-Mimesis.md
 onboarding
- - _posts/2026-07-08-Whos-on-the-Hook.md
 dev
 Devs
