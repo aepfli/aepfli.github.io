@@ -9,7 +9,7 @@ author:
 - Simon Schrottner
 series: "Left of the Loop"
 excerpt_separator: <!--more-->
-date: 2026-07-10 09:00:00 +0200
+date: 2026-07-12 09:00:00 +0200
 ---
 
 > *Mimesis was the Greek word for imitation, and the oldest theory of how we learn: by copying a thing long before we understand it. Understanding, if it comes, comes after.*

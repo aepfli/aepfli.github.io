@@ -9,7 +9,7 @@ author:
 - Simon Schrottner
 series: "Left of the Loop"
 excerpt_separator: <!--more-->
-date: 2026-07-12 09:00:00 +0200
+date: 2026-07-14 09:00:00 +0200
 ---
 
 > *Metron was the Greek word for a measure: the standard you judge a thing against. It gives us metric, and metronome. Pick the wrong metron and everything you count against it comes out wrong, no matter how carefully you count.*

@@ -230,12 +230,15 @@ Oikonomos
 oikonomos
 MCPs
 config
- - _posts/2026-07-08-The-Kybernetes.md
+ - _posts/2026-07-10-The-Kybernetes.md
 Kybernetes
 kybernetes
- - _posts/2026-07-12-The-Metron.md
+ - _posts/2026-07-14-The-Metron.md
 Metron
 metron
 metronome
- - _posts/2026-07-10-The-Mimesis.md
+ - _posts/2026-07-12-The-Mimesis.md
 onboarding
+ - _posts/2026-07-08-Whos-on-the-Hook.md
+dev
+Devs

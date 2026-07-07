@@ -10,12 +10,12 @@ author:
 - Simon Schrottner
 series: "Left of the Loop"
 excerpt_separator: <!--more-->
-date: 2026-07-08 09:00:00 +0200
+date: 2026-07-10 09:00:00 +0200
 ---
 
 > *The kybernetes was the helmsman who steered a Greek ship, reading the wind and working the steering-oar to hold a course. The word is the root of two others: govern, and cybernetics, the study of how systems steer themselves.*
 
-[Last post](https://schrottner.at/2026/07/06/The-Oikonomos.html) ended with a shrug. Someone has to own the loop, I said, and left the how for later. Fair complaint if you actually run one of these things and want to know what "own" means in practice.
+[The Oikonomos](https://schrottner.at/2026/07/06/The-Oikonomos.html) ended with a shrug. Someone has to own the loop, I said, and left the how for later. Fair complaint if you actually run one of these things and want to know what "own" means in practice.
 
 It means two things. Seeing what the loop is doing. And being able to change what it does without touching the code.
 
