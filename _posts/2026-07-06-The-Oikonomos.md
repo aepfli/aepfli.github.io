@@ -16,7 +16,7 @@ date: 2026-07-06 09:00:00 +0200
 
 Every engineer on your team has their own agent setup right now. Their own system prompts, tuned over weeks. Their own skills, written for their own habits. Their own idea of what a good spec looks like once it hits the agent.
 
-Nobody asked them to build this. It happened the way local tooling always happens - one engineer solves a problem for themselves, and the solution stays theirs.
+Nobody asked them to build this. It happened the way local tooling always happens: one engineer solves a problem for themselves, and the solution stays theirs.
 
 The difference is cost. A better linter config doesn't show up on an invoice. A better system prompt burns fewer tokens on every run, for the rest of that engineer's time on the team. Multiply that across a team, and the gap between the best-tuned loop and the worst one is real money, invisible on any dashboard anyone is looking at.
 
@@ -38,9 +38,9 @@ This is the same silo that used to form around infrastructure knowledge, before 
 
 One team owns the skills, the MCPs, the prompt patterns feeding the agent. They improve it once, and the improvement reaches everyone running through it. They see spend per team, per project, per ticket type, because it's flowing through one place instead of a hundred individual setups. They tune for cost the same way they'd tune a shared service for latency.
 
-This isn't a new platform team recreating the old bottleneck. Application logic still lives with the team that owns the product. What moves to a central point is the plumbing - the part that was never anyone's job to maintain, and shouldn't be.
+This isn't a new platform team recreating the old bottleneck. Application logic still lives with the team that owns the product. What moves to a central point is the plumbing. The part that was never anyone's job to maintain, and shouldn't be.
 
-How you actually see what the loop is doing, and steer it without redeploying anything, is a mechanism worth its own post. For now, the point is simpler: someone has to own it.
+How you actually see what the loop is doing, and steer it without redeploying anything, is a mechanism worth its own post. For now, the point is simpler: someone has to own it. A steward for the shared resource, minding it so the whole team runs well on it. An oikonomos.
 
 Individual engineers optimizing their own setups is not the same thing as a company optimizing as a unit. One produces a handful of very efficient people. The other produces an organization that gets cheaper and better at this over time, whether or not any particular person stays.
 

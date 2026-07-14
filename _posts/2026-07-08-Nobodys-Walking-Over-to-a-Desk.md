@@ -22,7 +22,7 @@ All fair. All worth naming. None of them new.
 
 Scrum has been fighting every one of these for twenty years.
 Refinement sessions that run long without a decision.
-The invite-list problem - who gets pulled into planning and who doesn't.
+The invite-list problem: who gets pulled into planning and who doesn't.
 INVEST criteria exist because "this story is too big" is one of the oldest complaints in the room.
 Artificial harmony in a retro, where everyone nods because nobody wants to be the one who reopens the debate, is the same failure as a Spec Session converging too easily on a fake consensus.
 
@@ -30,7 +30,7 @@ None of this is a new failure mode invented by putting an agent on the other end
 
 Here's what actually is different, and it's not on the list above.
 
-When sprint planning produced a bad story - vague, wrong scope, built on a consensus that was never real - a human still had to implement it. And a confused human doing that has a habit the old model quietly relied on. They get stuck. They walk over to someone's desk. They ask "wait, did we mean this or that?"
+When sprint planning produced a bad story (vague, wrong scope, built on a consensus that was never real), a human still had to implement it. And a confused human doing that has a habit the old model quietly relied on. They get stuck. They walk over to someone's desk. They ask "wait, did we mean this or that?"
 
 That confusion was a safety net. Cheap, informal, and completely undocumented as a process, but it worked. It caught planning failures in week two, not in production. Late, but survivable.
 
@@ -44,14 +44,14 @@ Take that person out of the loop and the side effect goes with them. The same ba
 
 The obvious objection: agents ask clarifying questions all the time now, that's half the marketing copy for every current tool.
 True, and it doesn't touch the actual claim.
-The agent asks the person who invoked it, inside that person's framing, at the moment of generation - before anything has been built, before the confusion has had a chance to turn into a specific question.
+The agent asks the person who invoked it, inside that person's framing, at the moment of generation, before anything has been built, before the confusion has had a chance to turn into a specific question.
 The walk to the desk went somewhere else entirely.
-To whoever was actually in the room during planning, who might know something the confused person never did - "oh, we decided against that" - and it happened mid-implementation, once the ambiguity had ripened into something concrete enough to ask.
+To whoever was actually in the room during planning, who might know something the confused person never did ("oh, we decided against that"), and it happened mid-implementation, once the ambiguity had ripened into something concrete enough to ask.
 A clarifying question aimed back at the same head that wrote the prompt isn't a second opinion.
 It's the [Ever-Agreeing Genie](https://schrottner.at/2026/06/26/The-Ever-Agreeing-Genie.html) checking in with its own owner.
 Same blind spot, asking itself for permission.
 
-There's one failure mode that's genuinely new, and it's this one. Not "will requirements drift" - drift is old news, teams have always discovered mid-sprint that the story didn't mean what everyone thought. What's new is the question of what happens next. Does the agent stop and pull the team back in? Push through on a guess and hope? Sit idle waiting on people who've already moved on to the next ticket?
+There's one failure mode that's genuinely new, and it's this one. Not "will requirements drift". Drift is old news, teams have always discovered mid-sprint that the story didn't mean what everyone thought. What's new is the question of what happens next. Does the agent stop and pull the team back in? Push through on a guess and hope? Sit idle waiting on people who've already moved on to the next ticket?
 
 The old model never had to answer that, because the implementer and the circuit breaker were the same person. This one split them apart, and nobody's designed what replaces the walk to the desk.
 

@@ -23,7 +23,7 @@ It means two things. Seeing what the loop is doing. And being able to change wha
 
 Most teams get the first one wrong before they even try the second. They add logging after something breaks. A trace here, a dashboard there, built to explain a specific incident after the fact. That's not visibility. That's an autopsy.
 
-[OpenTelemetry](https://opentelemetry.io/) does something different if you use it the way it's meant to be used. The loop reports on its own state as it runs - what it's calling, what it's costing, how long each step takes, where it's stuck. Not after. While it's happening.
+[OpenTelemetry](https://opentelemetry.io/) does something different if you use it the way it's meant to be used. The loop reports on its own state as it runs: what it's calling, what it's costing, how long each step takes, where it's stuck. Not after. While it's happening.
 
 Call it [proprioception](https://schrottner.at/2026/06/08/We-Dont-Build-Software-Anymore.html) if the biological framing helps. A body knows where its limbs are without looking. A loop instrumented properly knows its own state without someone digging through logs afterward. The difference between the two is the difference between noticing a problem and being able to prevent one.
 
@@ -33,7 +33,7 @@ Seeing isn't steering. That's the part most people stop at.
 
 That's the motor response. The nervous system reacting to what the senses just reported, without needing the whole organism rebuilt first.
 
-Put them together and you get something more specific than "observability" and "feature flags." You get a control plane. The loop still runs on its own - picks up tickets, implements, reviews itself, cycles back. Nobody stands over it approving each step. But every override you'd want already has a hook. Slow it down. Redirect it. Shut a piece of it off. All without touching the thing that's actually running.
+Put them together and you get something more specific than "observability" and "feature flags." You get a control plane. The loop still runs on its own: picks up tickets, implements, reviews itself, cycles back. Nobody stands over it approving each step. But every override you'd want already has a hook. Slow it down. Redirect it. Shut a piece of it off. All without touching the thing that's actually running.
 
 That's bounded autonomy, not supervised autonomy. The loop is trusted to run unattended, and trusted precisely because the mechanism to intervene already exists if it's ever needed.
 

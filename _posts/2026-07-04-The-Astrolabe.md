@@ -63,13 +63,13 @@ Know which floor you're standing on before you pick a tool for it. The team that
 
 ## References
 
-- [Tessl](https://tessl.io/) — intent and spec layer
-- [Goose](https://goose-docs.ai/) — open source agent harness, now under the Agentic AI Foundation
-- [Archestra](https://archestra.ai/) — MCP registry, gateway, and governance layer
-- [Kestra](https://kestra.io/) — declarative orchestration platform
-- [Modelplane](https://modelplane.ai/) — open source control plane for AI inference, built on Crossplane
-- [Crossplane](https://crossplane.io/) — control plane framework for cloud-native infrastructure
-- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — protocol for connecting agents to tools and data
-- [Agent2Agent Protocol (A2A)](https://a2aproject.github.io/A2A/latest) — protocol for agent-to-agent coordination
-- [Agent Communication Protocol (ACP)](https://agentcommunicationprotocol.dev/) — REST-native agent communication protocol
-- [Agentic AI Foundation (AAIF)](https://aaif.io/) — Linux Foundation body governing MCP, A2A, ACP, and Goose
+- [Tessl](https://tessl.io/): intent and spec layer
+- [Goose](https://goose-docs.ai/): open source agent harness, now under the Agentic AI Foundation
+- [Archestra](https://archestra.ai/): MCP registry, gateway, and governance layer
+- [Kestra](https://kestra.io/): declarative orchestration platform
+- [Modelplane](https://modelplane.ai/): open source control plane for AI inference, built on Crossplane
+- [Crossplane](https://crossplane.io/): control plane framework for cloud-native infrastructure
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/): protocol for connecting agents to tools and data
+- [Agent2Agent Protocol (A2A)](https://a2aproject.github.io/A2A/latest): protocol for agent-to-agent coordination
+- [Agent Communication Protocol (ACP)](https://agentcommunicationprotocol.dev/): REST-native agent communication protocol
+- [Agentic AI Foundation (AAIF)](https://aaif.io/): Linux Foundation body governing MCP, A2A, ACP, and Goose

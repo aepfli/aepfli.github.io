@@ -24,7 +24,7 @@ That's the specific thing missing when a junior sits across from an agent instea
 
 What actually gets copied in an apprenticeship is narrow and specific. Which log line to check first when a request times out. The half-second pause before touching a config file that's been stable for three years. The instinct that an elegant fix is wrong for this particular system, for reasons that have nothing to do with elegance and everything to do with a decision made two years ago that never made it into any document.
 
-None of that is information you could write down and hand over. It's a sequence of attention - where to look first, what to distrust, what "off" feels like before you can name what's wrong. A junior doesn't absorb that from an answer. They absorb it from watching the question get asked.
+None of that is information you could write down and hand over. It's a sequence of attention: where to look first, what to distrust, what "off" feels like before you can name what's wrong. A junior doesn't absorb that from an answer. They absorb it from watching the question get asked.
 
 This is the part a spec can't carry, no matter how well-written. A spec captures [what the team decided](https://schrottner.at/2026/06/30/The-Agora.html). It doesn't capture the moment a senior went quiet for a second before answering, because that pause was itself the thing worth learning from.
 
