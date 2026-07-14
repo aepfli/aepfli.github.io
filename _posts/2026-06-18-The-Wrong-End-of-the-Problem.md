@@ -12,9 +12,9 @@ excerpt_separator: <!--more-->
 date: 2026-06-18 09:00:00 +0200
 ---
 
-Every company wants AI in their development process right now.
-That part is clear.
-What's less clear is where they're putting it.
+Every company I talk to wants AI in their development process right now.
+Most put it in the same spot: the IDE, the terminal, right where the code gets typed.
+That part is easy. Where it actually belongs is the question.
 
 <!--more-->
 
@@ -37,7 +37,7 @@ Two or three power users in the same team and the review process is basically go
 Nobody can keep up, and the code ships anyway.
 
 There's a term worth knowing here: Spec-Driven Development.
-The idea is that a detailed specification becomes the source of truth, not the code.
+The idea is that a detailed spec becomes the source of truth, not the code.
 Agents implement from it.
 Requirements change, you update the spec.
 [AI Unified Process](https://unifiedprocess.ai/) is one example of this in practice.
@@ -55,23 +55,23 @@ And it has a name most engineers already know: shift left.
 Not in the testing sense.
 In the team sense.
 The collaboration moves earlier.
-The engineering work is now about defining what the system should do — precisely enough that an agent can run with it.
+The engineering work is now about defining what the system should do, precisely enough that an agent can run with it.
 
 That happens in what I'd call a Spec Session.
-Mob planning instead of mob programming — the whole team, working on one spec.
-Or async — a pull request on the spec instead of on code.
+Mob planning instead of mob programming. The whole team, working on one spec.
+Or async. A pull request on the spec instead of on code.
 Review comments about intent and edge cases, not implementation.
 Engineers already know this workflow.
 The artifact is just different now.
 
 Once the spec is agreed, the agent picks up the work.
-Not on anyone's laptop — it's sitting in your infrastructure, watching for ready tickets, the same way a CI runner watches for commits.
+Not on anyone's laptop. It's sitting in your infrastructure, watching for ready tickets, the same way a CI runner watches for commits.
 It implements, an AI reviewer checks the output, flags what doesn't fit, cycles back.
 That loop runs until it's done.
-The human comes back in at the end to review the final output — not to write code in the middle.
+The human comes back in at the end to review the final output, not to write code in the middle.
 
 Stacked diffs are probably the right format here.
-Smaller, sequential changesets the agent ships incrementally — easier to reason about, easier to review.
+Smaller, sequential changesets the agent ships incrementally. Easier to reason about, easier to review.
 [Gergely Orosz wrote a good primer](https://newsletter.pragmaticengineer.com/p/stacked-diffs) on why this workflow matters if you're not familiar.
 
 Ambiguous acceptance criteria used to be something a developer resolved mid-sprint.
@@ -86,18 +86,18 @@ Changing how a team thinks about its own work is a different kind of problem.
 But fitting AI into an existing process gets you faster typing.
 The thinking stays the same depth as before.
 
-I think the teams that treat the Spec Session as the primary engineering output — and let the loop handle the rest — will end up somewhere different.
+I think the teams that treat the Spec Session as the primary engineering output, and let the loop handle the rest, will pull ahead of the ones still bolting AI onto the old process.
 
 One thing I haven't figured out yet is what to call it.
 Mob Planning.
 Mob Specing.
 Spec Session.
 Extreme Specing.
-All of them borrow from XP deliberately — the idea is the same, just one level up from code.
+All of them borrow from XP deliberately. The idea is the same, just one level up from code.
 If you have a better name, I'd genuinely like to know.
 
 I don't know if anyone is actually running this way yet.
 But I want to try.
 Especially the part where the agent just picks up the work and runs.
 
-> Adding AI to your process makes the typing faster. Moving the engineering work to the spec — and letting the loop carry it from there — is the part that actually changes the depth of the thinking.
+> Adding AI to your process makes the typing faster. Moving the engineering work to the spec, and letting the loop carry it from there, is the part that actually changes the depth of the thinking.
