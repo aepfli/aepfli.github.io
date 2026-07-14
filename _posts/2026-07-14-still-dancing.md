@@ -10,7 +10,7 @@ author:
 - Simon Schrottner
 series: "Dancing the Limbo"
 excerpt_separator: <!--more-->
-date: 2026-07-05 09:00:00 +0200
+date: 2026-07-13 09:00:00 +0200
 ---
 
 WeAreDevelopers World Congress has happened.
