@@ -9,7 +9,7 @@ author:
 - Simon Schrottner
 series: "Left of the Loop"
 excerpt_separator: <!--more-->
-date: 2026-07-22 09:00:00 +0200
+date: 2026-07-24 09:00:00 +0200
 ---
 
 > *A hearth fire required no priest, no temple, no calendar date. It required a fire and a household. When a city sent settlers to found a colony, they didn't design a new fire from scratch. They carried an ember from the one already burning at home.*
@@ -17,7 +17,7 @@ date: 2026-07-22 09:00:00 +0200
 The same fifty representatives who ran the Boule's business for their ten days in charge also tended the city's public fire.
 Not a separate role.
 The rotating council that produced shared decisions was, without anyone treating it as a coincidence, also the body responsible for keeping the flame that never went out.
-Seventeen posts have circled one argument without me saying it plainly.
+Eighteen posts have circled one argument without me saying it plainly.
 Worth doing that now, once, before this series closes.
 
 <!--more-->
@@ -31,6 +31,7 @@ It moved earlier, into the room where the team decides what's actually worth bui
 That room got a name and a shape.
 [The Agora](https://schrottner.at/2026/06/30/The-Agora.html) described what happens inside it.
 [The Trireme](https://schrottner.at/2026/07/02/The-Trireme.html) argued it needs a minimum structure, three functions, not three job titles, to avoid becoming one person narrating their own assumptions back to themselves.
+[The Gymnasion](https://schrottner.at/2026/07/18/The-Gymnasion.html) went back and filled a gap the room had been quietly assuming away the whole time, whether everyone walking into the Agora actually shared a tested picture of what the agent could do, or just a collection of untested guesses that happened to sound like agreement.
 [The Ever-Agreeing Genie](https://schrottner.at/2026/06/26/The-Ever-Agreeing-Genie.html) and [Nobody's Walking Over to a Desk](https://schrottner.at/2026/07/08/Nobodys-Walking-Over-to-a-Desk.html) both named what's missing once the room gets skipped, a colleague who disagrees for reasons you hadn't considered, and a habit of getting stuck that used to catch bad specs before they shipped.
 None of that works if nobody can see what the loop is doing or answer for what it produces.
 [Who's on the Hook](https://schrottner.at/2026/07/10/Whos-on-the-Hook.html) argued accountability was always the team's, never the individual's, agents didn't change that.
@@ -41,8 +42,8 @@ Understanding surviving contact with people who weren't in the room turned out t
 [The Mimesis](https://schrottner.at/2026/07/14/The-Mimesis.html) went further, arguing a junior doesn't learn from an answer, they learn from watching the question get framed, and that's the part a spec can never carry.
 [The Metron](https://schrottner.at/2026/07/16/The-Metron.html) closed that arc by asking what any of this is actually for, arguing most teams are measuring speed when they should be measuring whether the problem got solved.
 And then the room stopped being enough.
-[The Boule](https://schrottner.at/2026/07/18/The-Boule.html) asked what happens when a decision needs more than one team's worth of people, landing on representation instead of a bigger meeting.
-[The Pheme](https://schrottner.at/2026/07/20/The-Pheme.html) asked what happens after that room agrees, arguing understanding travels two ways, one designed, one that can't be designed at all, only made more likely by whether the trust was already there.
+[The Boule](https://schrottner.at/2026/07/20/The-Boule.html) asked what happens when a decision needs more than one team's worth of people, landing on representation instead of a bigger meeting.
+[The Pheme](https://schrottner.at/2026/07/22/The-Pheme.html) asked what happens after that room agrees, arguing understanding travels two ways, one designed, one that can't be designed at all, only made more likely by whether the trust was already there.
 Created in a room.
 Refined by people willing to disagree with the person who framed it.
 Shared with whoever wasn't there.
@@ -54,7 +55,7 @@ Scaled past a single room.
 Eight stages.
 One thing missing.
 
-None of the previous seventeen posts asked what keeps it going after all of that is true.
+None of the previous eighteen posts asked what keeps it going after all of that is true.
 A team can do every one of these things once, get the spec right, catch the disagreement, teach the junior, measure the right thing, and still lose it eighteen months later.
 Not because anything broke.
 Because nobody was tending it, and a fire nobody tends still goes out, quietly, the same way Hestia's hearth needed no dramatic failure to go dark, just neglect long enough.
