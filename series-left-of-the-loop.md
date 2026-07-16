@@ -21,6 +21,12 @@ But I think it's worth following. Maybe as a team, maybe as a company. Not to tu
 I'll keep writing as the ideas take shape. If a post shifts how you see your own process, or you think I've got it wrong, that's the point. Tell me.
 
 {% assign parts = site.posts | where: "series", "Left of the Loop" | sort: "date" %}
+{% assign smeta = site.data.series["Left of the Loop"] %}
+{% if parts.size < smeta.total %}
+<p class="series-progress">So far {{ parts.size }} of {{ smeta.total }} parts are live. A new one lands {{ smeta.cadence }}, through {{ smeta.final_date }}.</p>
+{% else %}
+<p class="series-progress">The complete series: {{ smeta.total }} parts.</p>
+{% endif %}
 <ul class="links">
 {% for part in parts %}
   <li>

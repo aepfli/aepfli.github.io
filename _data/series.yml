@@ -1,0 +1,11 @@
+# Per-series metadata for the progress line shown on series pages
+# (overview page + the nav at the foot of each post).
+#
+# Future-dated (scheduled) parts are excluded from site.posts until they
+# publish, so the total and final date can't be derived from the posts
+# themselves and live here instead. Update when a series changes length or
+# schedule. A series with no entry here simply shows no progress line.
+Left of the Loop:
+  total: 20
+  cadence: every other day
+  final_date: 26 July 2026

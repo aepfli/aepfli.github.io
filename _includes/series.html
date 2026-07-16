@@ -21,6 +21,10 @@ single published part stays quiet until the next one goes live.
     </li>
     {%- endfor -%}
   </ol>
+  {%- assign smeta = site.data.series[page.series] -%}
+  {%- if smeta and parts.size < smeta.total -%}
+  <p class="series-progress">So far {{ parts.size }} of {{ smeta.total }} parts are live. A new one lands {{ smeta.cadence }}, through {{ smeta.final_date }}.</p>
+  {%- endif -%}
 </nav>
 {%- endif -%}
 {%- endif -%}
