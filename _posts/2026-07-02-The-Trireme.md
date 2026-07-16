@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Trireme"
+question: "What's the smallest team structure a Spec Session still needs?"
 tags:
 - Agentic Systems
 - Platform Engineering

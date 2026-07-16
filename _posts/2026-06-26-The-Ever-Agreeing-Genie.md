@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Ever-Agreeing Genie"
+question: "What breaks when your only reviewer is built to agree with you?"
 tags:
 - Agentic Systems
 - Platform Engineering

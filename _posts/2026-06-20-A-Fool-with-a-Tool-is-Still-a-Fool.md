@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Fool with a Tool is Still a Fool"
+question: "If one person and an agent can ship, why keep the team?"
 tags:
 - Agentic Systems
 - Platform Engineering

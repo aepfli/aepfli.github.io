@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The PO is Dead, Long Live the PO"
+question: "What happens to the product owner when agents do the implementing?"
 tags:
 - Agentic Systems
 - Platform Engineering

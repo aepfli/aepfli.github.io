@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Mimesis"
+question: "How do juniors learn when the agent writes the code?"
 tags:
 - Agentic Systems
 - Platform Engineering

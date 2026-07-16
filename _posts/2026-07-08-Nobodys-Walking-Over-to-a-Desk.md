@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Nobody's Walking Over to a Desk"
+question: "What broke when walking over to ask became asking the agent?"
 tags:
 - Agentic Systems
 - Platform Engineering

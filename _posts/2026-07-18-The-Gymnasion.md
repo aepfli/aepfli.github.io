@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Gymnasion"
+question: "How does a team learn what an agent can really do before betting a spec on it?"
 tags:
 - Agentic Systems
 - Platform Engineering

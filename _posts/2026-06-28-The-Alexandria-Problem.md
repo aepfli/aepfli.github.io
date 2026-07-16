@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Alexandria Problem"
+question: "When people stop writing the code, where does the shared knowledge go?"
 tags:
 - Agentic Systems
 - Platform Engineering

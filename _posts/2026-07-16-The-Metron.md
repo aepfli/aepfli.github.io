@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Metron"
+question: "What should you measure once output is cheap?"
 tags:
 - Agentic Systems
 - Platform Engineering

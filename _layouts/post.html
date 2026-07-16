@@ -4,6 +4,7 @@ layout: default
 <article>
   <header>
     <h1>{{ page.title }}</h1>
+    {% if page.question %}<p class="dek">{{ page.question }}</p>{% endif %}
     <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></p>
     {% if page.tags %}
     <ul class="tags">

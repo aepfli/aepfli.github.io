@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Hestia"
+question: "What keeps shared understanding alive after you've built it?"
 tags:
 - Agentic Systems
 - Platform Engineering

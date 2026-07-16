@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The End of the Craftsman?"
+question: "Does craftsmanship still matter when agents write the code?"
 tags:
 - Agentic Systems
 - Platform Engineering

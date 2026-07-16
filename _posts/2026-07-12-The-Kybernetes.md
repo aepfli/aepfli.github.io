@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Kybernetes"
+question: "How do you see into and steer an autonomous agent loop?"
 tags:
 - Agentic Systems
 - Platform Engineering

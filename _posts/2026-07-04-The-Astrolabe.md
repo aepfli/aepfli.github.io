@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Astrolabe"
+question: "Which layer does each AI tool actually belong in?"
 tags:
 - Agentic Systems
 - Platform Engineering

@@ -25,6 +25,7 @@ I'll keep writing as the ideas take shape. If a post shifts how you see your own
 {% for part in parts %}
   <li>
     <a href="{{ part.url | relative_url }}">{{ part.title }} <span class="handle">{{ part.date | date: "%Y-%m-%d" }}</span></a>
+    {% if part.question %}<span class="blurb">{{ part.question }}</span>{% endif %}
   </li>
 {% endfor %}
 </ul>

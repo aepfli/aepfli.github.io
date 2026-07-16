@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Oikonomos"
+question: "Who's stewarding the budget an agent loop spends?"
 tags:
 - Agentic Systems
 - Platform Engineering

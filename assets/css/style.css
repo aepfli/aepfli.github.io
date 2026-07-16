@@ -276,3 +276,22 @@ img { max-width: 100%; height: auto; }
   font-size: 0.8em;
 }
 
+/* Chapter blurb (the question a post answers) on the series overview list */
+ul.links > li > .blurb {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin-top: 0.25rem;
+  max-width: 60ch;
+}
+
+/* Post subtitle / dek: the question the post answers, under the title */
+.dek {
+  color: var(--muted);
+  font-size: 1.15rem;
+  line-height: 1.4;
+  margin: 0.1rem 0 1rem;
+  max-width: 60ch;
+}
+

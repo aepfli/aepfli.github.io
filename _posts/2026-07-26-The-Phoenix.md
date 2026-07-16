@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Phoenix"
+question: "When a team ends anyway, what do you choose to carry forward?"
 tags:
 - Agentic Systems
 - Platform Engineering

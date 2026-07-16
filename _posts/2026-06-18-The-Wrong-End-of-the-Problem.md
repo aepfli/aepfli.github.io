@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Wrong End of the Problem"
+question: "Where does AI actually belong in your development process?"
 tags:
 - Agentic Systems
 - Platform Engineering

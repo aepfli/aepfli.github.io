@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Who's on the Hook?"
+question: "When agents write the code, who's accountable for what ships?"
 tags:
 - Agentic Systems
 - Software Engineering
