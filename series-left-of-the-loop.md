@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Left of the Loop"
+seo_title: "Left of the Loop: The Room AI Can't Replace"
 description: "AI erodes the incidental friction that used to produce shared understanding as a byproduct of the work. That makes shared understanding the scarce resource, and constructive friction the mechanism that protects and tests it. Implementation getting radically cheaper is why this is happening now, and at scale. The organizations that preserve the constructive kind will outperform the ones that optimize it away."
 permalink: /series/left-of-the-loop/
 ---
