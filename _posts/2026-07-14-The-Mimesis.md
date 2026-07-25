@@ -17,7 +17,7 @@ date: 2026-07-14 09:00:00 +0200
 
 [The End of the Craftsman](https://schrottner.at/2026/06/24/The-End-of-the-Craftsman.html) ended with a promise. The junior question deserved more than a paragraph, I said, and would get its own post later. This is that post.
 
-Aristotle had a word for how humans learn a skill before they understand it: mimesis. We watch, we imitate, and only later do we understand what we were doing. A child doesn't learn to speak by studying grammar first. A junior doesn't learn to debug a production system by reading a postmortem. Both copy a move long before they can explain why the move works.
+Aristotle had a word for how humans learn a skill before they understand it: [mimesis](https://en.wikipedia.org/wiki/Mimesis). We watch, we imitate, and only later do we understand what we were doing. A child doesn't learn to speak by studying grammar first. A junior doesn't learn to debug a production system by reading a postmortem. Both copy a move long before they can explain why the move works.
 
 That's the specific thing missing when a junior sits across from an agent instead of a senior. Not knowledge in the abstract. The move itself.
 
@@ -32,3 +32,7 @@ This is the part a spec can't carry, no matter how well-written. A spec captures
 A junior working next to an agent gets the outcome without the performance that produced it. Clean, fast, and stripped of the one part that was ever going to teach them anything.
 
 Understanding comes after the imitation, not before it. That's the order Aristotle had right, and the order most onboarding plans get backwards. You can't fast-track a junior past the copying phase by giving them better answers faster. You can only give them, or fail to give them, enough moments where the move is visible enough to copy.
+
+## References
+
+- [Mimesis](https://en.wikipedia.org/wiki/Mimesis): Wikipedia overview of the concept, including its roots in Aristotle's *Poetics*

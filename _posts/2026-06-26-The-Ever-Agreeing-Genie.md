@@ -15,11 +15,10 @@ date: 2026-06-26 09:00:00 +0200
 
 > *In folklore, a genie grants wishes without judgment. It gives you exactly what you asked for, whether or not it is what you needed. The danger was never the genie. It was the wish.*
 
-Anthropic's engineers ship eight times more code than they did a few years ago.
+Fiona Fung, who leads Claude Code at Anthropic, said it on [Lenny's Podcast](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering) last week: her engineers now ship eight times more code than they did a few years ago.
 
 And they had to start scheduling lunches so people would talk to each other.
 
-Fiona Fung, who leads the Claude Code team, said it on [Lenny's Podcast](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering) last week.
 Working with agents all day had started to feel isolating.
 The team was fast, but they'd stopped running into each other.
 So they added pairwise programming lunches and hackathons. Rituals to put back the thing that used to happen on its own.

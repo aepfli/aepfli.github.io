@@ -55,7 +55,7 @@ The Spec Session has to carry some of that now.
 Not all of it, but some. Mob planning, whole team, before the agent runs, is one of the few places left where a junior watches a senior frame a problem: how they break it down, what they decide isn't worth specifying yet, what they ask when something doesn't fit.
 XP knew this all along.
 Pair programming was never only about catching bugs; it was knowledge transfer running quietly in the background of real work, and mob programming scaled it up.
-Jens Knipper said it the other day: "XP is so underrated."
+Jens Knipper [said it on Bluesky](https://bsky.app/profile/jensknipper.de/post/3moqdw5hib22l) the other day: "XP is so underrated."
 He's right.
 We had the answer and stopped using it.
 
