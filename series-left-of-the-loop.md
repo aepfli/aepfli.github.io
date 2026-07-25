@@ -10,9 +10,13 @@ image:
 permalink: /series/left-of-the-loop/
 ---
 
-# Left of the Loop
-
-*A series about shifting engineering left in the age of agents.*
+<div class="series-hero">
+  <img src="{{ '/assets/social/left-of-the-loop-banner.jpg' | relative_url }}" alt="A frost-covered fence line at dawn under a purple and gold sky.">
+  <div class="series-hero-text">
+    <h1>Left of the Loop</h1>
+    <p>A series about shifting engineering left in the age of agents.</p>
+  </div>
+</div>
 
 Left of the Loop is a mental model I'm building in public.
 
@@ -30,7 +34,15 @@ I'll keep writing as the ideas take shape. If a post shifts how you see your own
 {% assign p_agora = site.posts | where: "title", "The Agora" | first %}
 {% assign p_alexandria = site.posts | where: "title", "The Alexandria Problem" | first %}
 {% assign p_phoenix = site.posts | where: "title", "The Phoenix" | first %}
-Short on time? Four posts carry the spine: [The Wrong End of the Problem]({{ p_start.url | relative_url }}) sets up where AI actually belongs in the process. [The Agora]({{ p_agora.url | relative_url }}) is the room where a team builds that understanding together. [The Alexandria Problem]({{ p_alexandria.url | relative_url }}) is what's at stake when nobody writes the code anymore. [The Phoenix]({{ p_phoenix.url | relative_url }}) closes it. Read the rest when you want the whole argument.
+<div class="featured" markdown="1">
+
+## Short on time?
+
+Four posts carry the spine: [The Wrong End of the Problem]({{ p_start.url | relative_url }}) sets up where AI actually belongs in the process. [The Agora]({{ p_agora.url | relative_url }}) is the room where a team builds that understanding together. [The Alexandria Problem]({{ p_alexandria.url | relative_url }}) is what's at stake when nobody writes the code anymore. [The Phoenix]({{ p_phoenix.url | relative_url }}) closes it. Read the rest when you want the whole argument.
+
+</div>
+
+## The Full Series
 
 {% assign parts = site.posts | where: "series", "Left of the Loop" | sort: "date" %}
 {% assign smeta = site.data.series["Left of the Loop"] %}

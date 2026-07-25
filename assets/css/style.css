@@ -254,8 +254,52 @@ img { max-width: 100%; height: auto; }
   margin: 1.5rem 0;
 }
 
-.featured h3 { margin-top: 0; }
+.featured h2, .featured h3 { margin-top: 0; }
 .featured .meta { margin-bottom: 0.75rem; }
+
+.series-hero {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 0 1.5rem;
+}
+
+.series-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.series-hero-text {
+  position: absolute;
+  inset: 0;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: linear-gradient(135deg, rgba(10, 8, 20, 0.75) 0%, rgba(10, 8, 20, 0.45) 42%, rgba(10, 8, 20, 0) 72%);
+}
+
+.series-hero-text h1 {
+  margin: 0 0 0.35rem;
+  font-size: 2.25rem;
+  color: #faf7f0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.series-hero-text p {
+  margin: 0;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #ebe4d6;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 480px) {
+  .series-hero-text { padding: 1.1rem; }
+  .series-hero-text h1 { font-size: 1.6rem; }
+  .series-hero-text p { font-size: 0.9rem; }
+}
 
 .series {
   border: 1px solid var(--border);
