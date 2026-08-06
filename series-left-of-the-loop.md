@@ -4,9 +4,10 @@ title: "Left of the Loop"
 seo_title: "Left of the Loop: The Room AI Can't Replace"
 description: "AI erodes the incidental friction that used to produce shared understanding as a byproduct of the work. That makes shared understanding the scarce resource, and constructive friction the mechanism that protects and tests it. Implementation getting radically cheaper is why this is happening now, and at scale. The organizations that preserve the constructive kind will outperform the ones that optimize it away."
 image:
-  path: /assets/social/left-of-the-loop.jpg
+  path: /assets/social/left-of-the-loop.png
   width: 1200
   height: 630
+  alt: "The room merges into a spec; the spec merges into the loop, where the agent generates, reviews, and iterates at machine speed; the loop merges into production."
 permalink: /series/left-of-the-loop/
 ---
 
@@ -23,6 +24,13 @@ Left of the Loop is a mental model I'm building in public.
 > AI erodes the incidental friction that used to produce shared understanding as a byproduct of the work. That makes shared understanding the scarce resource, and constructive friction the mechanism that protects and tests it. Implementation getting radically cheaper is why this is happening now, and at scale. The organizations that preserve the constructive kind will outperform the ones that optimize it away.
 
 Practically, that means engineering work moves earlier. Left, toward defining what the system should do before anything gets built.
+
+<figure class="series-figure">
+  <a href="{{ '/assets/series/the-loop.png' | relative_url }}" title="Open the diagram full size">
+    <img src="{{ '/assets/series/the-loop.png' | relative_url }}" width="1264" height="635" loading="lazy" alt="Three zones, left to right. LEFT: the room, drawn as four joined dots, becomes the spec, the merged record of what and why. A merge gate, where the team decides, passes it into LOOP: the agent generates, reviews, and iterates at machine speed. A second merge gate, where a human accepts, passes the result into RIGHT: production.">
+  </a>
+  <figcaption>The shape of it. The room becomes the spec, the team decides, the agent loops at machine speed, and a human accepts what comes out. Drawn for the book draft at <a href="https://leftoftheloop.dev">leftoftheloop.dev</a>.</figcaption>
+</figure>
 
 This is a working theory, not a proven framework. I don't have the structure yet to validate it at scale: no team running it end to end, no metrics, no final proof. These are field notes, not conclusions.
 

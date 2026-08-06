@@ -301,6 +301,41 @@ img { max-width: 100%; height: auto; }
   .series-hero-text p { font-size: 0.9rem; }
 }
 
+/* Diagram figure on the series overview. The artwork is transparent ink, so the
+   image sits on its own white card and stays legible in dark mode too. It also
+   breaks out of the 36rem text column: the labels are unreadable at that width. */
+.series-figure {
+  width: min(48rem, calc(100vw - 2.5rem));
+  margin: 2rem 0 2rem 50%;
+  transform: translateX(-50%);
+}
+
+.series-figure a {
+  display: block;
+}
+
+.series-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.75rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.series-figure figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 60ch;
+}
+
+@media (max-width: 480px) {
+  .series-figure img { padding: 0.4rem; }
+}
+
 .series {
   border: 1px solid var(--border);
   border-left: 3px solid var(--accent);
