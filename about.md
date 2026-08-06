@@ -15,7 +15,7 @@ My mission: help teams release faster and with more confidence. That comes from 
 - **OpenFeature maintainer** — the vendor-neutral standard for feature flagging in the CNCF landscape. Active across the org in Java, Python, Go, and JavaScript.
 - **CNCF Ambassador** — advocating for cloud-native practices and helping bridge between projects and users.
 - **JUnit Pioneer maintainer** — a JUnit 5 extension pack.
-- **Speaker** — KubeCon, Devoxx, JavaCro, JCON, Cloudland, ContainerDays, and meetups across Europe.
+- **Speaker** — KubeCon, Devoxx, JavaCro, JCON, Cloudland, ContainerDays, and meetups across Europe. Available to hire for conferences and in-house events.
 - **Consulting & workshops** — see [services]({{ '/services/' | relative_url }}) for what that looks like in practice.
 
 ## Background
@@ -28,7 +28,7 @@ The thread across all of it: I care most about the people. Helping engineers gro
 
 ## Speaking
 
-I speak regularly on feature flagging, observability, and developer experience. Full list with abstracts on [/talks]({{ '/talks/' | relative_url }}) or [Sessionize](https://sessionize.com/simon-schrottner).
+I speak regularly on feature flagging, observability, and developer experience — and I can be hired for conferences, meetups, and internal engineering events. Topics, formats, and upcoming dates on [/talks]({{ '/talks/' | relative_url }}); full session catalogue on [Sessionize](https://sessionize.com/simon-schrottner).
 
 ## Outside work
 

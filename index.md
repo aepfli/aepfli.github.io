@@ -19,20 +19,31 @@ Based in Pernegg an der Mur, Austria. Available for consulting across the DACH r
 - **Feature flagging workshops** — get teams from ad-hoc toggles to a flagging strategy they can trust in production.
 - **Developer experience advisory** — fractional input on tooling, testing, and the unglamorous plumbing that decides whether your release cycle is a strength or a tax.
 - **Implementation consulting** — hands-on rollout of OpenFeature, observability integration, and the glue work that ties them together.
+- **Talks & keynotes** — conference sessions, keynotes, and in-house talks, delivered from inside the projects rather than from the outside looking in.
 
 [More on services →]({{ '/services/' | relative_url }})
+
+## Speaking
+
+I'm available to hire as a speaker — conferences, meetups, and internal engineering events, in English or German.
+
+Next up: **ContainerDays Hamburg** (Sep 2–4), **KCD Sofia** (Sep 29), and **KubeCon NA** in Salt Lake City (Nov 9–12). Previously KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe.
+
+[Topics, formats, and booking →]({{ '/talks/' | relative_url }})
+
+## Left of the Loop
+
+The question I'm chasing right now: AI is stripping out the incidental friction that used to produce shared understanding as a byproduct of building software. That makes shared understanding the scarce resource — and pushes engineering work *left*, toward defining what a system should do before anything gets built.
+
+*Left of the Loop* is where I'm working that out in public. It's a series in progress, and it's the direction I want to take my own practice, my talks, and the teams I work with.
+
+[Read the series →]({{ '/series/left-of-the-loop/' | relative_url }})
 
 ## Writing
 
 Occasional notes on feature flagging, observability, and where open standards are heading.
 
 [Read the blog →]({{ '/blog/' | relative_url }})
-
-## Recent stages
-
-KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, ContainerDays, JNation, and meetups across Europe.
-
-[Full speaking history →]({{ '/talks/' | relative_url }})
 
 ## Work with me
 
