@@ -6,7 +6,7 @@ permalink: /services/
 
 # Services
 
-I work with engineering teams that want to release faster and with more confidence. Most engagements sit in one of three shapes — but the goal is always the same: less guesswork in production, more trust in the release process.
+I work with engineering teams that want to release faster and with more confidence. Most engagements sit in one of four shapes — but the goal is always the same: less guesswork in production, more trust in the release process.
 
 ## Feature flagging workshops
 
@@ -25,6 +25,16 @@ Fractional, ongoing input on the parts of the engineering org that determine whe
 OpenFeature, end-to-end, from a maintainer's perspective. Hands-on rollout work: integrating OpenFeature into your stack, wiring it into OpenTelemetry for SRE-grade observability, building the internal tooling around evaluation and audit, and unblocking edge cases by going to the source. As one of the project's maintainers I can shape the spec where it needs to bend — and help the in-house team carry the work forward after I'm gone.
 
 **Who it's for:** teams adopting OpenFeature without in-house insider context, and anyone hitting the edges where the spec meets reality.
+
+## Speaking — talks & keynotes
+
+Conference sessions, keynotes, and in-house talks on feature flagging, observability, developer experience, open standards, and where engineering work is moving in the age of agents. I speak as a CNCF Ambassador and OpenFeature maintainer, which means the material comes from inside the projects — and from having had to make it work in production first. English or German, solo or co-delivered.
+
+Recent stages include KubeCon, Devoxx, ContainerDays, JNation, Cloudland, and JavaCro. Community conferences and meetups are usually travel-only; corporate events and internal sessions are paid engagements.
+
+**Who it's for:** conference organizers looking for a session that isn't a vendor pitch, and engineering orgs who want an outside voice to open an internal event or a company-wide session.
+
+[Upcoming dates, topics, and formats →]({{ '/talks/' | relative_url }})
 
 ## How to get in touch
 

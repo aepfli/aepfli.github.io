@@ -6,7 +6,45 @@ permalink: /talks/
 
 # Talks
 
-I speak regularly on feature flagging, observability, developer experience, and the craft of open standards. Slides and abstracts for most talks live on [Sessionize](https://sessionize.com/simon-schrottner) — recordings and decks linked below where available.
+I speak regularly on feature flagging, observability, developer experience, and the craft of open standards — and I'm available to hire for conferences, meetups, and in-house sessions. Slides and abstracts for most talks live on [Sessionize](https://sessionize.com/simon-schrottner) — recordings and decks linked below where available.
+
+## Upcoming
+
+- **ContainerDays Hamburg 2026** — Sep 2–4, Hamburg. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.* [Conference](https://www.containerdays.io/containerdays-hamburg-2026/speakers/) · [Slides](https://schrottner.at/openFeatureTalk/)
+- **KCD Sofia 2026** — Sep 29, Sofia. *Your Open Source Standard Is Just Another Lock-In.* [Conference](https://kcd.bg/)
+- **KubeCon + CloudNativeCon NA 2026** — Nov 9–12, Salt Lake City. *OpenFeature as a Control Plane for OpenTelemetry.* [Conference](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)
+
+## Book me for your event
+
+I take the stage as a CNCF Ambassador and an OpenFeature maintainer, which means the talks come from inside the projects rather than from the outside looking in. Every session is built around something I've actually had to make work in production — not a vendor pitch, and never a slide deck read aloud.
+
+### Topics I speak on
+
+- Feature flagging that survives contact with production — patterns, failure modes, and OpenFeature
+- Observability for release confidence — OpenTelemetry, and what SREs actually need to see
+- Developer experience and platform engineering — the plumbing that decides whether shipping is a strength or a tax
+- Open standards, vendor neutrality, and the governance that keeps them honest
+- Shifting engineering left in the age of agents — the [Left of the Loop]({{ '/series/left-of-the-loop/' | relative_url }}) thesis
+
+### Formats
+
+- Conference session (30–45 min) or lightning talk
+- Keynote — including co-delivered keynotes, which I enjoy more than the solo kind
+- Hands-on workshop, half or full day
+- Meetup talk, user group, or podcast/panel
+- In-house session for your engineering org — same material, tuned to your stack and your problems
+
+### Practicalities
+
+- English or German (native), and I'll happily do a German-language keynote
+- Based in Austria; I travel across Europe regularly and further for the right event
+- Community conferences, meetups, and CNCF events are usually travel-only. Corporate events and in-house sessions are paid engagements — [ask me]({{ '/services/' | relative_url }})
+- Give me a rough audience profile and I'll tell you honestly whether one of my sessions fits, or propose something that does
+
+<p class="cta">
+  <a href="mailto:simon@schrottner.at" class="cta-button">Invite me to speak</a>
+  <a href="https://sessionize.com/simon-schrottner" class="cta-button cta-button-secondary">Session catalogue</a>
+</p>
 
 ## Featured
 
@@ -17,18 +55,14 @@ I speak regularly on feature flagging, observability, developer experience, and 
   <p><a href="https://www.youtube.com/watch?v=XhgIwxrtvuo">Watch the recording on YouTube →</a></p>
 </div>
 
-## Upcoming
-
-- **DevoxxUK 2026** — London, May 6–7. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.* [Slides](https://schrottner.at/openFeatureTalk/)
-- **Cloudland 2026** — May 19–22, Heide Park (Germany). [Agenda](https://meine.doag.org/events/cloudland/2026/agenda/)
-  - *Quo vadis Cloud Native – Aufbruch ins zweite Jahrzehnt* — keynote with Mario Fahlandt (Kubermatic). May 20, in German.
-  - *CNCF Showcase: Cloud Native zum Anfassen* — workshop, May 20, in German.
-- **JNation 2026** — May 26–27, Coimbra, Portugal. *Fun with Flags.* [Conference](https://jnation.pt/) · [Slides](https://schrottner.at/openFeatureTalk/)
-- **ContainerDays Hamburg 2026** — Sep 2–4. *Fun with Flags.* [Conference](https://www.containerdays.io/containerdays-hamburg-2026/speakers/) · [Slides](https://schrottner.at/openFeatureTalk/)
-
 ## 2026
 
-- **KubeCon EU 2026** — Amsterdam. *18 Bluetooth Controllers Walk Into a Bar: Observability & Runtime Configuration with CNCF Tools* — with Manuel Timelthaler. [Recording](https://www.youtube.com/watch?v=Y9agHID8Ml4) · [Slides](https://watchmejoustmyflags.github.io/kubecon-material/kubecon-cloudnativecon-europe-presentation)
+- **JNation 2026** — May 26–27, Coimbra, Portugal. *Fun with Flags.* [Conference](https://jnation.pt/) · [Slides](https://schrottner.at/openFeatureTalk/)
+- **Cloudland 2026** — May 19–22, Heide Park (Germany). [Agenda](https://meine.doag.org/events/cloudland/2026/agenda/)
+  - *Quo vadis Cloud Native – Aufbruch ins zweite Jahrzehnt* — keynote with Mario Fahlandt (Kubermatic). In German.
+  - *CNCF Showcase: Cloud Native zum Anfassen* — workshop, in German.
+- **DevoxxUK 2026** — London, May 6–7. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.* [Slides](https://schrottner.at/openFeatureTalk/)
+- **KubeCon EU 2026** — Amsterdam, March. *18 Bluetooth Controllers Walk Into a Bar: Observability & Runtime Configuration with CNCF Tools* — with Manuel Timelthaler. [Recording](https://www.youtube.com/watch?v=Y9agHID8Ml4) · [Slides](https://watchmejoustmyflags.github.io/kubecon-material/kubecon-cloudnativecon-europe-presentation)
 - **Cloud Native Innsbruck 2026** — *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.* [Slides](https://schrottner.at/openFeatureTalk/)
 
 ## 2025
@@ -52,4 +86,4 @@ I speak regularly on feature flagging, observability, developer experience, and 
 
 ---
 
-Want me to speak at your event? [Get in touch](mailto:simon@schrottner.at) or check the [Sessionize profile](https://sessionize.com/simon-schrottner) for a session catalogue.
+Want me to speak at your event? [Get in touch](mailto:simon@schrottner.at) with the date, the audience, and roughly what you want them to walk away with — I'll come back honestly about whether I'm the right fit.
