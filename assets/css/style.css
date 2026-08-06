@@ -302,12 +302,10 @@ img { max-width: 100%; height: auto; }
 }
 
 /* Diagram figure on the series overview. The artwork is transparent ink, so the
-   image sits on its own white card and stays legible in dark mode too. It also
-   breaks out of the 36rem text column: the labels are unreadable at that width. */
+   image sits on its own white card and stays legible in dark mode too. It sits
+   in the text column; the full-size PNG is a click away for the fine labels. */
 .series-figure {
-  width: min(48rem, calc(100vw - 2.5rem));
-  margin: 2rem 0 2rem 50%;
-  transform: translateX(-50%);
+  margin: 2rem 0;
 }
 
 .series-figure a {
