@@ -1,5 +1,5 @@
 title: Simon Schrottner
-description: OpenFeature maintainer & CNCF Ambassador. Speaking, consulting, and workshops on feature flagging, developer experience, and open-standards adoption — Austria, DACH region and remote.
+description: "Independent engineering leadership and feature flagging. Fractional CTO and Head of Engineering, OpenFeature and developer experience consulting, and speaking. Based in Austria, working remotely and on site."
 author:
   name: Simon Schrottner
   email: simon@schrottner.at
@@ -29,6 +29,8 @@ plugins:
 
 exclude:
   - README.md
+  - CLAUDE.md
+  - VOICE.md
   - .markdownlint.yaml
   - .spelling
 
