@@ -14,20 +14,20 @@ layout: default
 
 Most of my career has gone into the unglamorous parts of shipping software: build systems, CI/CD, developer platforms, feature flags. Long enough to learn that a slow release cycle usually comes from an organization that hasn't agreed on what it's building, not from the tooling.
 
-I work at both ends of that, the leadership decisions that set a team up to ship and the engineering practice that makes shipping safe. Based in Pernegg an der Mur, Austria, working remotely and on site wherever the work is.
+Most of what I do is advisory: workshops, reviews, and sessions where the point is a senior answer rather than an extra pair of hands. Some of it is embedded, running engineering part-time for companies that need the seniority without the headcount. Based in Pernegg an der Mur, Austria, working remotely and on site wherever the work is.
 
 ## Two ways to work with me
 
 <div class="tracks">
   <div class="track">
-    <h3>Fractional engineering leadership</h3>
-    <p>CTO or Head of Engineering at a fraction of a full-time hire. Technical direction, hiring and growing the team, and turning delivery into something the rest of the business can plan around.</p>
-    <p class="track-note"><strong>For:</strong> founders who've outgrown running engineering themselves, companies in the gap between engineering leaders, and leadership teams who want someone who has shipped the thing they're deciding about.</p>
+    <h3>Advisory and workshops</h3>
+    <p>Time-boxed work where the value is the expertise rather than the hours. Feature flagging and OpenFeature from one of the standard's maintainers, and spec sessions for teams working out how engineering holds together once agents write the code.</p>
+    <p class="track-note"><strong>For:</strong> teams who need a senior outside answer to a specific question, and platform or DevEx groups who want depth without another full-time hire.</p>
   </div>
   <div class="track">
-    <h3>Feature flagging and developer experience</h3>
-    <p>Feature flags that hold up on a Friday afternoon, from one of the people who maintains the standard. Workshops, OpenFeature rollout, observability for flag evaluation, and the testing and tooling work around it, including embedded as a senior engineer when that's what the work needs.</p>
-    <p class="track-note"><strong>For:</strong> teams who've outgrown ad-hoc toggles, and platform or DevEx groups who want a senior outside perspective without another full-time hire.</p>
+    <h3>Fractional engineering leadership</h3>
+    <p>Head of Engineering or CTO at a fraction of a full-time hire, for companies with their first one or two engineering teams. Technical direction, hiring and growing the team, and turning delivery into something the rest of the business can plan around.</p>
+    <p class="track-note"><strong>For:</strong> founders who've outgrown running engineering themselves, and companies in the gap between two engineering leaders.</p>
   </div>
 </div>
 
