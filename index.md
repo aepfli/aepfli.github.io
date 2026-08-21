@@ -37,11 +37,11 @@ I work at both ends of that, the leadership decisions that set a team up to ship
 
 - **OpenFeature maintainer.** The CNCF's vendor-neutral standard for feature flagging, active across Java, Go, Python, and JavaScript.
 - **CNCF Ambassador.** Working between cloud-native projects and the teams trying to adopt them.
-- **Team captain at Dynatrace.** Around eight engineers, with the hiring, the growth conversations, and the case for their promotions on my desk.
+- **Team captain at Dynatrace.** Around eight engineers. Hiring, growth conversations, and the case for each promotion.
 - **Feature flags at scale.** Architected a centralized feature flag management service across all Dynatrace clusters and stages, and wired it into OpenTelemetry.
 - **NETCONOMY.** Almost a decade in the Java toolchain: Gradle, SonarQube, CI/CD, and the plumbing that decides whether a team ships.
-- **Founder.** Ran my own software company for three years building GPS tooling for waste-collection fleets, with the clients, the payroll, and every decision in between.
-- **Togtrama.** Founder and chair of a community club in Frohnleiten, still leading a team that volunteers its time rather than being paid to follow me.
+- **Founder.** Ran my own software company for three years, building GPS tooling for waste-collection fleets.
+- **Togtrama.** Founder and chair of a community club in Frohnleiten that runs on volunteer enthusiasm alone.
 
 ## Left of the Loop
 

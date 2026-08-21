@@ -21,7 +21,7 @@ What it usually involves:
 - **People and structure.** Hiring, onboarding, team shape, career growth, and the day-to-day leadership work that decides whether good engineers stay.
 - **Translation.** Being the person in the leadership meeting who can explain what engineering actually costs, and the person in the engineering room who can explain what the business actually needs.
 - **The room.** Getting the team to a shared, written picture of what they're building before anyone starts building it, which is where most delivery problems actually begin.
-- **A handover.** The aim is a permanent leader who inherits something running, not an organization that depends on me.
+- **A handover.** The aim is a permanent leader who inherits something that already runs.
 
 **Who it's for:** founders who've outgrown running engineering themselves, companies in the gap between two engineering leaders, and leadership teams who want senior judgment for a defined stretch rather than forever.
 
