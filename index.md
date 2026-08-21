@@ -35,8 +35,9 @@ I work at both ends of that, the leadership decisions that set a team up to ship
 
 ## Where this comes from
 
-- **OpenFeature maintainer.** The CNCF's vendor-neutral standard for feature flagging, active across Java, Go, Python, and JavaScript.
+- **OpenFeature maintainer and technical steering committee member.** The CNCF's vendor-neutral standard for feature flagging, active across Java, Go, Python, and JavaScript.
 - **CNCF Ambassador.** Working between cloud-native projects and the teams trying to adopt them.
+- **AAIF Ambassador.** First cohort at the [Agentic AI Foundation](https://aaif.io/ambassadors), the open home for the agentic AI stack.
 - **Team captain at Dynatrace.** Around eight engineers. Hiring, growth conversations, and the case for each promotion.
 - **Feature flags at scale.** Architected a centralized feature flag management service across all Dynatrace clusters and stages, and wired it into OpenTelemetry.
 - **NETCONOMY.** Almost a decade in the Java toolchain: Gradle, SonarQube, CI/CD, and the plumbing that decides whether a team ships.
@@ -55,7 +56,7 @@ AI is stripping out the incidental friction that used to produce shared understa
 
 Conferences, meetups, and internal engineering events, in English or German, delivered from inside the projects rather than from the outside looking in.
 
-Next up: **ContainerDays Hamburg** (Sep 2–4), **KCD Sofia** (Sep 29), and **KubeCon NA** in Salt Lake City (Nov 9–12). Previously KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe.
+Next up: **ContainerDays Hamburg** (Sep 2–4), **KCD Sofia** (Sep 29), **Devoxx Belgium** (Oct 5–9), **Dutch Cloud Native Day** (Oct 29–30), **KubeCon NA** in Salt Lake City (Nov 9–12), and **Cloud Native Denmark** (Nov 19–20). Previously KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe.
 
 [Topics, formats, and booking →]({{ '/talks/' | relative_url }})
 

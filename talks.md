@@ -12,11 +12,14 @@ I speak regularly on feature flagging, observability, developer experience, and 
 
 - **ContainerDays Hamburg 2026.** Sep 2–4, Hamburg. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.* [Conference](https://www.containerdays.io/containerdays-hamburg-2026/speakers/) · [Slides](https://schrottner.at/openFeatureTalk/)
 - **KCD Sofia 2026.** Sep 29, Sofia. *Your Open Source Standard Is Just Another Lock-In.* [Conference](https://kcd.bg/)
+- **Devoxx Belgium 2026.** Oct 5–9, Antwerp. [Conference](https://devoxx.be/)
+- **Dutch Cloud Native Day 2026.** Oct 29–30, Utrecht. [Conference](https://www.dutchcloudnativeday.nl/)
 - **KubeCon + CloudNativeCon NA 2026.** Nov 9–12, Salt Lake City. *OpenFeature as a Control Plane for OpenTelemetry.* [Conference](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)
+- **Cloud Native Denmark 2026.** Nov 19–20, Copenhagen. [Conference](https://cloudnativedenmark.dk/)
 
 ## Book me for your event
 
-I take the stage as a CNCF Ambassador and an OpenFeature maintainer, which means the talks come from inside the projects rather than from the outside looking in. Every session is built around something I've actually had to make work in production, never a vendor pitch and never a slide deck read aloud.
+I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature maintainer and technical steering committee member, which means the talks come from inside the projects rather than from the outside looking in. Every session is built around something I've actually had to make work in production, never a vendor pitch and never a slide deck read aloud.
 
 ### Topics I speak on
 

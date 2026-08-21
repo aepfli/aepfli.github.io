@@ -13,8 +13,9 @@ My mission: help teams release faster and with more confidence. That comes from 
 ## What I do
 
 - **Fractional engineering leadership.** CTO and Head of Engineering work, part-time, for companies that need the seniority without the headcount.
-- **OpenFeature maintainer.** The vendor-neutral standard for feature flagging in the CNCF landscape, active across the org in Java, Python, Go, and JavaScript.
+- **OpenFeature maintainer and technical steering committee member.** The vendor-neutral standard for feature flagging in the CNCF landscape, active across the org in Java, Python, Go, and JavaScript.
 - **CNCF Ambassador.** Advocating for cloud-native practices and helping bridge between projects and users.
+- **AAIF Ambassador.** Part of the first cohort at the [Agentic AI Foundation](https://aaif.io/ambassadors), the open home for the agentic AI stack.
 - **JUnit Pioneer maintainer.** A JUnit 5 extension pack.
 - **Speaker.** KubeCon, Devoxx, JavaCro, JCON, Cloudland, ContainerDays, and meetups across Europe. Available to hire for conferences and in-house events.
 - **Consulting and workshops.** See [services]({{ '/services/' | relative_url }}) for what that looks like in practice.

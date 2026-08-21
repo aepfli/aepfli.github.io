@@ -67,7 +67,7 @@ Ongoing input on the parts of the engineering organization that determine whethe
 
 ## Speaking
 
-Conference sessions, keynotes, and in-house talks on feature flagging, observability, developer experience, open standards, and where engineering work is moving in the age of agents. I speak as a CNCF Ambassador and OpenFeature maintainer, which means the material comes from inside the projects, and from having had to make it work in production first. English or German, solo or co-delivered.
+Conference sessions, keynotes, and in-house talks on feature flagging, observability, developer experience, open standards, and where engineering work is moving in the age of agents. I speak as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature maintainer and technical steering committee member, which means the material comes from inside the projects, and from having had to make it work in production first. English or German, solo or co-delivered.
 
 Recent stages include KubeCon, Devoxx, ContainerDays, JNation, Cloudland, and JavaCro. Community conferences and meetups are usually travel-only, corporate events and internal sessions are paid engagements.
 
