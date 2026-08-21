@@ -70,7 +70,7 @@ Quoted or reported speech keeps whatever pronoun was actually said.
 ## Patterns to collapse
 
 | Pattern | Fix |
-|---------|-----|
+| ------- | --- |
 | "X isn't Y. It's Z." | Usually just "X is Z." The "isn't Y" is scaffolding, cut it unless the reader genuinely needs the correction. |
 | "A. B." where B restates A | Cut B |
 | "It's also..." as a standalone sentence | Fold into the previous sentence |
