@@ -27,7 +27,7 @@ Based in Pernegg an der Mur, Austria. Available for consulting across the DACH r
 
 I'm available to hire as a speaker — conferences, meetups, and internal engineering events, in English or German.
 
-Next up: **ContainerDays Hamburg** (Sep 2–4), **KCD Sofia** (Sep 29), and **KubeCon NA** in Salt Lake City (Nov 9–12). Previously KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe.
+Next up: **ContainerDays Hamburg** (Sep 2–4), **KCD Sofia** (Sep 29), **Devoxx Belgium** (Oct 5–9), **Dutch Cloud Native Day** (Oct 29–30), **KubeCon NA** in Salt Lake City (Nov 9–12), and **Cloud Native Denmark** (Nov 19–20). Previously KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe.
 
 [Topics, formats, and booking →]({{ '/talks/' | relative_url }})
 

@@ -12,8 +12,9 @@ My mission: help teams release faster and with more confidence. That comes from 
 
 ## What I do
 
-- **OpenFeature maintainer** — the vendor-neutral standard for feature flagging in the CNCF landscape. Active across the org in Java, Python, Go, and JavaScript.
+- **OpenFeature maintainer and technical steering committee member** — the vendor-neutral standard for feature flagging in the CNCF landscape. Active across the org in Java, Python, Go, and JavaScript.
 - **CNCF Ambassador** — advocating for cloud-native practices and helping bridge between projects and users.
+- **AAIF Ambassador** — part of the first cohort at the [Agentic AI Foundation](https://aaif.io/ambassadors), the open home for the agentic AI stack.
 - **JUnit Pioneer maintainer** — a JUnit 5 extension pack.
 - **Speaker** — KubeCon, Devoxx, JavaCro, JCON, Cloudland, ContainerDays, and meetups across Europe. Available to hire for conferences and in-house events.
 - **Consulting & workshops** — see [services]({{ '/services/' | relative_url }}) for what that looks like in practice.
