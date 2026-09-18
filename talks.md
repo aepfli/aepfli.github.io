@@ -10,12 +10,12 @@ I speak regularly on feature flagging, observability, developer experience, and 
 
 ## Upcoming
 
-- **ContainerDays Hamburg 2026.** Sep 2–4, Hamburg. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.* [Conference](https://www.containerdays.io/containerdays-hamburg-2026/speakers/) · [Slides](https://schrottner.at/openFeatureTalk/)
 - **KCD Sofia 2026.** Sep 29, Sofia. *Your Open Source Standard Is Just Another Lock-In.* [Conference](https://kcd.bg/)
 - **Devoxx Belgium 2026.** Oct 5–9, Antwerp. [Conference](https://devoxx.be/)
 - **Dutch Cloud Native Day 2026.** Oct 29–30, Utrecht. [Conference](https://www.dutchcloudnativeday.nl/)
 - **KubeCon + CloudNativeCon NA 2026.** Nov 9–12, Salt Lake City. *OpenFeature as a Control Plane for OpenTelemetry.* [Conference](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)
 - **Cloud Native Denmark 2026.** Nov 19–20, Copenhagen. [Conference](https://cloudnativedenmark.dk/)
+- **Cloud Native AI Summit Paris 2026.** Dec 2–3, Paris. *Two Agents Walk Into a Bar.* [Conference](https://www.cloudnative.ai/events/paris)
 
 ## Book me for your event
 
@@ -61,6 +61,7 @@ I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature ma
 
 ## 2026
 
+- **ContainerDays Hamburg 2026.** Sep 2–4, Hamburg. *Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches.* [Conference](https://www.containerdays.io/containerdays-hamburg-2026/speakers/) · [Slides](https://schrottner.at/openFeatureTalk/)
 - **JNation 2026.** May 26–27, Coimbra, Portugal. *Fun with Flags.* [Conference](https://jnation.pt/) · [Slides](https://schrottner.at/openFeatureTalk/)
 - **Cloudland 2026.** May 19–22, Heide Park (Germany). [Agenda](https://meine.doag.org/events/cloudland/2026/agenda/)
   - *Quo vadis Cloud Native – Aufbruch ins zweite Jahrzehnt*: keynote with Mario Fahlandt (Kubermatic). In German.
@@ -79,6 +80,7 @@ I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature ma
 
 ## Meetups & community
 
+- **Vienna DevOps & Security.** Sep 2026, Vienna. *Your Open Source Standard Is Just Another Lock-In.* [Event](https://www.meetup.com/vienna-devops-security/)
 - **Java User Group Graz.** Apr 2026. *Fun with Flags.* [Event](https://www.meetup.com/java-user-group-graz/events/313960173) · [Slides](https://schrottner.at/openFeatureTalk/)
 - **Cloud Native Linz.** Feb 2026. *18 Bluetooth Controllers Walk Into a Bar*, with Manuel Timelthaler. [Event](https://www.meetup.com/cloud-native-linz/events/313186726/) · [Slides](https://watchmejoustmyflags.github.io/kubecon-material/cloud-native-linz-presentation/)
 - **Java User Group Switzerland.** Jun 2025, Zürich. *Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature.* [Event](https://www.jug.ch/html/events/2025/fun-with-flags.html) · [Slides](https://schrottner.at/openFeatureTalk/)
