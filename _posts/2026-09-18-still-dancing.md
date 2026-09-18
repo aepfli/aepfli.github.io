@@ -10,7 +10,7 @@ author:
 - Simon Schrottner
 series: "Dancing the Limbo"
 excerpt_separator: <!--more-->
-date: 2026-09-18 09:00:00 +0200
+date: 2026-09-18 08:00:00 +0200
 ---
 
 A while back I wrote about [dancing the limbo]({{ '/series/dancing-the-limbo/' | relative_url }}), about being stuck between two bars, unsure how low I'd have to go before something gave.
