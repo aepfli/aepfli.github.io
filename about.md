@@ -19,7 +19,7 @@ My mission: help teams release faster and with more confidence. That comes from 
   <li>Other people's confidence <span class="pivot">even over</span> my name on it.</li>
 </ul>
 
-Each one has a right-hand side I actually want, and writing them down is how I know which way I go when I can't have both.
+Each one costs me something I also want.
 
 ## What I do
 
