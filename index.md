@@ -65,42 +65,18 @@ layout: home
   </div>
 </section>
 
-<section class="home-section" id="positions">
+<section class="home-section" id="principles">
   <div class="wrap">
-    <div class="rail"><p class="eyebrow">Positions</p></div>
+    <div class="rail"><p class="eyebrow">Principles</p></div>
     <div>
-      <h2>What I'll argue with you about</h2>
-      <p class="section-lead">Worth knowing before you book the call, because these show up in the first hour either way.</p>
-      <ol class="positions">
-        <li>
-          <span class="n" aria-hidden="true">01</span>
-          <div>
-            <h3>A standard you can't leave is not a standard</h3>
-            <p>Vendor neutrality is the whole point of OpenFeature, and it only holds while switching stays genuinely cheap. Most lock-in arrives as a convenience nobody voted on.</p>
-          </div>
-        </li>
-        <li>
-          <span class="n" aria-hidden="true">02</span>
-          <div>
-            <h3>Buying a flagging platform is not a release strategy</h3>
-            <p>The tool is the easy half. What decides whether a team ships on a Friday is who is allowed to turn the flag off, and how fast they find out they should.</p>
-          </div>
-        </li>
-        <li>
-          <span class="n" aria-hidden="true">03</span>
-          <div>
-            <h3>Shared understanding is the scarce resource now, not code</h3>
-            <p>Agents removed the friction that used to produce agreement as a byproduct of building. The work moves left, toward deciding what the system should do before anything gets generated.</p>
-          </div>
-        </li>
-        <li>
-          <span class="n" aria-hidden="true">04</span>
-          <div>
-            <h3>Most technical problems are decisions nobody wanted to make</h3>
-            <p>A migration that never finishes and a platform team that keeps rewriting usually trace back to an unowned call, and no amount of tooling settles it.</p>
-          </div>
-        </li>
-      </ol>
+      <h2>What I trade away</h2>
+      <ul class="principles">
+        <li>Technical credibility <span class="pivot">even over</span> reach.</li>
+        <li>Open standards <span class="pivot">even over</span> my own code.</li>
+        <li>The direct ask <span class="pivot">even over</span> the announcement.</li>
+        <li>Other people's confidence <span class="pivot">even over</span> my name on it.</li>
+      </ul>
+      <p class="section-lead">Each one costs me something I also want. <a href="{{ '/about/' | relative_url }}">How I got here &rarr;</a></p>
     </div>
   </div>
 </section>
@@ -158,8 +134,8 @@ layout: home
           <p>Almost a decade in the Java toolchain: Gradle, SonarQube, CI/CD, and the plumbing that decides whether a team ships.</p>
         </div>
         <div class="cred">
-          <h3>Founder</h3>
-          <p>Ran my own software company for three years, building GPS tooling for waste-collection fleets.</p>
+          <h3>Took over a software company</h3>
+          <p>Sole owner and managing director of ecovas GmbH from 2012 until it merged into Adenso GmbH in 2016, building GPS tooling for waste-collection fleets, with the clients and the payroll included.</p>
         </div>
         <div class="cred">
           <h3>Togtrama</h3>
