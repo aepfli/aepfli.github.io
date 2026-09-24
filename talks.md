@@ -79,6 +79,7 @@ I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature ma
 
 ## Meetups & community
 
+- **Java User Group Nuremberg.** Sep 2026, Nuremberg.
 - **Vienna DevOps & Security.** Sep 2026, Vienna. *Your Open Source Standard Is Just Another Lock-In.* [Event](https://www.meetup.com/vienna-devops-security/)
 - **Java User Group Graz.** Apr 2026. *Fun with Flags.* [Event](https://www.meetup.com/java-user-group-graz/events/313960173) · [Slides](https://schrottner.at/openFeatureTalk/)
 - **Cloud Native Linz.** Feb 2026. *18 Bluetooth Controllers Walk Into a Bar*, with Manuel Timelthaler. [Event](https://www.meetup.com/cloud-native-linz/events/313186726/) · [Slides](https://watchmejoustmyflags.github.io/kubecon-material/cloud-native-linz-presentation/)
