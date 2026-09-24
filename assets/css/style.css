@@ -175,16 +175,19 @@ h1, h2, h3, h4 {
   margin: 2.2rem 0 0.6rem;
 }
 
+/* The root stays at the browser's 16px while body text is 18px, so heading
+   sizes have to clear 18px rather than 1rem. Before this, h3 landed level with
+   body text and h4 came out smaller than it. */
 h1 {
-  font-size: clamp(1.9rem, 4vw, 2.5rem);
+  font-size: clamp(2rem, 4.2vw, 2.6rem);
   font-weight: 700;
   letter-spacing: -0.026em;
   margin-top: 0;
 }
 
-h2 { font-size: clamp(1.35rem, 2.5vw, 1.6rem); margin-top: 2.6rem; }
-h3 { font-size: 1.1rem; }
-h4 { font-size: 0.98rem; }
+h2 { font-size: clamp(1.5rem, 2.6vw, 1.8rem); margin-top: 2.6rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.125rem; }
 
 p { margin: 0 0 1.1rem; }
 
@@ -315,6 +318,36 @@ th { font-family: var(--display); font-weight: 600; }
   background: var(--accent-mark);
   transform: rotate(45deg);
 }
+
+/* An h2 opens a section with a full rule and the gate on it. An h3 opens one
+   item inside that section, so it gets a short bar instead. Four offerings in a
+   row then read as four things without adding four more full-width lines. */
+.reading > h3,
+.reading > article > h3 {
+  position: relative;
+  margin-top: 3.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule-soft);
+}
+
+/* An accent tick on the left end of the hairline, so the h3 separator is
+   clearly a lighter relative of the h2 rule with its gate. */
+.reading > h3::before,
+.reading > article > h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 2.2rem;
+  height: 2px;
+  background: var(--accent-mark);
+}
+
+/* An h3 opening a section sits right under the h2 and needs no rule of its own. */
+.reading > h2 + h3,
+.reading > article > h2 + h3 { margin-top: 2rem; padding-top: 0; border-top: 0; }
+.reading > h2 + h3::before,
+.reading > article > h2 + h3::before { display: none; }
 
 .reading > h2:first-child,
 .reading > article > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
@@ -563,6 +596,41 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 .featured p:last-child { margin-bottom: 0; }
 
 .comments { margin-top: 3rem; }
+
+/* Offering metadata on the services page. The label sits in a mono margin
+   column, the same way the front page labels its sections, so four offerings
+   in a row read as a table rather than as eight more paragraphs. */
+.offer-meta {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 0.4rem 1.2rem;
+  margin: 1.1rem 0 2.4rem;
+  padding-top: 0.9rem;
+  border-top: 1px dashed var(--rule);
+}
+
+.offer-meta dt {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding-top: 0.25rem;
+}
+
+.offer-meta dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+  .offer-meta { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
+  .offer-meta dd { margin-bottom: 0.7rem; }
+  .offer-meta dd:last-child { margin-bottom: 0; }
+}
 
 /* ============================================================
    Series
@@ -973,7 +1041,7 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 }
 
 .cred { padding: 1rem 0; border-bottom: 1px solid var(--rule-soft); }
-.cred h3 { margin: 0 0 0.2rem; font-size: 0.95rem; }
+.cred h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
 .cred p { margin: 0; font-size: 0.94rem; color: var(--muted); max-width: 40ch; }
 
 .dates { display: grid; margin-top: 1.6rem; }
