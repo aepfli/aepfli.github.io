@@ -1,0 +1,275 @@
+# Every appearance, in one place, rendered by talks.md and by the upcoming list
+# on the front page. Keeping it here is what stops the two drifting apart.
+#
+# section : upcoming | conference | meetup
+# year    : string, groups the past conference lists
+# when    : upcoming and meetup entries carry the year, conference entries do
+#           not, because the year heading above them already says it
+# links   : text and url, shown in order
+
+- section: upcoming
+  when: "Sep 29, 2026"
+  event: "KCD Sofia"
+  where: "Sofia"
+  title: "Your Open Source Standard Is Just Another Lock-In"
+  links:
+    - text: "Conference"
+      url: "https://kcd.bg/"
+
+- section: upcoming
+  when: "Oct 5–9, 2026"
+  event: "Devoxx Belgium"
+  where: "Antwerp"
+  links:
+    - text: "Conference"
+      url: "https://devoxx.be/"
+
+- section: upcoming
+  when: "Oct 29–30, 2026"
+  event: "Dutch Cloud Native Day"
+  where: "Utrecht"
+  links:
+    - text: "Conference"
+      url: "https://www.dutchcloudnativeday.nl/"
+
+- section: upcoming
+  when: "Nov 9–12, 2026"
+  event: "KubeCon + CloudNativeCon NA"
+  where: "Salt Lake City"
+  title: "OpenFeature as a Control Plane for OpenTelemetry"
+  links:
+    - text: "Conference"
+      url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/"
+
+- section: upcoming
+  when: "Nov 19–20, 2026"
+  event: "Cloud Native Denmark"
+  where: "Copenhagen"
+  links:
+    - text: "Conference"
+      url: "https://cloudnativedenmark.dk/"
+
+- section: upcoming
+  when: "Dec 2–3, 2026"
+  event: "Cloud Native AI Summit"
+  where: "Paris"
+  title: "Two Agents Walk Into a Bar"
+  links:
+    - text: "Conference"
+      url: "https://www.cloudnative.ai/events/paris"
+
+- section: conference
+  year: "2026"
+  when: "Sep 2–4"
+  event: "ContainerDays"
+  where: "Hamburg"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Conference"
+      url: "https://www.containerdays.io/containerdays-hamburg-2026/speakers/"
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: conference
+  year: "2026"
+  when: "May 26–27"
+  event: "JNation"
+  where: "Coimbra"
+  title: "Fun with Flags"
+  links:
+    - text: "Conference"
+      url: "https://jnation.pt/"
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: conference
+  year: "2026"
+  when: "May 19–22"
+  event: "Cloudland"
+  where: "Heide Park"
+  sessions:
+    - title: "Quo vadis Cloud Native, Aufbruch ins zweite Jahrzehnt"
+      note: "keynote with Mario Fahlandt (Kubermatic), in German"
+    - title: "CNCF Showcase: Cloud Native zum Anfassen"
+      note: "workshop, in German"
+  links:
+    - text: "Agenda"
+      url: "https://meine.doag.org/events/cloudland/2026/agenda/"
+
+- section: conference
+  year: "2026"
+  when: "May 6–7"
+  event: "DevoxxUK"
+  where: "London"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: conference
+  year: "2026"
+  when: "March"
+  event: "KubeCon + CloudNativeCon EU"
+  where: "Amsterdam"
+  title: "18 Bluetooth Controllers Walk Into a Bar: Observability & Runtime Configuration with CNCF Tools"
+  note: "with Manuel Timelthaler"
+  links:
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=Y9agHID8Ml4"
+    - text: "Slides"
+      url: "https://watchmejoustmyflags.github.io/kubecon-material/kubecon-cloudnativecon-europe-presentation"
+
+- section: conference
+  year: "2026"
+  event: "Cloud Native Innsbruck"
+  where: "Innsbruck"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: conference
+  year: "2025"
+  event: "KubeCon + CloudNativeCon EU"
+  where: "London"
+  title: "OpenFeature's Positive Impact on Confidence at Dynatrace"
+  note: "with Todd Baert"
+  links:
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=XhgIwxrtvuo"
+
+- section: conference
+  year: "2025"
+  event: "Devoxx Morocco"
+  where: "Marrakech"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: conference
+  year: "2025"
+  event: "JavaCro"
+  where: "Rovinj"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: conference
+  year: "2025"
+  event: "JCON OpenBlend Slovenia"
+  where: "Portorož"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: conference
+  year: "2025"
+  event: "Cloudland"
+  where: "Heide Park"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
+  when: "Sep 2026"
+  event: "Java User Group Nuremberg"
+  where: "Nuremberg"
+  title: "Fun with Flags"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
+  when: "Sep 2026"
+  event: "Vienna DevOps & Security"
+  where: "Vienna"
+  title: "Your Open Source Standard Is Just Another Lock-In"
+  links:
+    - text: "Event"
+      url: "https://www.meetup.com/vienna-devops-security/"
+
+- section: meetup
+  when: "Apr 2026"
+  event: "Java User Group Graz"
+  where: "Graz"
+  title: "Fun with Flags"
+  links:
+    - text: "Event"
+      url: "https://www.meetup.com/java-user-group-graz/events/313960173"
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
+  when: "Feb 2026"
+  event: "Cloud Native Linz"
+  where: "Linz"
+  title: "18 Bluetooth Controllers Walk Into a Bar"
+  note: "with Manuel Timelthaler"
+  links:
+    - text: "Event"
+      url: "https://www.meetup.com/cloud-native-linz/events/313186726/"
+    - text: "Slides"
+      url: "https://watchmejoustmyflags.github.io/kubecon-material/cloud-native-linz-presentation/"
+
+- section: meetup
+  when: "Jun 2025"
+  event: "Java User Group Switzerland"
+  where: "Zürich"
+  title: "Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature"
+  links:
+    - text: "Event"
+      url: "https://www.jug.ch/html/events/2025/fun-with-flags.html"
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
+  when: "May 2025"
+  event: "Java Vienna"
+  where: "Vienna"
+  title: "Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature"
+  links:
+    - text: "Event"
+      url: "https://www.meetup.com/java-vienna/events/305897200/"
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
+  when: "Apr 2025"
+  event: "Platform Engineering Vienna, OpenFeature Special Edition"
+  where: "Vienna"
+  title: "OpenFeature's Positive Impact on Confidence at Dynatrace"
+  links:
+    - text: "Event"
+      url: "https://www.meetup.com/platform-engineering-vienna/events/306913081/"
+
+- section: meetup
+  when: "Dec 2024"
+  event: "Platform Engineering Vienna"
+  where: "Vienna"
+  title: "Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature"
+  links:
+    - text: "Event"
+      url: "https://www.meetup.com/platform-engineering-vienna/events/304557618/"
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
+  when: "Oct 2024"
+  event: "Cloud Native Graz (CNCG)"
+  where: "Graz"
+  title: "Fun with Flags: Bringing the Fun Back into Feature Flagging with OpenFeature"
+  links:
+    - text: "Event"
+      url: "https://www.meetup.com/cncf-graz/events/301870753/"
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
+  when: "2023"
+  event: "Grazer Linuxtage"
+  where: "Graz"
+  title: "Beyond Pushing Code: Dynatrace's Open Source Journey on GitHub"
