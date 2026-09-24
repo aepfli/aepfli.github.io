@@ -175,16 +175,19 @@ h1, h2, h3, h4 {
   margin: 2.2rem 0 0.6rem;
 }
 
+/* The root stays at the browser's 16px while body text is 18px, so heading
+   sizes have to clear 18px rather than 1rem. Before this, h3 landed level with
+   body text and h4 came out smaller than it. */
 h1 {
-  font-size: clamp(1.9rem, 4vw, 2.5rem);
+  font-size: clamp(2rem, 4.2vw, 2.6rem);
   font-weight: 700;
   letter-spacing: -0.026em;
   margin-top: 0;
 }
 
-h2 { font-size: clamp(1.35rem, 2.5vw, 1.6rem); margin-top: 2.6rem; }
-h3 { font-size: 1.1rem; }
-h4 { font-size: 0.98rem; }
+h2 { font-size: clamp(1.5rem, 2.6vw, 1.8rem); margin-top: 2.6rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.125rem; }
 
 p { margin: 0 0 1.1rem; }
 
@@ -1008,7 +1011,7 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 }
 
 .cred { padding: 1rem 0; border-bottom: 1px solid var(--rule-soft); }
-.cred h3 { margin: 0 0 0.2rem; font-size: 0.95rem; }
+.cred h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
 .cred p { margin: 0; font-size: 0.94rem; color: var(--muted); max-width: 40ch; }
 
 .dates { display: grid; margin-top: 1.6rem; }
