@@ -8,7 +8,9 @@ permalink: /about/
 
 I'm Simon, a software engineer from Austria, now working independently. I work across the stack but spend most of my time around feature flagging, engineering practice, and cloud-native tooling.
 
-I want to help teams release faster and with more confidence. That comes from open standards, honest feedback loops, and communities that genuinely welcome newcomers.
+My mission: help teams release faster and with more confidence. That comes from open standards, honest feedback loops, and communities that genuinely welcome newcomers.
+
+What I take on is on [services]({{ '/services/' | relative_url }}), where I'm speaking next is on [talks]({{ '/talks/' | relative_url }}), and the projects I maintain are on [projects]({{ '/projects/' | relative_url }}).
 
 ## How I work
 
@@ -21,19 +23,9 @@ I want to help teams release faster and with more confidence. That comes from op
 
 Each one costs me something I also want.
 
-## What I do
+## How I got here
 
-- **OpenFeature maintainer and technical steering committee member.** The vendor-neutral standard for feature flagging in the CNCF landscape, active across the org in Java, Python, Go, and JavaScript.
-- **CNCF Ambassador.** Advocating for cloud-native practices and helping bridge between projects and users.
-- **AAIF Ambassador.** Part of the first cohort at the [Agentic AI Foundation](https://aaif.io/ambassadors), the open home for the agentic AI stack.
-- **JUnit Pioneer maintainer.** A JUnit 5 extension pack.
-- **Advisory and workshops.** Feature flagging, OpenFeature rollout, and spec sessions. See [services]({{ '/services/' | relative_url }}) for what that looks like in practice.
-- **Fractional engineering leadership.** Head of Engineering and CTO work, part-time, for companies with their first one or two engineering teams.
-- **Speaker.** KubeCon, Devoxx, JavaCro, JCON, Cloudland, ContainerDays, and meetups across Europe. Available to hire for conferences and in-house events.
-
-## Background
-
-I started programming in PHP as a teenager, picked up ActionScript 3 during university (first job was technically in Silicon Valley, the desk was, anyway), then ran a small software company for three years building GPS-based tools for waste-collection fleets. That was my first go at leadership, with the clients and the payroll included.
+I started programming in PHP as a teenager, picked up ActionScript 3 during university (first job was technically in Silicon Valley, the desk was, anyway), then took over a small software company building GPS-based tools for waste-collection fleets and ran it from 2012 until it merged in 2016. That was my first go at leadership, with the clients and the payroll included.
 
 After that, almost a decade deep in the Java toolchain at NETCONOMY: Gradle, SonarQube, CI/CD, the unglamorous plumbing that lets teams ship.
 
@@ -42,10 +34,6 @@ At Dynatrace I shifted from "make the Java build faster" to "make the whole rele
 I captained a team of around eight there, doing the hiring, the growth conversations, and the case for each promotion. I've helped engineers grow, helped first-time contributors find their footing, and built a club that will outlive me.
 
 I've spent as much time on how teams decide as on what they build, which is what pulled me toward leadership work rather than away from it.
-
-## Speaking
-
-I speak regularly on feature flagging, observability, and developer experience, and I can be hired for conferences, meetups, and internal engineering events. Topics, formats, and upcoming dates on [/talks]({{ '/talks/' | relative_url }}), full session catalogue on [Sessionize](https://sessionize.com/simon-schrottner).
 
 ## Outside work
 
