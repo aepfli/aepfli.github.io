@@ -81,24 +81,32 @@ layout: home
   </div>
 </section>
 
-<section class="home-section" id="loop">
+<section class="loop-band" id="loop">
+  <img class="loop-mark" src="{{ '/assets/loop-mark.png' | relative_url }}" width="884" height="900" loading="lazy" alt="">
   <div class="wrap">
-    <div class="rail"><p class="eyebrow">The thesis</p></div>
-    <div>
+    <div class="loop-copy">
+      <p class="eyebrow">The thesis</p>
       <h2>Left of the Loop</h2>
-      <div class="loop-grid">
-        <div>
-          <p class="section-lead">AI is stripping out the incidental friction that used to produce shared understanding as a byproduct of building software. That makes shared understanding the scarce resource, and pushes engineering work <em>left</em>, toward defining what a system should do before anything gets built.</p>
-          <p class="section-lead">This is where I work that out in public, and it is the operating model I bring to the leadership work. The series is the fastest way to see how I think, and a spec session is the fastest way to try it on a real piece of work.</p>
-          <div class="cta-row" style="margin-top: 1.5rem;">
-            <a class="btn btn-ghost" href="{{ '/series/left-of-the-loop/' | relative_url }}">Read the series</a>
-            <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">Book a spec session</a>
-          </div>
-        </div>
-        <figure class="loop-figure">
-          <img src="{{ '/assets/series/the-loop.png' | relative_url }}" width="1264" height="635" loading="lazy" alt="Three zones, left to right. LEFT: the room becomes the spec, the merged record of what and why. A merge gate, where the team decides, passes it into LOOP: the agent generates, reviews, and iterates at machine speed. A second merge gate, where a human accepts, passes the result into RIGHT: production.">
-        </figure>
+      <p>AI is stripping out the incidental friction that used to produce shared understanding as a byproduct of building software. That makes shared understanding the scarce resource, and pushes engineering work <em>left</em>, toward defining what a system should do before anything gets built.</p>
+      <p>This is where I work that out in public, and it is the operating model I bring to the leadership work. The series is the fastest way to see how I think, and a spec session is the fastest way to try it on a real piece of work.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://leftoftheloop.dev">Read the book</a>
+        <a class="btn btn-ghost" href="{{ '/series/left-of-the-loop/' | relative_url }}">Read the series</a>
+        <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">Book a spec session</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-section" id="loop-diagram">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">The model</p></div>
+    <div>
+      <h2>Three zones, two merge gates</h2>
+      <p class="section-lead">The team decides what to build and merges that into a spec. The agent generates, reviews, and iterates at machine speed. A human accepts what reaches production.</p>
+      <figure class="loop-figure">
+        <img src="{{ '/assets/series/the-loop.png' | relative_url }}" width="1264" height="635" loading="lazy" alt="Three zones, left to right. LEFT: the room becomes the spec, the merged record of what and why. A merge gate, where the team decides, passes it into LOOP: the agent generates, reviews, and iterates at machine speed. A second merge gate, where a human accepts, passes the result into RIGHT: production.">
+      </figure>
     </div>
   </div>
 </section>

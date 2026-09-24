@@ -89,16 +89,26 @@
    the Left of the Loop diagram as the single accent.
    ============================================================ */
 :root {
-  --paper:       #f2f0ec;
-  --surface:     #fdfcfa;
-  --ink:         #1c1a17;
-  --muted:       #6b6359;
-  --rule:        #dcd7ce;
-  --rule-soft:   #e8e4dc;
+  /* Paper, ink and rules are the leftoftheloop.dev values, so the site and the
+     book read as the same stock. The accent stays the merge-gate orange: the
+     book's red is spent only on the Left of the Loop band, where it means the
+     book rather than decorating the page. */
+  --paper:       #fdf8ec;
+  --surface:     #fffdf7;
+  --ink:         #211b19;
+  --muted:       #6a5a51;
+  --rule:        #e6dcc6;
+  --rule-soft:   #efe9da;
   --accent:      #a85410;
   --accent-mark: #d2822e;
   --marker:      #f7ddbd;
-  --pill-bd:     #d9d4ca;
+  --pill-bd:     #ded4bd;
+
+  /* The book's own colours, fixed in both themes. */
+  --book-red:          #dc2530;
+  --book-red-deep:     #a8182a;
+  --book-cream:        #fde59d;
+  --book-cream-bright: #fff6e3;
   --band:        #23201c;
   --band-fg:     #f0ece5;
   --good:        #1f7a4d;
@@ -116,8 +126,8 @@
   :root {
     --paper:       #14120f;
     --surface:     #1b1814;
-    --ink:         #ece7df;
-    --muted:       #a0968a;
+    --ink:         #efe7d7;
+    --muted:       #a2978a;
     --rule:        #2f2b25;
     --rule-soft:   #24211c;
     --accent:      #eb9a4f;
@@ -716,6 +726,85 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
   margin-bottom: 0.3rem;
 }
 
+/* Left of the Loop band. The one place the book's red appears, carrying the
+   cover mark. The mark's own background is the same #dc2530, so the artwork
+   bleeds into the band with no seam. */
+.loop-band {
+  position: relative;
+  background: var(--book-red);
+  color: var(--book-cream-bright);
+  overflow: hidden;
+}
+
+.loop-band .loop-mark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40%;
+  max-width: none;
+  object-fit: cover;
+  object-position: left center;
+  pointer-events: none;
+}
+
+.loop-band .wrap {
+  position: relative;
+  padding-block: 4.6rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 40%;
+  gap: 2rem;
+}
+
+.loop-band .loop-copy { grid-column: 1; }
+
+.loop-band .eyebrow { color: var(--book-cream); }
+
+/* Caps and wide tracking, the way the cover sets the title. */
+.loop-band h2 {
+  margin: 0.9rem 0 0;
+  font-family: var(--body);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 4.2vw, 2.9rem);
+  line-height: 1.14;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--book-cream);
+}
+
+.loop-band p {
+  margin: 1.1rem 0 0;
+  color: var(--book-cream-bright);
+  max-width: 34rem;
+  font-size: 1.05rem;
+}
+
+.loop-band .cta-row { margin-top: 1.8rem; }
+
+.loop-band .btn {
+  background: var(--book-cream);
+  border-color: var(--book-cream);
+  color: var(--book-red-deep);
+}
+
+.loop-band .btn:hover {
+  background: var(--book-cream-bright);
+  border-color: var(--book-cream-bright);
+  color: var(--book-red-deep);
+}
+
+.loop-band .btn-ghost {
+  background: transparent;
+  border-color: rgba(253, 229, 157, 0.55);
+  color: var(--book-cream);
+}
+
+.loop-band .btn-ghost:hover {
+  background: transparent;
+  border-color: var(--book-cream);
+  color: var(--book-cream-bright);
+}
+
 /* The one full-bleed moment on the page. */
 .risk {
   position: relative;
@@ -805,16 +894,8 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 .positions h3 { margin: 0 0 0.3rem; font-size: 1.05rem; }
 .positions p { margin: 0; color: var(--muted); font-size: 0.97rem; max-width: 52ch; }
 
-.loop-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-  gap: 2.6rem;
-  align-items: center;
-  margin-top: 1.7rem;
-}
-
 .loop-figure {
-  margin: 0;
+  margin: 1.6rem 0 0;
   background: #fff;
   border: 1px solid var(--rule);
   border-radius: 10px;
@@ -912,7 +993,6 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 
 @media (max-width: 860px) {
   .home-hero-grid,
-  .loop-grid,
   .contact-box { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
 
   .tracks { grid-template-columns: minmax(0, 1fr); }
@@ -922,6 +1002,10 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
   .home-section > .wrap { grid-template-columns: minmax(0, 1fr); gap: 1.4rem; }
   .rail { position: static; display: flex; align-items: center; gap: 0.7rem; }
   .rail::before { margin-bottom: 0; }
+
+  .loop-band .wrap { grid-template-columns: minmax(0, 1fr); padding-block: 3.4rem 3.2rem; }
+  .loop-band .loop-copy { padding-top: 8.5rem; }
+  .loop-band .loop-mark { width: 100%; height: 9rem; object-position: center 22%; }
 
   .risk .wrap { grid-template-columns: minmax(0, 1fr); padding-block: 4.5rem 3rem; }
   .risk blockquote { grid-column: 1; max-width: 32ch; }
