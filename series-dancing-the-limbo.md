@@ -3,9 +3,8 @@ layout: default
 title: "Dancing the Limbo"
 permalink: /series/dancing-the-limbo/
 eyebrow: The series
+dek: "An open, ongoing reflection on the in-between."
 ---
-
-An open, ongoing reflection on the in-between.
 
 Getting laid off ended a role I loved and started a stretch with no fixed answer to what comes next.
 These posts are written from inside that uncertainty, thinking out loud about purpose, roles, and what's worth committing to, while I'm still figuring it out.
