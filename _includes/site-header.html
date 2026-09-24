@@ -1,0 +1,18 @@
+{%- comment -%}
+Site header: wordmark, primary navigation, and the one call to action that
+should be reachable from anywhere on the site. The footer carries the full
+navigation, including the pages left out here.
+{%- endcomment -%}
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}">Simon Schrottner</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="{{ '/services/' | relative_url }}"{% if page.url == '/services/' %} aria-current="page"{% endif %}>Services</a>
+      <a href="{{ '/series/left-of-the-loop/' | relative_url }}"{% if page.url == '/series/left-of-the-loop/' %} aria-current="page"{% endif %}>Left of the Loop</a>
+      <a href="{{ '/talks/' | relative_url }}"{% if page.url == '/talks/' %} aria-current="page"{% endif %}>Talks</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Writing</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+    </nav>
+    <a class="btn btn-sm" href="https://calendar.app.google/XiivjTTvJAGM9mkE8">Book a call</a>
+  </div>
+</header>

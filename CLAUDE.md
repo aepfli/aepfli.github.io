@@ -54,3 +54,9 @@ non-word token that appears in inline HTML need adding there.
   explicit `permalink`.
 - `assets/css/style.css` is the whole stylesheet, plain CSS with custom
   properties and a `prefers-color-scheme` dark theme. No build step.
+- Fonts are self-hosted in `assets/fonts`, so a page load sends no request to a
+  third party. The `@font-face` rules sit at the top of the stylesheet.
+- `_layouts/default.html` wraps a page in the reading column and is what every
+  interior page uses. `_layouts/home.html` leaves the width alone so the front
+  page can run full-bleed sections. Both pull in `_includes/site-header.html`
+  and `_includes/site-footer.html`.
