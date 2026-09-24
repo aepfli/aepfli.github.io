@@ -597,6 +597,45 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 
 .comments { margin-top: 3rem; }
 
+/* A label on the left, the detail on the right, one hairline per row. Used
+   where a list is really a set of labelled answers rather than a run of
+   sentences, which is how five bullets in a row end up reading as a block. */
+.split-list {
+  display: grid;
+  grid-template-columns: 11.5rem minmax(0, 1fr);
+  gap: 0 1.6rem;
+  margin: 1.5rem 0 0;
+}
+
+.split-list dt,
+.split-list dd {
+  padding-block: 0.8rem;
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.split-list dt {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.97rem;
+  line-height: 1.4;
+}
+
+.split-list dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.97rem;
+  line-height: 1.55;
+}
+
+.split-list dt:first-of-type,
+.split-list dt:first-of-type + dd { border-top: 1px solid var(--rule-soft); }
+
+@media (max-width: 620px) {
+  .split-list { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .split-list dt { padding-bottom: 0.2rem; border-bottom: 0; }
+  .split-list dt:first-of-type + dd { border-top: 0; }
+}
+
 /* Offering metadata on the services page. The label sits in a mono margin
    column, the same way the front page labels its sections, so four offerings
    in a row read as a table rather than as eight more paragraphs. */
