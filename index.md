@@ -1,87 +1,249 @@
 ---
-layout: default
+layout: home
 ---
 
-<section class="hero">
-  <img src="{{ '/assets/portrait.jpg' | relative_url }}" alt="Portrait of Simon Schrottner" class="portrait">
-  <div class="hero-text">
-    <h1>Simon Schrottner</h1>
-    <p class="tagline">I help engineering organizations ship with confidence, from the leadership room to the flag in production.</p>
+<section class="home-hero">
+  <div class="wrap">
+    <div class="home-hero-grid">
+      <div>
+        <p class="availability">Taking on new engagements</p>
+        <h1>A slow release cycle is rarely a <span class="mark">tooling</span> problem.</h1>
+        <p class="home-hero-sub">It usually comes from an organization that hasn't agreed on what it's building. I work on both ends of that: the flag in production, and the room where the decision gets made.</p>
+        <div class="cta-row">
+          <a class="btn" href="https://calendar.app.google/XiivjTTvJAGM9mkE8">Book half an hour</a>
+          <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">See how engagements work</a>
+        </div>
+        <ul class="roles">
+          <li>OpenFeature maintainer &amp; TSC</li>
+          <li>CNCF Ambassador</li>
+          <li>AAIF Ambassador</li>
+          <li>Fractional CTO</li>
+          <li>Speaker</li>
+        </ul>
+      </div>
+      <aside class="home-aside">
+        <div class="portrait-frame">
+          <img src="{{ '/assets/portrait.jpg' | relative_url }}" width="1100" height="1375" alt="Simon Schrottner in a climbing helmet on a via ferrata above the Mur valley">
+        </div>
+        <p class="caption">Pernegg an der Mur, Austria.<br>Remote, and on site wherever the work is.</p>
+      </aside>
+    </div>
   </div>
 </section>
 
-<p class="availability">Independent, and currently taking on new engagements.</p>
-
-Most of my career has gone into the unglamorous parts of shipping software: build systems, CI/CD, developer platforms, feature flags. Long enough to learn that a slow release cycle usually comes from an organization that hasn't agreed on what it's building, not from the tooling.
-
-Most of what I do is advisory: workshops, reviews, and sessions where the point is a senior answer rather than an extra pair of hands. Some of it is embedded, running engineering part-time for companies that need the seniority without the headcount. Based in Pernegg an der Mur, Austria, working remotely and on site wherever the work is.
-
-## Two ways to work with me
-
-<div class="tracks">
-  <div class="track">
-    <h3>Advisory and workshops</h3>
-    <p>Time-boxed work where the value is the expertise rather than the hours. Feature flagging and OpenFeature from one of the standard's maintainers, and spec sessions for teams working out how engineering holds together once agents write the code.</p>
-    <p class="track-note"><strong>For:</strong> teams who need a senior outside answer to a specific question, and platform or DevEx groups who want depth without another full-time hire.</p>
+<section class="home-section" id="work">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">The work</p></div>
+    <div>
+      <h2>Two ways to work with me</h2>
+      <p class="section-lead">Most of it is advisory, where the point is a senior answer rather than an extra pair of hands. Some of it is embedded, running engineering part-time for companies that need the seniority without the headcount.</p>
+      <div class="tracks">
+        <article class="track">
+          <h3>Advisory and workshops</h3>
+          <p>Time-boxed work where the value is the expertise rather than the hours. Feature flagging and OpenFeature from one of the standard's maintainers, and spec sessions for teams working out how engineering holds together once agents write the code.</p>
+          <p class="track-note"><strong>For</strong>Teams who need a senior outside answer to a specific question, and platform or DevEx groups who want depth without another full-time hire.</p>
+        </article>
+        <article class="track">
+          <h3>Fractional engineering leadership</h3>
+          <p>Head of Engineering or CTO at a fraction of a full-time hire, for companies with their first one or two engineering teams. Technical direction, hiring and growing the team, and turning delivery into something the rest of the business can plan around.</p>
+          <p class="track-note"><strong>For</strong>Founders who've outgrown running engineering themselves, and companies in the gap between two engineering leaders.</p>
+        </article>
+      </div>
+      <p class="after"><a href="{{ '/services/' | relative_url }}">What engagements look like, and how they start &rarr;</a></p>
+    </div>
   </div>
-  <div class="track">
-    <h3>Fractional engineering leadership</h3>
-    <p>Head of Engineering or CTO at a fraction of a full-time hire, for companies with their first one or two engineering teams. Technical direction, hiring and growing the team, and turning delivery into something the rest of the business can plan around.</p>
-    <p class="track-note"><strong>For:</strong> founders who've outgrown running engineering themselves, and companies in the gap between two engineering leaders.</p>
+</section>
+
+<section class="risk">
+  <img src="{{ '/assets/ledge.jpg' | relative_url }}" width="2400" height="1064" alt="A climber clipped into a via ferrata, sitting on a wooden ledge partway up the face, reading, with the valley below">
+  <div class="wrap">
+    <blockquote>
+      <p class="eyebrow">How I work</p>
+      <p class="quote">Nobody climbs harder by being careful, they climb harder because the protection is good.</p>
+      <p class="attrib">Release confidence is the same trade. A team ships faster when the flag, the gate, and the rollback hold, not when it agrees to be more careful.</p>
+    </blockquote>
   </div>
-</div>
+</section>
 
-[What engagements look like, and how they start →]({{ '/services/' | relative_url }})
+<section class="home-section" id="positions">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">Positions</p></div>
+    <div>
+      <h2>What I'll argue with you about</h2>
+      <p class="section-lead">Worth knowing before you book the call, because these show up in the first hour either way.</p>
+      <ol class="positions">
+        <li>
+          <span class="n" aria-hidden="true">01</span>
+          <div>
+            <h3>A standard you can't leave is not a standard</h3>
+            <p>Vendor neutrality is the whole point of OpenFeature, and it only holds while switching stays genuinely cheap. Most lock-in arrives as a convenience nobody voted on.</p>
+          </div>
+        </li>
+        <li>
+          <span class="n" aria-hidden="true">02</span>
+          <div>
+            <h3>Buying a flagging platform is not a release strategy</h3>
+            <p>The tool is the easy half. What decides whether a team ships on a Friday is who is allowed to turn the flag off, and how fast they find out they should.</p>
+          </div>
+        </li>
+        <li>
+          <span class="n" aria-hidden="true">03</span>
+          <div>
+            <h3>Shared understanding is the scarce resource now, not code</h3>
+            <p>Agents removed the friction that used to produce agreement as a byproduct of building. The work moves left, toward deciding what the system should do before anything gets generated.</p>
+          </div>
+        </li>
+        <li>
+          <span class="n" aria-hidden="true">04</span>
+          <div>
+            <h3>Most technical problems are decisions nobody wanted to make</h3>
+            <p>A migration that never finishes and a platform team that keeps rewriting usually trace back to an unowned call, and no amount of tooling settles it.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
 
-## Where this comes from
+<section class="home-section" id="loop">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">The thesis</p></div>
+    <div>
+      <h2>Left of the Loop</h2>
+      <div class="loop-grid">
+        <div>
+          <p class="section-lead">AI is stripping out the incidental friction that used to produce shared understanding as a byproduct of building software. That makes shared understanding the scarce resource, and pushes engineering work <em>left</em>, toward defining what a system should do before anything gets built.</p>
+          <p class="section-lead">This is where I work that out in public, and it is the operating model I bring to the leadership work. The series is the fastest way to see how I think, and a spec session is the fastest way to try it on a real piece of work.</p>
+          <div class="cta-row" style="margin-top: 1.5rem;">
+            <a class="btn btn-ghost" href="{{ '/series/left-of-the-loop/' | relative_url }}">Read the series</a>
+            <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">Book a spec session</a>
+          </div>
+        </div>
+        <figure class="loop-figure">
+          <img src="{{ '/assets/series/the-loop.png' | relative_url }}" width="1264" height="635" loading="lazy" alt="Three zones, left to right. LEFT: the room becomes the spec, the merged record of what and why. A merge gate, where the team decides, passes it into LOOP: the agent generates, reviews, and iterates at machine speed. A second merge gate, where a human accepts, passes the result into RIGHT: production.">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
 
-- **OpenFeature maintainer and technical steering committee member.** The CNCF's vendor-neutral standard for feature flagging, active across Java, Go, Python, and JavaScript.
-- **CNCF Ambassador.** Working between cloud-native projects and the teams trying to adopt them.
-- **AAIF Ambassador.** First cohort at the [Agentic AI Foundation](https://aaif.io/ambassadors), the open home for the agentic AI stack.
-- **Team captain at Dynatrace.** Around eight engineers. Hiring, growth conversations, and the case for each promotion.
-- **Feature flags at scale.** Architected a centralized feature flag management service across all Dynatrace clusters and stages, and wired it into OpenTelemetry.
-- **NETCONOMY.** Almost a decade in the Java toolchain: Gradle, SonarQube, CI/CD, and the plumbing that decides whether a team ships.
-- **Founder.** Ran my own software company for three years, building GPS tooling for waste-collection fleets.
-- **Togtrama.** Founder and chair of a community club in Frohnleiten that runs on volunteer enthusiasm alone.
+<section class="home-section" id="evidence">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">Track record</p></div>
+    <div>
+      <h2>Where this comes from</h2>
+      <div class="creds">
+        <div class="cred">
+          <h3>OpenFeature maintainer</h3>
+          <p>Technical steering committee member on the CNCF's vendor-neutral standard for feature flagging, active across Java, Go, Python, and JavaScript.</p>
+        </div>
+        <div class="cred">
+          <h3>CNCF Ambassador</h3>
+          <p>Working between cloud-native projects and the teams trying to adopt them.</p>
+        </div>
+        <div class="cred">
+          <h3>AAIF Ambassador</h3>
+          <p>First cohort at the <a href="https://aaif.io/ambassadors">Agentic AI Foundation</a>, the open home for the agentic AI stack.</p>
+        </div>
+        <div class="cred">
+          <h3>Team captain at Dynatrace</h3>
+          <p>Around eight engineers. Hiring, growth conversations, and the case for each promotion.</p>
+        </div>
+        <div class="cred">
+          <h3>Feature flags at scale</h3>
+          <p>Architected a centralized feature flag management service across all Dynatrace clusters and stages, and wired it into OpenTelemetry.</p>
+        </div>
+        <div class="cred">
+          <h3>NETCONOMY</h3>
+          <p>Almost a decade in the Java toolchain: Gradle, SonarQube, CI/CD, and the plumbing that decides whether a team ships.</p>
+        </div>
+        <div class="cred">
+          <h3>Founder</h3>
+          <p>Ran my own software company for three years, building GPS tooling for waste-collection fleets.</p>
+        </div>
+        <div class="cred">
+          <h3>Togtrama</h3>
+          <p>Founder and chair of a community club in Frohnleiten that runs on volunteer enthusiasm alone.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-## Left of the Loop
+<section class="home-section" id="speaking">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">Speaking</p></div>
+    <div>
+      <h2>On stage</h2>
+      <p class="section-lead">Conferences, meetups, and internal engineering events, in English or German, delivered from inside the projects rather than from the outside looking in.</p>
+      <div class="dates">
+        <div class="date-row">
+          <p class="date-when">Sep 29, 2026</p>
+          <p class="date-what">KCD Sofia <span>Your Open Source Standard Is Just Another Lock-In</span></p>
+          <p class="date-where">Sofia</p>
+        </div>
+        <div class="date-row">
+          <p class="date-when">Oct 5&ndash;9, 2026</p>
+          <p class="date-what">Devoxx Belgium</p>
+          <p class="date-where">Antwerp</p>
+        </div>
+        <div class="date-row">
+          <p class="date-when">Oct 29&ndash;30, 2026</p>
+          <p class="date-what">Dutch Cloud Native Day</p>
+          <p class="date-where">Utrecht</p>
+        </div>
+        <div class="date-row">
+          <p class="date-when">Nov 9&ndash;12, 2026</p>
+          <p class="date-what">KubeCon + CloudNativeCon NA <span>OpenFeature as a Control Plane for OpenTelemetry</span></p>
+          <p class="date-where">Salt Lake City</p>
+        </div>
+        <div class="date-row">
+          <p class="date-when">Nov 19&ndash;20, 2026</p>
+          <p class="date-what">Cloud Native Denmark</p>
+          <p class="date-where">Copenhagen</p>
+        </div>
+        <div class="date-row">
+          <p class="date-when">Dec 2&ndash;3, 2026</p>
+          <p class="date-what">Cloud Native AI Summit <span>Two Agents Walk Into a Bar</span></p>
+          <p class="date-where">Paris</p>
+        </div>
+      </div>
+      <p class="past-note">Previously ContainerDays, KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
+    </div>
+  </div>
+</section>
 
-AI is stripping out the incidental friction that used to produce shared understanding as a byproduct of building software. That makes shared understanding the scarce resource, and pushes engineering work *left*, toward defining what a system should do before anything gets built.
+<section class="home-section" id="writing">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">Writing</p></div>
+    <div>
+      <h2>Notes, not announcements</h2>
+      <p class="section-lead">Feature flagging, observability, engineering leadership, and where open standards are heading. <a href="{{ '/blog/' | relative_url }}">Read the blog &rarr;</a></p>
+    </div>
+  </div>
+</section>
 
-*Left of the Loop* is where I'm working that out in public, and it's the operating model I bring to the leadership work. The series is the fastest way to see how I think, and a [spec session]({{ '/services/' | relative_url }}) is the fastest way to try it on a real piece of work.
-
-[Read the series →]({{ '/series/left-of-the-loop/' | relative_url }})
-
-## Speaking
-
-Conferences, meetups, and internal engineering events, in English or German, delivered from inside the projects rather than from the outside looking in.
-
-Next up: **ContainerDays Hamburg** (Sep 2–4), **KCD Sofia** (Sep 29), **Devoxx Belgium** (Oct 5–9), **Dutch Cloud Native Day** (Oct 29–30), **KubeCon NA** in Salt Lake City (Nov 9–12), and **Cloud Native Denmark** (Nov 19–20). Previously KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe.
-
-[Topics, formats, and booking →]({{ '/talks/' | relative_url }})
-
-## Writing
-
-Notes on feature flagging, observability, engineering leadership, and where open standards are heading.
-
-[Read the blog →]({{ '/blog/' | relative_url }})
-
-## Start a conversation
-
-Book half an hour, or send a note with what you're trying to ship, where it's stuck, and roughly when. I'll come back honestly about whether I can help, and if I'm not the right person I usually know who is.
-
-<p class="cta">
-  <a href="https://calendar.app.google/XiivjTTvJAGM9mkE8" class="cta-button">Book a call</a>
-  <a href="mailto:simon@schrottner.at" class="cta-button cta-button-secondary">simon@schrottner.at</a>
-  <a href="https://www.linkedin.com/in/aepfli/" class="cta-button cta-button-secondary">LinkedIn</a>
-</p>
-
-## Find me
-
-<ul class="links">
-  <li><a href="https://github.com/aepfli">GitHub <span class="handle">@aepfli</span></a></li>
-  <li><a href="https://www.linkedin.com/in/aepfli/">LinkedIn <span class="handle">/in/aepfli</span></a></li>
-  <li><a href="https://sessionize.com/simon-schrottner">Sessionize <span class="handle">/simon-schrottner</span></a></li>
-  <li><a href="https://bsky.app/profile/aepfli.bsky.social">Bluesky <span class="handle">@aepfli.bsky.social</span></a></li>
-  <li><a href="https://stackoverflow.com/users/3708208">Stack Overflow <span class="handle">/users/3708208</span></a></li>
-</ul>
+<section class="home-section" id="contact">
+  <div class="wrap">
+    <div class="rail"><p class="eyebrow">Contact</p></div>
+    <div>
+      <div class="contact-box">
+        <div>
+          <h2>Start a conversation</h2>
+          <p>Send a note with what you're trying to ship, where it's stuck, and roughly when. I'll come back honestly about whether I can help, and if I'm not the right person I usually know who is.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="https://calendar.app.google/XiivjTTvJAGM9mkE8">Book a call</a>
+          <a class="btn btn-ghost" href="mailto:simon@schrottner.at">simon@schrottner.at</a>
+        </div>
+      </div>
+      <div class="elsewhere">
+        <a href="https://github.com/aepfli">GitHub @aepfli</a>
+        <a href="https://www.linkedin.com/in/aepfli/">LinkedIn /in/aepfli</a>
+        <a href="https://sessionize.com/simon-schrottner">Sessionize /simon-schrottner</a>
+        <a href="https://bsky.app/profile/aepfli.bsky.social">Bluesky @aepfli.bsky.social</a>
+        <a href="https://stackoverflow.com/users/3708208">Stack Overflow /users/3708208</a>
+      </div>
+    </div>
+  </div>
+</section>
