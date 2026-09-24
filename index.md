@@ -160,38 +160,8 @@ layout: home
     <div>
       <h2>On stage</h2>
       <p class="section-lead">Conferences, meetups, and internal engineering events, in English or German, delivered from inside the projects rather than from the outside looking in.</p>
-      <div class="dates">
-        <div class="date-row">
-          <p class="date-when">Sep 29, 2026</p>
-          <p class="date-what">KCD Sofia <span>Your Open Source Standard Is Just Another Lock-In</span></p>
-          <p class="date-where">Sofia</p>
-        </div>
-        <div class="date-row">
-          <p class="date-when">Oct 5&ndash;9, 2026</p>
-          <p class="date-what">Devoxx Belgium</p>
-          <p class="date-where">Antwerp</p>
-        </div>
-        <div class="date-row">
-          <p class="date-when">Oct 29&ndash;30, 2026</p>
-          <p class="date-what">Dutch Cloud Native Day</p>
-          <p class="date-where">Utrecht</p>
-        </div>
-        <div class="date-row">
-          <p class="date-when">Nov 9&ndash;12, 2026</p>
-          <p class="date-what">KubeCon + CloudNativeCon NA <span>OpenFeature as a Control Plane for OpenTelemetry</span></p>
-          <p class="date-where">Salt Lake City</p>
-        </div>
-        <div class="date-row">
-          <p class="date-when">Nov 19&ndash;20, 2026</p>
-          <p class="date-what">Cloud Native Denmark</p>
-          <p class="date-where">Copenhagen</p>
-        </div>
-        <div class="date-row">
-          <p class="date-when">Dec 2&ndash;3, 2026</p>
-          <p class="date-what">Cloud Native AI Summit <span>Two Agents Walk Into a Bar</span></p>
-          <p class="date-where">Paris</p>
-        </div>
-      </div>
+      {% assign upcoming = site.data.talks | where: "section", "upcoming" %}
+      {% include talk-list.html items=upcoming %}
       <p class="past-note">Previously ContainerDays, KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
     </div>
   </div>

@@ -1,0 +1,28 @@
+{%- comment -%}
+Renders a list of appearances from _data/talks.yml as dated rows, the same
+shape the front page uses, so a long list scans instead of reading as bullets.
+
+  include talk-list.html items=<array of talk entries>
+{%- endcomment -%}
+<div class="dates">
+  {%- for talk in include.items %}
+  <div class="date-row">
+    <p class="date-when">{{ talk.when | default: talk.year }}</p>
+    <div class="date-what">
+      {{ talk.event }}
+      {%- if talk.title %}
+      <span>{{ talk.title }}{% if talk.note %}, {{ talk.note }}{% endif %}</span>
+      {%- endif %}
+      {%- for session in talk.sessions %}
+      <span>{{ session.title }}{% if session.note %}, {{ session.note }}{% endif %}</span>
+      {%- endfor %}
+      {%- if talk.links %}
+      <span class="date-links">
+        {%- for link in talk.links %}<a href="{{ link.url }}">{{ link.text }}</a>{% unless forloop.last %} · {% endunless %}{% endfor -%}
+      </span>
+      {%- endif %}
+    </div>
+    <p class="date-where">{{ talk.where }}</p>
+  </div>
+  {%- endfor %}
+</div>
