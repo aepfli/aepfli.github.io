@@ -319,6 +319,36 @@ th { font-family: var(--display); font-weight: 600; }
   transform: rotate(45deg);
 }
 
+/* An h2 opens a section with a full rule and the gate on it. An h3 opens one
+   item inside that section, so it gets a short bar instead. Four offerings in a
+   row then read as four things without adding four more full-width lines. */
+.reading > h3,
+.reading > article > h3 {
+  position: relative;
+  margin-top: 3.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule-soft);
+}
+
+/* An accent tick on the left end of the hairline, so the h3 separator is
+   clearly a lighter relative of the h2 rule with its gate. */
+.reading > h3::before,
+.reading > article > h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 2.2rem;
+  height: 2px;
+  background: var(--accent-mark);
+}
+
+/* An h3 opening a section sits right under the h2 and needs no rule of its own. */
+.reading > h2 + h3,
+.reading > article > h2 + h3 { margin-top: 2rem; padding-top: 0; border-top: 0; }
+.reading > h2 + h3::before,
+.reading > article > h2 + h3::before { display: none; }
+
 .reading > h2:first-child,
 .reading > article > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 .reading > h2:first-child::before,
