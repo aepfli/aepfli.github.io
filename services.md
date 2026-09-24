@@ -17,27 +17,36 @@ Time-boxed work where you are buying the expertise rather than the hours. Most e
 
 Hands-on sessions for engineering teams who are either starting with feature flags or trying to get out from under the ones they already have. We cover the patterns that hold up in production, the failure modes that don't, observability for flag evaluation, and how to roll out OpenFeature without a rip-and-replace.
 
-**Who it's for:** teams who've outgrown ad-hoc toggles and want a flagging strategy they can trust on a Friday afternoon.
-
-**Typical shape:** one or two days on site or remote, fixed price, with a written summary of what the team decided.
+<dl class="offer-meta">
+  <dt>For</dt>
+  <dd>Teams who've outgrown ad-hoc toggles and want a flagging strategy they can trust on a Friday afternoon.</dd>
+  <dt>Shape</dt>
+  <dd>One or two days on site or remote, fixed price, with a written summary of what the team decided.</dd>
+</dl>
 
 ### Implementation consulting
 
-OpenFeature end to end, from a maintainer's perspective. Hands-on rollout work: integrating OpenFeature into your stack, wiring it into OpenTelemetry for SRE-grade observability, building the internal tooling around evaluation and audit, and unblocking edge cases by going to the source. As one of the project's maintainers I can shape the spec where it needs to bend, and help the in-house team carry the work forward after I'm gone.
+OpenFeature end to end, from a maintainer's perspective. Hands-on rollout work: integrating OpenFeature into your stack, wiring it into OpenTelemetry for SRE-grade observability, building the internal tooling around evaluation and audit, and unblocking edge cases by going to the source. As one of the project's maintainers I can shape the specification where it needs to bend, and help the in-house team carry the work forward after I'm gone.
 
-**Who it's for:** teams adopting OpenFeature without in-house insider context, and anyone hitting the edges where the spec meets reality.
+<dl class="offer-meta">
+  <dt>For</dt>
+  <dd>Teams adopting OpenFeature without in-house insider context, and anyone hitting the edges where the specification meets reality.</dd>
+  <dt>Shape</dt>
+  <dd>A defined project with a fixed price, a recurring day a week while the rollout lands, or embedded with the team as a senior engineer for a defined stretch.</dd>
+</dl>
 
-**Typical shape:** a defined project with a fixed price, a recurring day a week while the rollout lands, or embedded with the team as a senior engineer for a defined stretch.
-
-### Spec sessions
+### Scoping workshops
 
 Implementation is getting cheap, and the agreement about what to implement is what stays expensive. That agreement used to arrive free, as a byproduct of people grinding through the work together. It doesn't anymore.
 
-A spec session is a facilitated conversation with one output: a written record of what the system should do and why, that everyone in the room has agreed to. I run the room, the team decides, and you keep the spec.
+A facilitated conversation with one output: a written record of what the system should do and why, that everyone in the room has agreed to. I run the room, the team decides, and you keep the spec.
 
-**Who it's for:** teams generating code faster than they can agree on what it should do, and leadership teams who suspect the bottleneck has moved from writing software to deciding what to write.
-
-**Typical shape:** a half-day or full-day session built around a real piece of upcoming work, with the spec as the deliverable. Usually the start of a longer engagement rather than a one-off.
+<dl class="offer-meta">
+  <dt>For</dt>
+  <dd>Teams generating code faster than they can agree on what it should do, and leadership teams who suspect the bottleneck has moved from writing software to deciding what to write.</dd>
+  <dt>Shape</dt>
+  <dd>A half-day or full-day session built around a real piece of upcoming work, with the spec as the deliverable. Usually the start of a longer engagement rather than a one-off.</dd>
+</dl>
 
 **Worth saying plainly:** this comes out of [Left of the Loop]({{ '/series/left-of-the-loop/' | relative_url }}), a working theory I'm building in public rather than a proven framework. The session produces a real spec either way. The wider practice is something we would be testing together.
 
@@ -45,9 +54,12 @@ A spec session is a facilitated conversation with one output: a written record o
 
 Ongoing input on the parts of the engineering organization that determine whether your release cycle is a strength or a tax: tooling, testing, CI/CD, build systems, code quality, internal platforms. I've spent most of my career in this work, and the goal is to make it boring in the best possible way.
 
-**Who it's for:** platform, DevEx, and tooling teams who want a senior outside perspective without committing to another full-time hire.
-
-**Typical shape:** a recurring half-day or day a month, or a fixed-scope review with recommendations.
+<dl class="offer-meta">
+  <dt>For</dt>
+  <dd>Platform, DevEx, and tooling teams who want a senior outside perspective without committing to another full-time hire.</dd>
+  <dt>Shape</dt>
+  <dd>A recurring half-day or day a month, or a fixed-scope review with recommendations.</dd>
+</dl>
 
 ## Fractional engineering leadership
 
@@ -62,19 +74,18 @@ What it usually involves:
 - **The room.** Getting the team to a shared, written picture of what they're building before anyone starts building it, which is where most delivery problems actually begin.
 - **A handover.** The aim is a permanent leader who inherits something that already runs.
 
-**Who it's for:** companies with their first one or two engineering teams. Founders who've outgrown running engineering themselves, companies in the gap between two engineering leaders, and leadership teams who want senior judgment for a defined stretch rather than forever. Past a couple of teams you want a full-time leader, and I'll say so.
-
-**Typical shape:** one to two days a week, three to six months, at a fixed monthly fee. Shorter reviews and one-off leadership sessions work too.
+<dl class="offer-meta">
+  <dt>For</dt>
+  <dd>Companies with their first one or two engineering teams. Founders who've outgrown running engineering themselves, companies in the gap between two engineering leaders, and leadership teams who want senior judgment for a defined stretch rather than forever. Past a couple of teams you want a full-time leader, and I'll say so.</dd>
+  <dt>Shape</dt>
+  <dd>One to two days a week, three to six months, at a fixed monthly fee. Shorter reviews and one-off leadership sessions work too.</dd>
+</dl>
 
 **A different shape?** Those are the common roles, not the only ones. Describe the gap and I'll tell you honestly whether I'm the right person to fill it.
 
 ## Speaking
 
-Conference sessions, keynotes, and in-house talks on feature flagging, observability, developer experience, open standards, and where engineering work is moving in the age of agents. I speak as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature maintainer and technical steering committee member, which means the material comes from inside the projects, and from having had to make it work in production first. English or German, solo or co-delivered.
-
-Recent stages include KubeCon, Devoxx, ContainerDays, JNation, Cloudland, and JavaCro. Community conferences and meetups are usually travel-only, corporate events and internal sessions are paid engagements.
-
-**Who it's for:** conference organizers looking for a session that isn't a vendor pitch, and engineering organizations who want an outside voice to open an internal event.
+Conference sessions, keynotes, and in-house talks, delivered as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature maintainer, which means the material comes from inside the projects rather than the outside looking in. Community conferences and meetups are usually travel-only, corporate events and internal sessions are paid engagements.
 
 [Upcoming dates, topics, and formats →]({{ '/talks/' | relative_url }})
 
