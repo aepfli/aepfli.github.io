@@ -8,7 +8,18 @@ permalink: /about/
 
 I'm Simon, a software engineer from Austria, now working independently. I work across the stack but spend most of my time around feature flagging, engineering practice, and cloud-native tooling.
 
-My mission: help teams release faster and with more confidence. That comes from open standards, honest feedback loops, and communities that genuinely welcome newcomers.
+I want to help teams release faster and with more confidence. That comes from open standards, honest feedback loops, and communities that genuinely welcome newcomers.
+
+## How I work
+
+<ul class="principles">
+  <li>Technical credibility <span class="pivot">even over</span> reach.</li>
+  <li>Open standards <span class="pivot">even over</span> my own code.</li>
+  <li>The direct ask <span class="pivot">even over</span> the announcement.</li>
+  <li>Other people's confidence <span class="pivot">even over</span> my name on it.</li>
+</ul>
+
+Each one costs me something I also want.
 
 ## What I do
 
@@ -28,9 +39,9 @@ After that, almost a decade deep in the Java toolchain at NETCONOMY: Gradle, Son
 
 At Dynatrace I shifted from "make the Java build faster" to "make the whole release cycle more confident", architecting a centralized feature flag management service for all clusters and stages, integrating it with OpenTelemetry, and representing the company inside the OpenFeature community. Feature flags, observability, and open standards turned out to be the shortest path to release confidence, which is how I ended up maintaining OpenFeature.
 
-The thread across all of it: I care most about the people. At Dynatrace I captained a team of around eight, doing the hiring, the growth conversations, and the case for each promotion.
+I captained a team of around eight there, doing the hiring, the growth conversations, and the case for each promotion. I've helped engineers grow, helped first-time contributors find their footing, and built a club that will outlive me.
 
-Helping engineers grow, helping first-time contributors find their footing, helping communities outlive their founders. I've spent as much time on how teams decide as on what they build, which is what pulled me toward leadership work rather than away from it.
+I've spent as much time on how teams decide as on what they build, which is what pulled me toward leadership work rather than away from it.
 
 ## Speaking
 

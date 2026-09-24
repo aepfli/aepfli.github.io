@@ -426,3 +426,24 @@ ul.links > li > .blurb {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+.principles {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.principles li {
+  border-left: 3px solid var(--accent);
+  padding: 0.3rem 0 0.3rem 1.25rem;
+  margin: 0 0 0.7rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.principles li:last-child { margin-bottom: 0; }
+
+.principles .pivot {
+  color: var(--muted);
+  font-style: italic;
+}
