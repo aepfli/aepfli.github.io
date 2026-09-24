@@ -40,7 +40,7 @@ layout: home
       <div class="tracks">
         <article class="track">
           <h3>Advisory and workshops</h3>
-          <p>Time-boxed work where the value is the expertise rather than the hours. Feature flagging and OpenFeature from one of the standard's maintainers, and spec sessions for teams working out how engineering holds together once agents write the code.</p>
+          <p>Time-boxed work where the value is the expertise rather than the hours. Feature flagging and OpenFeature from one of the standard's maintainers, and scoping workshops for teams working out how engineering holds together once agents write the code.</p>
           <p class="track-note"><strong>For</strong>Teams who need a senior outside answer to a specific question, and platform or DevEx groups who want depth without another full-time hire.</p>
         </article>
         <article class="track">
@@ -88,11 +88,11 @@ layout: home
       <p class="eyebrow">The thesis</p>
       <h2>Left of the Loop</h2>
       <p>AI is stripping out the incidental friction that used to produce shared understanding as a byproduct of building software. That makes shared understanding the scarce resource, and pushes engineering work <em>left</em>, toward defining what a system should do before anything gets built.</p>
-      <p>This is where I work that out in public, and it is the operating model I bring to the leadership work. The series is the fastest way to see how I think, and a spec session is the fastest way to try it on a real piece of work.</p>
+      <p>This is where I work that out in public, and it is the operating model I bring to the leadership work. The series is the fastest way to see how I think, and a scoping workshop is the fastest way to try it on a real piece of work.</p>
       <div class="cta-row">
         <a class="btn" href="https://leftoftheloop.dev">Read the book</a>
         <a class="btn btn-ghost" href="{{ '/series/left-of-the-loop/' | relative_url }}">Read the series</a>
-        <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">Book a spec session</a>
+        <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">Book a scoping workshop</a>
       </div>
     </div>
   </div>
