@@ -2,9 +2,8 @@
 layout: default
 title: Services
 permalink: /services/
+eyebrow: Working together
 ---
-
-# Services
 
 I work with engineering organizations that want to release faster and with more confidence. Most of it is advisory, where a workshop or a review answers the question and you carry the work forward yourselves. Some of it is embedded, where I run engineering part-time until you're ready for a permanent leader. The goal is the same either way: less guesswork in production, more trust in the release process.
 

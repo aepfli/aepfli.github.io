@@ -2,9 +2,8 @@
 layout: default
 title: Tags
 permalink: /tags/
+eyebrow: Index
 ---
-
-# Tags
 
 {% assign sorted_tags = site.tags | sort %}
 <ul class="tags">
