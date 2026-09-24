@@ -178,6 +178,10 @@
   when: "Sep 2026"
   event: "Java User Group Nuremberg"
   where: "Nuremberg"
+  title: "Fun with Flags"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
 
 - section: meetup
   when: "Sep 2026"
