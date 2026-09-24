@@ -18,26 +18,57 @@ I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature ma
 
 ### Topics I speak on
 
-- Feature flagging that survives contact with production: patterns, failure modes, and OpenFeature
-- Observability for release confidence: OpenTelemetry, and what SREs actually need to see
-- Developer experience and platform engineering: the plumbing that decides whether shipping is a strength or a tax
-- Open standards, vendor neutrality, and the governance that keeps them honest
-- Shifting engineering left in the age of agents: the [Left of the Loop]({{ '/series/left-of-the-loop/' | relative_url }}) thesis
+<dl class="split-list">
+  <dt>Feature flagging</dt>
+  <dd>Flags that survive contact with production: patterns, failure modes, and OpenFeature.</dd>
+
+  <dt>Observability</dt>
+  <dd>Release confidence with OpenTelemetry, and what SREs actually need to see.</dd>
+
+  <dt>Developer experience</dt>
+  <dd>Platform engineering, and the plumbing that decides whether shipping is a strength or a tax.</dd>
+
+  <dt>Open standards</dt>
+  <dd>Vendor neutrality, and the governance that keeps them honest.</dd>
+
+  <dt>Engineering with agents</dt>
+  <dd>Shifting engineering left, the <a href="{{ '/series/left-of-the-loop/' | relative_url }}">Left of the Loop</a> thesis.</dd>
+</dl>
 
 ### Formats
 
-- Conference session (30–45 min) or lightning talk
-- Keynote, including co-delivered keynotes, which I enjoy more than the solo kind
-- Hands-on workshop, half or full day
-- Meetup talk, user group, or podcast/panel
-- In-house session for your engineering org: same material, tuned to your stack and your problems
+<dl class="split-list">
+  <dt>Conference session</dt>
+  <dd>30&ndash;45 minutes, or a lightning talk.</dd>
+
+  <dt>Keynote</dt>
+  <dd>Including co-delivered keynotes, which I enjoy more than the solo kind.</dd>
+
+  <dt>Workshop</dt>
+  <dd>Hands-on, half or full day.</dd>
+
+  <dt>Meetup or user group</dt>
+  <dd>Talk, podcast, or panel.</dd>
+
+  <dt>In-house session</dt>
+  <dd>Same material, tuned to your stack and your problems.</dd>
+</dl>
 
 ### Practicalities
 
-- English or German (native), and I'll happily do a German-language keynote
-- Based in Austria, and I travel for the right event wherever it is
-- Community conferences, meetups, and CNCF events are usually travel-only. Corporate events and in-house sessions are paid engagements, so [ask me]({{ '/services/' | relative_url }})
-- Give me a rough audience profile and I'll tell you honestly whether one of my sessions fits, or propose something that does
+<dl class="split-list">
+  <dt>Language</dt>
+  <dd>English or German (native), and I'll happily do a German-language keynote.</dd>
+
+  <dt>Travel</dt>
+  <dd>Based in Austria, and I travel for the right event wherever it is.</dd>
+
+  <dt>Fees</dt>
+  <dd>Community conferences, meetups, and CNCF events are usually travel-only. Corporate events and in-house sessions are paid engagements, so <a href="{{ '/services/' | relative_url }}">ask me</a>.</dd>
+
+  <dt>Fit</dt>
+  <dd>Give me a rough audience profile and I'll tell you honestly whether one of my sessions fits, or propose something that does.</dd>
+</dl>
 
 <p class="cta">
   <a href="mailto:simon@schrottner.at" class="cta-button">Invite me to speak</a>
