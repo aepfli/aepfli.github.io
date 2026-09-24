@@ -10,6 +10,17 @@ I'm Simon, a software engineer from Austria, now working independently. I work a
 
 My mission: help teams release faster and with more confidence. That comes from open standards, honest feedback loops, and communities that genuinely welcome newcomers.
 
+## How I work
+
+<ul class="principles">
+  <li>Technical credibility <span class="pivot">even over</span> reach.</li>
+  <li>Open standards <span class="pivot">even over</span> my own code.</li>
+  <li>The direct ask <span class="pivot">even over</span> the announcement.</li>
+  <li>Other people's confidence <span class="pivot">even over</span> my name on it.</li>
+</ul>
+
+Each one has a right-hand side I actually want, and writing them down is how I know which way I go when I can't have both.
+
 ## What I do
 
 - **OpenFeature maintainer and technical steering committee member.** The vendor-neutral standard for feature flagging in the CNCF landscape, active across the org in Java, Python, Go, and JavaScript.
