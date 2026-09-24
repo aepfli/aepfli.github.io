@@ -2,9 +2,8 @@
 layout: default
 title: Blog
 permalink: /blog/
+eyebrow: Writing
 ---
-
-# Blog
 
 Brain dumps, mostly. Thoughts that needed somewhere to go.
 Unstructured by nature, shaped with AI help. The ideas are mine, the readability is a team effort.
@@ -18,6 +17,7 @@ There's a series running right now: [Left of the Loop]({{ '/series/left-of-the-l
   {% if postyear >= 2026 %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }} <span class="handle">{{ post.date | date: "%Y-%m-%d" }}</span></a>
+    {% if post.question %}<span class="blurb">{{ post.question }}</span>{% endif %}
     {% if post.tags %}
     <ul class="tags">
       {% for tag in post.tags %}

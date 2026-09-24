@@ -2,9 +2,8 @@
 layout: default
 title: "Dancing the Limbo"
 permalink: /series/dancing-the-limbo/
+eyebrow: The series
 ---
-
-# Dancing the Limbo
 
 An open, ongoing reflection on the in-between.
 

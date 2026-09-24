@@ -2,9 +2,8 @@
 layout: default
 title: About
 permalink: /about/
+eyebrow: Who I am
 ---
-
-# About
 
 I'm Simon, a software engineer from Austria, now working independently. I work across the stack but spend most of my time around feature flagging, engineering practice, and cloud-native tooling.
 

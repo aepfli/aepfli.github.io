@@ -14,6 +14,15 @@
   {% include site-header.html %}
   <main class="page">
     <div class="reading">
+      {%- if page.eyebrow %}
+      <header class="page-head">
+        <p class="eyebrow">{{ page.eyebrow }}</p>
+        <h1>{{ page.heading | default: page.title }}</h1>
+        {%- if page.dek %}
+        <p class="dek">{{ page.dek }}</p>
+        {%- endif %}
+      </header>
+      {%- endif %}
       {{ content }}
     </div>
   </main>

@@ -267,6 +267,61 @@ th { font-family: var(--display); font-weight: 600; }
 }
 
 /* ============================================================
+   Interior pages. The front page states what each section is in the
+   margin and rules them off with a merge gate. A markdown page cannot
+   carry that markup per section, so the same language arrives through
+   the page header and through the rule above every h2.
+   ============================================================ */
+.page-head {
+  position: relative;
+  margin: 0 0 2.4rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.page-head::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 9px;
+  height: 9px;
+  background: var(--accent-mark);
+  transform: rotate(45deg);
+}
+
+.page-head h1 { margin: 0.6rem 0 0; }
+.page-head .dek { margin: 0.7rem 0 0; }
+.page-head .meta { margin: 0.9rem 0 0; }
+.page-head ul.tags { margin-top: 0.9rem; }
+
+/* Section rules carry the gate, the way the front page does. */
+.reading > h2,
+.reading > article > h2 {
+  position: relative;
+  margin-top: 3rem;
+  padding-top: 1.7rem;
+  border-top: 1px solid var(--rule);
+}
+
+.reading > h2::before,
+.reading > article > h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -5px;
+  width: 9px;
+  height: 9px;
+  background: var(--accent-mark);
+  transform: rotate(45deg);
+}
+
+.reading > h2:first-child,
+.reading > article > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.reading > h2:first-child::before,
+.reading > article > h2:first-child::before { display: none; }
+
+/* ============================================================
    Site header and footer
    ============================================================ */
 .site-header {

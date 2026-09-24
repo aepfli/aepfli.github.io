@@ -2,9 +2,8 @@
 layout: default
 title: Talks
 permalink: /talks/
+eyebrow: Speaking
 ---
-
-# Talks
 
 I speak regularly on feature flagging, observability, developer experience, and the craft of open standards, and I'm available to hire for conferences, meetups, and in-house sessions. Slides and abstracts for most talks live on [Sessionize](https://sessionize.com/simon-schrottner), with recordings and decks linked below where available.
 

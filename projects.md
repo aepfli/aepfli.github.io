@@ -2,9 +2,9 @@
 layout: default
 title: Projects
 permalink: /projects/
+eyebrow: Open source
+heading: "Projects & Contributions"
 ---
-
-# Projects & Contributions
 
 ## OpenFeature
 
