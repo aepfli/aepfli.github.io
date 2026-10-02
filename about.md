@@ -7,7 +7,7 @@ eyebrow: Who I am
 
 I'm Simon, a software engineer from Austria, now working independently. I work across the stack but spend most of my time around feature flagging, engineering practice, and cloud-native tooling.
 
-My mission: help teams release faster and with more confidence. That comes from open standards, honest feedback loops, and communities that genuinely welcome newcomers.
+My mission: I build durable standards and practices so teams can learn, grow, and operate without depending on any single vendor, tool, or person. Release confidence comes out of that, through open standards, honest feedback loops, and communities that genuinely welcome newcomers.
 
 What I take on is on [services]({{ '/services/' | relative_url }}), where I'm speaking next is on [talks]({{ '/talks/' | relative_url }}), and the projects I maintain are on [projects]({{ '/projects/' | relative_url }}).
 

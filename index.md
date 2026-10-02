@@ -69,7 +69,8 @@ layout: home
   <div class="wrap">
     <div class="rail"><p class="eyebrow">Principles</p></div>
     <div>
-      <h2>What I trade away</h2>
+      <p class="mission">I build durable standards and practices so teams can learn, grow, and operate without depending on any single vendor, tool, or person.</p>
+      <h2>What I trade away for it</h2>
       <ul class="principles">
         <li>Technical credibility <span class="pivot">even over</span> reach.</li>
         <li>Open standards <span class="pivot">even over</span> my own code.</li>
