@@ -38,7 +38,7 @@ It helped me to discover sources for my own ideas.
 Overall it is a tool, a powerful one, which can help you be creative and grow.
 But I also was in the pit, where I wanted to move fast and put too much trust into the generated outcome.
 
-For me, accepting it like this now feels like remediation.
+For me, [accepting it]({% post_url 2026-10-05-i-cant-unsee-it %}) like this now feels like remediation.
 I suddenly see the book differently.
 It is a medium to share my ideas.
 I hope the ideas are clear and easy to see.
