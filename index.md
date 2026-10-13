@@ -161,9 +161,13 @@ layout: home
     <div>
       <h2>On stage</h2>
       <p class="section-lead">Conferences, meetups, and internal engineering events, in English or German, delivered from inside the projects rather than from the outside looking in.</p>
+      <figure class="stage-figure">
+        <img src="{{ '/assets/stage/devoxx-belgium-2026.jpg' | relative_url }}" width="2000" height="1334" loading="lazy" alt="Simon in a straw hat on stage at Devoxx Belgium, the conference logo blurred in the foreground">
+        <figcaption class="caption">Devoxx Belgium, Antwerp, 2026.</figcaption>
+      </figure>
       {% assign upcoming = site.data.talks | where: "section", "upcoming" %}
       {% include talk-list.html items=upcoming %}
-      <p class="past-note">Previously ContainerDays, KubeCon EU, Devoxx, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
+      <p class="past-note">Previously Devoxx Belgium, KCD Sofia, ContainerDays, KubeCon EU, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. The recordings are <a href="https://www.youtube.com/playlist?list=PLaXAUTJVYhCw">on YouTube</a>. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
     </div>
   </div>
 </section>

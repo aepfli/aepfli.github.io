@@ -8,23 +8,6 @@
 # links   : text and url, shown in order
 
 - section: upcoming
-  when: "Sep 29, 2026"
-  event: "KCD Sofia"
-  where: "Sofia"
-  title: "Your Open Source Standard Is Just Another Lock-In"
-  links:
-    - text: "Conference"
-      url: "https://kcd.bg/"
-
-- section: upcoming
-  when: "Oct 5–9, 2026"
-  event: "Devoxx Belgium"
-  where: "Antwerp"
-  links:
-    - text: "Conference"
-      url: "https://devoxx.be/"
-
-- section: upcoming
   when: "Oct 29–30, 2026"
   event: "Dutch Cloud Native Day"
   where: "Utrecht"
@@ -60,6 +43,28 @@
 
 - section: conference
   year: "2026"
+  when: "Oct 5–9"
+  event: "Devoxx Belgium"
+  where: "Antwerp"
+  title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+  links:
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=Ij5RsREpjBg"
+    - text: "Conference"
+      url: "https://devoxx.be/"
+
+- section: conference
+  year: "2026"
+  when: "Sep 29"
+  event: "KCD Sofia"
+  where: "Sofia"
+  title: "Your Open Source Standard Is Just Another Lock-In"
+  links:
+    - text: "Conference"
+      url: "https://kcd.bg/"
+
+- section: conference
+  year: "2026"
   when: "Sep 2–4"
   event: "ContainerDays"
   where: "Hamburg"
@@ -67,6 +72,8 @@
   links:
     - text: "Conference"
       url: "https://www.containerdays.io/containerdays-hamburg-2026/speakers/"
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=Ubt5KuE3xh8"
     - text: "Slides"
       url: "https://schrottner.at/openFeatureTalk/"
 
@@ -79,6 +86,8 @@
   links:
     - text: "Conference"
       url: "https://jnation.pt/"
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=bIyi5SIw-Lk"
     - text: "Slides"
       url: "https://schrottner.at/openFeatureTalk/"
 
@@ -103,6 +112,10 @@
   where: "London"
   title: "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
   links:
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=6BatJKIwugQ"
+    - text: "Interview"
+      url: "https://www.youtube.com/watch?v=5QXK2SBdcNk"
     - text: "Slides"
       url: "https://schrottner.at/openFeatureTalk/"
 
@@ -136,7 +149,7 @@
   note: "with Todd Baert"
   links:
     - text: "Recording"
-      url: "https://www.youtube.com/watch?v=XhgIwxrtvuo"
+      url: "https://www.youtube.com/watch?v=pvjmPTTyCfc"
 
 - section: conference
   year: "2025"
@@ -273,3 +286,6 @@
   event: "Grazer Linuxtage"
   where: "Graz"
   title: "Beyond Pushing Code: Dynatrace's Open Source Journey on GitHub"
+  links:
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=mwCIseNiBJo"

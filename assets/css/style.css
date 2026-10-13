@@ -1079,6 +1079,42 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 
 .loop-figure img { display: block; width: 100%; }
 
+/* Conference photos. On the talks page a landscape and a portrait shot share
+   one row at equal height, which is what the 2.25 : 1 split works out to. */
+.stage-figure { margin: 1.6rem 0 0; }
+
+.stage-figure img,
+.stage-photos img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+
+.stage-figure img { aspect-ratio: 3 / 2; object-fit: cover; }
+.stage-figure figcaption { margin-top: 0.7rem; }
+
+.stage-photos {
+  display: grid;
+  grid-template-columns: 2.25fr 1fr;
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+
+.stage-photos img { height: 100%; object-fit: cover; }
+
+.stage-photos figcaption {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 560px) {
+  .stage-photos { grid-template-columns: 1fr; }
+  .stage-photos img { height: auto; }
+  .stage-photos img + img { aspect-ratio: 4 / 3; object-position: 50% 70%; }
+}
+
 .creds {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
