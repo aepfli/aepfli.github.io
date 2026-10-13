@@ -7,6 +7,12 @@ eyebrow: Speaking
 
 I speak regularly on feature flagging, observability, developer experience, and the craft of open standards, and I'm available to hire for conferences, meetups, and in-house sessions. Slides and abstracts for most talks live on [Sessionize](https://sessionize.com/simon-schrottner), with recordings and decks linked below where available.
 
+<figure class="stage-photos">
+  <img src="{{ '/assets/stage/kcd-sofia-2026.jpg' | relative_url }}" width="2000" height="1334" loading="lazy" alt="Simon in a straw hat and lederhosen on the main stage at KCD Sofia 2026, a co-speaker across the stage, the audience in silhouette">
+  <img src="{{ '/assets/stage/devoxx-belgium-2026-portrait.jpg' | relative_url }}" width="1334" height="2000" loading="lazy" alt="Simon mid-sentence on stage at Devoxx Belgium 2026, clicker in hand">
+  <figcaption>KCD Sofia and Devoxx Belgium, 2026.</figcaption>
+</figure>
+
 ## Upcoming
 
 {% assign upcoming = site.data.talks | where: "section", "upcoming" %}

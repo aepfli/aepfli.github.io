@@ -8,23 +8,6 @@
 # links   : text and url, shown in order
 
 - section: upcoming
-  when: "Sep 29, 2026"
-  event: "KCD Sofia"
-  where: "Sofia"
-  title: "Your Open Source Standard Is Just Another Lock-In"
-  links:
-    - text: "Conference"
-      url: "https://kcd.bg/"
-
-- section: upcoming
-  when: "Oct 5–9, 2026"
-  event: "Devoxx Belgium"
-  where: "Antwerp"
-  links:
-    - text: "Conference"
-      url: "https://devoxx.be/"
-
-- section: upcoming
   when: "Oct 29–30, 2026"
   event: "Dutch Cloud Native Day"
   where: "Utrecht"
@@ -57,6 +40,25 @@
   links:
     - text: "Conference"
       url: "https://www.cloudnative.ai/events/paris"
+
+- section: conference
+  year: "2026"
+  when: "Oct 5–9"
+  event: "Devoxx Belgium"
+  where: "Antwerp"
+  links:
+    - text: "Conference"
+      url: "https://devoxx.be/"
+
+- section: conference
+  year: "2026"
+  when: "Sep 29"
+  event: "KCD Sofia"
+  where: "Sofia"
+  title: "Your Open Source Standard Is Just Another Lock-In"
+  links:
+    - text: "Conference"
+      url: "https://kcd.bg/"
 
 - section: conference
   year: "2026"
