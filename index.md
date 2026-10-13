@@ -167,7 +167,7 @@ layout: home
       </figure>
       {% assign upcoming = site.data.talks | where: "section", "upcoming" %}
       {% include talk-list.html items=upcoming %}
-      <p class="past-note">Previously Devoxx Belgium, KCD Sofia, ContainerDays, KubeCon EU, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
+      <p class="past-note">Previously Devoxx Belgium, KCD Sofia, ContainerDays, KubeCon EU, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. The recordings are <a href="https://www.youtube.com/playlist?list=PLaXAUTJVYhCw">on YouTube</a>. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
     </div>
   </div>
 </section>

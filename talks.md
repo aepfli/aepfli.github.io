@@ -5,7 +5,7 @@ permalink: /talks/
 eyebrow: Speaking
 ---
 
-I speak regularly on feature flagging, observability, developer experience, and the craft of open standards, and I'm available to hire for conferences, meetups, and in-house sessions. Slides and abstracts for most talks live on [Sessionize](https://sessionize.com/simon-schrottner), with recordings and decks linked below where available.
+I speak regularly on feature flagging, observability, developer experience, and the craft of open standards, and I'm available to hire for conferences, meetups, and in-house sessions. Every public recording is collected in one [YouTube playlist](https://www.youtube.com/playlist?list=PLaXAUTJVYhCw), and slides and abstracts for most talks live on [Sessionize](https://sessionize.com/simon-schrottner).
 
 <figure class="stage-photos">
   <img src="{{ '/assets/stage/kcd-sofia-2026.jpg' | relative_url }}" width="2000" height="1334" loading="lazy" alt="Simon in a straw hat and lederhosen on the main stage at KCD Sofia 2026, a co-speaker across the stage, the audience in silhouette">
@@ -80,6 +80,7 @@ I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature ma
   <a href="mailto:simon@schrottner.at" class="cta-button">Invite me to speak</a>
   <a href="https://calendar.app.google/XiivjTTvJAGM9mkE8" class="cta-button cta-button-secondary">Book a call</a>
   <a href="https://sessionize.com/simon-schrottner" class="cta-button cta-button-secondary">Session catalogue</a>
+  <a href="https://www.youtube.com/playlist?list=PLaXAUTJVYhCw" class="cta-button cta-button-secondary">Watch the recordings</a>
 </p>
 
 ## Featured
