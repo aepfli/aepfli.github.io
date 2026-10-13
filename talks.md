@@ -89,7 +89,7 @@ I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature ma
   <h3>OpenFeature's Positive Impact on Confidence at Dynatrace</h3>
   <p class="meta">OpenFeature Summit @ KubeCon EU 2025 · London · with Todd Baert</p>
   <p>How OpenFeature changed the way we ship at Dynatrace, including the OpenTelemetry integration that gave SREs real visibility into flag evaluation in production.</p>
-  <p><a href="https://www.youtube.com/watch?v=XhgIwxrtvuo">Watch the recording on YouTube →</a></p>
+  <p><a href="https://www.youtube.com/watch?v=pvjmPTTyCfc">Watch the recording on YouTube →</a></p>
 </div>
 
 ## 2026
