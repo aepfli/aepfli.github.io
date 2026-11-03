@@ -8,7 +8,7 @@ author:
 - Simon Schrottner
 series: "Dancing the Limbo"
 excerpt_separator: <!--more-->
-date: 2026-11-04 08:00:00 +0100
+date: 2026-11-03 08:00:00 +0100
 ---
 
 I started writing this at [Devoxx Belgium](https://devoxx.be/) in Antwerp, and held it until the conference was over.
