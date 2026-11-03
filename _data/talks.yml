@@ -8,14 +8,6 @@
 # links   : text and url, shown in order
 
 - section: upcoming
-  when: "Oct 29–30, 2026"
-  event: "Dutch Cloud Native Day"
-  where: "Utrecht"
-  links:
-    - text: "Conference"
-      url: "https://www.dutchcloudnativeday.nl/"
-
-- section: upcoming
   when: "Nov 9–12, 2026"
   event: "KubeCon + CloudNativeCon NA"
   where: "Salt Lake City"
@@ -40,6 +32,19 @@
   links:
     - text: "Conference"
       url: "https://www.cloudnative.ai/events/paris"
+
+- section: conference
+  year: "2026"
+  when: "Oct 29–30"
+  event: "Dutch Cloud Native Day"
+  where: "Utrecht"
+  title: "Stop Mutating, Start Adapting"
+  note: "keynote"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/stop-mutating/"
+    - text: "Conference"
+      url: "https://www.dutchcloudnativeday.nl/"
 
 - section: conference
   year: "2026"
