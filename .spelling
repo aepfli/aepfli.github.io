@@ -308,3 +308,7 @@ OTelFeature
 otelfeature-instrument
 deliverables
 unsee
+OtelFeature
+OpAMP
+braindump
+redeploy
