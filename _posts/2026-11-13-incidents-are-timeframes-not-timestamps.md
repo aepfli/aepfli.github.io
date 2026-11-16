@@ -43,8 +43,7 @@ The snapshot had to be complete because there was no second chance to look close
 With OtelFeature, telemetry configuration is evaluated at runtime through OpenFeature instead of being baked into the deployment.
 That changes what a sensible default looks like.
 
-In normal operation, I mostly want to know how the system is connected: which services talk to which, and whether those calls succeed.
-That's a lean overview.
+In normal operation, I mostly want to know how the system is connected: which services talk to which, and whether those calls succeed, a lean overview.
 The receiving-side and internal spans only become interesting when something goes wrong.
 
 Because the flag is evaluated inside the application, the change can also be narrow.
@@ -61,8 +60,7 @@ A dynamic configuration is only useful if something reacts fast enough to use it
 Humans never did.
 We noticed late, correlated by hand across dashboards and changed settings after the fact.
 
-Agents work differently.
-They can watch the RED signals (rate, errors, duration) continuously, spot a pattern in the time it takes a human to open a dashboard, and correlate spans across services at a speed no on-call engineer matches.
+Agents can watch the RED signals (rate, errors, duration) continuously, spot a pattern in the time it takes a human to open a dashboard, and correlate spans across services at a speed no on-call engineer matches.
 When an agent sees errors climb on a route, it can flip the flag that adds detail there, right away.
 
 We focused on a single point in time because our information was predefined and correlating many spans was hard.
@@ -79,7 +77,6 @@ It becomes a sequence of traces that get richer over time.
 4. **Hold.** Detail stays up while the errors continue and the agent, or a human, investigates.
 5. **Decay.** Once the signals recover, detail steps back down to baseline on its own.
 
-The first trace of an error is the least detailed one, and each trace after it shows more.
 The investigation happens across the timeframe, not inside a single snapshot.
 
 Most talk about dynamic telemetry stops at step 3.
