@@ -312,3 +312,8 @@ OtelFeature
 OpAMP
 braindump
 redeploy
+backend
+boolean
+webhook
+subproject
+poc
