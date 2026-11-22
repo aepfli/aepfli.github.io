@@ -25,7 +25,7 @@ Incidents will look less like a timestamp and more like a timeframe: a few minut
 
 <!--more-->
 
-New to OpenTelemetry? Here's the short version.
+**New to OpenTelemetry?**
 [OpenTelemetry](https://opentelemetry.io/docs/concepts/observability-primer/) (OTel) is the open standard for producing telemetry: the data a system emits about itself.
 It defines three main signals:
 
@@ -66,7 +66,7 @@ That's done with the [evaluation context](https://openfeature.dev/docs/reference
 
 This is not the same as sampling.
 [Sampling](https://opentelemetry.io/docs/concepts/sampling/) means keeping only some traces to save cost.
-Head sampling decides at the start of a request; tail sampling decides at the end, after every span has already been created and shipped to the [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/), the service that receives and processes telemetry.
+Head sampling decides at the start of a request, and tail sampling decides at the end, after every span has already been created and shipped to the [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/), the service that receives and processes telemetry.
 [OpAMP](https://opentelemetry.io/docs/specs/opamp/), the protocol for managing collectors remotely, can change that pipeline, but the collector only ever sees what the application sent.
 A flag inside the application decides what gets created in the first place.
 
