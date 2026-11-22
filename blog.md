@@ -9,7 +9,9 @@ Brain dumps, mostly. Thoughts that needed somewhere to go.
 Unstructured by nature, shaped with AI help. The ideas are mine, the readability is a team effort.
 Read it like a conversation starter, not a finished argument.
 
-There's a series running right now: [Left of the Loop]({{ '/series/left-of-the-loop/' | relative_url }}), a working mental model for how AI shifts the engineering process left, brain-dumped a post at a time.
+Two series hold the longer threads.
+[Left of the Loop]({{ '/series/left-of-the-loop/' | relative_url }}) is a working mental model for how AI shifts the engineering process left, brain-dumped a post at a time.
+[Telemetry on Demand]({{ '/series/telemetry-on-demand/' | relative_url }}) asks what happens when telemetry is decided at runtime, lean by default and turned up where something goes wrong.
 
 <ul class="links">
 {% for post in site.posts %}
