@@ -15,8 +15,7 @@ date: 2026-11-22 08:00:00 +0100
 
 *Another braindump, and still a theory. I'd like to hear where it breaks.*
 
-Spans and traces are great.
-But I think we over-highlight them.
+Spans and traces are great, but I think we over-highlight them.
 
 Traces are a debugging tool.
 When an incident starts, what actually tells me something is wrong is a metric: error rate up, latency up, throughput down.
@@ -26,7 +25,7 @@ We pay to create it, ship it and store it, and most of it is never read.
 <!--more-->
 
 In [my last post]({% post_url 2026-11-13-incidents-are-timeframes-not-timestamps %}), I argued that incidents should be read as a timeframe, with detail turned up while they happen.
-This post is about the layer underneath that: which signal leads, and where the detail should live.
+Underneath that sits the question of which signal leads, and where the detail should live.
 
 **New to OpenTelemetry?**
 [OpenTelemetry](https://opentelemetry.io/docs/concepts/observability-primer/) (OTel) is the open standard for producing telemetry, the data a system emits about itself.
@@ -50,7 +49,6 @@ Each step down adds detail and cost, and each step is only needed when the one a
 Metrics and lean spans are always on.
 Events and detailed logs step up on demand.
 
-The bridge between the first two steps already exists.
 OTel [exemplars](https://opentelemetry.io/docs/specs/otel/metrics/) attach trace IDs to metric data points, so you can jump from a spike in a chart straight to the spans behind it.
 
 ## Events get their own stream
@@ -58,7 +56,6 @@ OTel [exemplars](https://opentelemetry.io/docs/specs/otel/metrics/) attach trace
 For a long time, detail had nowhere to go but the span.
 OTel had two overlapping ways to record something that happened during a request: span events, attached to the span itself, and log-based events, emitted through the Logs API.
 
-That's changing.
 In March 2026 OpenTelemetry announced it is [deprecating the span events API](https://opentelemetry.io/blog/2026/deprecating-span-events/).
 New code should write events as logs that are correlated with the current span.
 Existing views that show events on spans keep working.
@@ -106,7 +103,7 @@ A small, always-on sample of fully detailed traces closes that gap cheaply and g
 The strongest counterargument comes from the "observability 2.0" camp.
 As [Honeycomb puts it](https://www.honeycomb.io/blog/why-observability-2-0-gamechanger), observability 2.0 has one source of truth: wide, structured events from which every other kind of data can be derived.
 Metrics become a view on the events, not a signal of their own.
-[Charity Majors](https://charity.wtf/tag/observability-2-0) has argued this at length, and it's a serious argument.
+[Charity Majors](https://charity.wtf/tag/observability-2-0) has argued this at length.
 
 I don't think the two ideas fight as much as it seems.
 Wide events are about where the data lives.
@@ -117,12 +114,11 @@ SimpliSafe's [talk at ObservabilityCON 2025](https://grafana.com/events/obsessio
 Two more objections need an answer:
 
 - **RED metrics derived from spans.** Many teams derive their RED metrics from spans. If the spans step down, those metrics break. "Metrics first" has to mean metrics produced independently of how traces are sampled. Otherwise turning detail up looks like more errors.
-- **Logs first.** In many organizations, logs come first today. Putting them last isn't about value. It's about order: logs with trace context are most useful once metrics and spans have told you where to look.
+- **Logs first.** In many organizations, logs come first today. Putting them last is about order: logs with trace context are most useful once metrics and spans have told you where to look.
 
 ## Minimum viable context
 
-This maps directly onto context engineering.
-When you work with AI, you learn quickly that more context isn't better context.
+When you work with AI, you learn quickly that more context isn't better context, a lesson context engineering is built on.
 You give the model the smallest set of information that lets it do the job, and you add more only when it needs it.
 
 Observability is heading the same way, because the reader is changing.
