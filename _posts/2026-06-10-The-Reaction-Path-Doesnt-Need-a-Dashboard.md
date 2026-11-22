@@ -8,6 +8,7 @@ tags:
 - SaaS
 author:
 - Simon Schrottner
+series: "Telemetry on Demand"
 excerpt_separator: <!--more-->
 date: 2026-06-10 09:00:00 +0200
 ---

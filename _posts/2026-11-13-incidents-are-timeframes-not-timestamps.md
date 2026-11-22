@@ -9,6 +9,7 @@ tags:
 - Agentic Systems
 author:
 - Simon Schrottner
+series: "Telemetry on Demand"
 excerpt_separator: <!--more-->
 date: 2026-11-13 08:00:00 +0100
 ---

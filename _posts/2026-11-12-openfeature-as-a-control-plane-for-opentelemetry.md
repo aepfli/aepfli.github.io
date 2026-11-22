@@ -7,6 +7,7 @@ tags:
 - Observability
 author:
 - Simon Schrottner
+series: "Telemetry on Demand"
 excerpt_separator: <!--more-->
 date: 2026-11-12 18:00:00 -0700
 ---
