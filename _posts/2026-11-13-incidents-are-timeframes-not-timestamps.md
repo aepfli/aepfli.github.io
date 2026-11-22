@@ -25,10 +25,23 @@ Incidents will look less like a timestamp and more like a timeframe: a few minut
 
 <!--more-->
 
+**New to OpenTelemetry?**
+[OpenTelemetry](https://opentelemetry.io/docs/concepts/observability-primer/) (OTel) is the open standard for producing telemetry: the data a system emits about itself.
+It defines three main signals:
+
+- **[Traces](https://opentelemetry.io/docs/concepts/signals/traces/)** follow one request through the system. A trace is made of spans, and each span is one unit of work, such as an HTTP call or a database query.
+- **[Metrics](https://opentelemetry.io/docs/concepts/signals/metrics/)** are measurements captured at runtime, like request counts or latency, aggregated over time.
+- **[Logs](https://opentelemetry.io/docs/concepts/signals/logs/)** are timestamped records of something that happened.
+
+[Context propagation](https://opentelemetry.io/docs/concepts/context-propagation/) ties the three together.
+It passes IDs from service to service, so a log or a metric can be matched to the trace it belongs to.
+
 ## Why our traces were rich
 
 Rich traces made sense.
-Every call carried data from both sides, the sender and the receiver, so a human could open one trace and reason about it without hunting for context elsewhere.
+Every call carried data from both sides: a client span from the service making the call, and a server span from the service receiving it.
+OTel calls this the [span kind](https://opentelemetry.io/docs/concepts/signals/traces/).
+A human could open one trace and reason about it without hunting for context elsewhere.
 
 The price was that the configuration was set in stone.
 We decided up front what to record, shipped it with the deployment and lived with it.
@@ -40,18 +53,21 @@ The snapshot had to be complete because there was no second chance to look close
 
 ## What changes when telemetry is a flag
 
-With OtelFeature, telemetry configuration is evaluated at runtime through OpenFeature instead of being baked into the deployment.
-That changes what a sensible default looks like.
+[OpenFeature](https://openfeature.dev/docs/reference/intro/) is a CNCF project that defines a vendor-neutral API for feature flags: switches in your code whose value is decided at runtime, so you can change behavior without a redeploy.
+OtelFeature uses those flags to control what OpenTelemetry records.
+Telemetry configuration is evaluated at runtime instead of being baked into the deployment, and that changes what a sensible default looks like.
 
 In normal operation, I mostly want to know how the system is connected: which services talk to which, and whether those calls succeed, a lean overview.
 The receiving-side and internal spans only become interesting when something goes wrong.
 
 Because the flag is evaluated inside the application, the change can also be narrow.
-You can turn up detail for one route, one tenant or one pod, using the same evaluation context you'd use for any other feature flag.
+You can turn up detail for one route, one tenant or one pod.
+That's done with the [evaluation context](https://openfeature.dev/docs/reference/concepts/evaluation-context/), the data a flag decision is based on, exactly as you would for any other feature flag.
 
-This is not tail sampling.
-Tail sampling decides what to keep after every span has already been created and shipped to a collector.
-Remote collector configuration (OpAMP, for example) can change the pipeline, but the collector only ever sees what the application sent.
+This is not the same as sampling.
+[Sampling](https://opentelemetry.io/docs/concepts/sampling/) means keeping only some traces to save cost.
+Head sampling decides at the start of a request, and tail sampling decides at the end, after every span has already been created and shipped to the [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/), the service that receives and processes telemetry.
+[OpAMP](https://opentelemetry.io/docs/specs/opamp/), the protocol for managing collectors remotely, can change that pipeline, but the collector only ever sees what the application sent.
 A flag inside the application decides what gets created in the first place.
 
 ## Agents close the loop
@@ -60,7 +76,9 @@ A dynamic configuration is only useful if something reacts fast enough to use it
 Humans never did.
 We noticed late, correlated by hand across dashboards and changed settings after the fact.
 
-Agents can watch the RED signals (rate, errors, duration) continuously, spot a pattern in the time it takes a human to open a dashboard, and correlate spans across services at a speed no on-call engineer matches.
+AI agents work differently.
+(Not the collector "agents" that run next to your services in many OTel setups, but AI agents that read telemetry and act on it.)
+They can watch the [RED signals](https://grafana.com/blog/the-red-method-how-to-instrument-your-services/) (the rate of requests, how many fail, and how long they take) continuously, spot a pattern in the time it takes a human to open a dashboard, and correlate spans across services at a speed no on-call engineer matches.
 When an agent sees errors climb on a route, it can flip the flag that adds detail there, right away.
 
 We focused on a single point in time because our information was predefined and correlating many spans was hard.
@@ -103,7 +121,7 @@ Handing an agent control over telemetry volume needs a few rules.
 
 - **Budgets.** A ceiling on how much extra detail one service, or the whole system, can produce at once.
 - **Expiry.** Every increase comes with a time limit. If nobody renews it, it decays back to baseline.
-- **An audit trail.** Every change to telemetry levels is a signal in its own right. OpenFeature hooks and provider events can record each evaluation and configuration change, so the incident timeline shows when the system zoomed in, on what, and why.
+- **An audit trail.** Every change to telemetry levels is a signal in its own right. OpenFeature [hooks](https://openfeature.dev/docs/reference/concepts/hooks/) run code around each flag evaluation, and provider [events](https://openfeature.dev/docs/reference/concepts/events/) fire when flag configuration changes. Together they can record each change, so the incident timeline shows when the system zoomed in, on what, and why.
 - **Metrics for the alarms.** If error rates are derived from sampled spans, raising the sample rate can look like more errors. The signals that trigger the zoom should come from metrics, which don't shift when trace sampling does.
 
 ## Paying attention to what matters
