@@ -91,8 +91,7 @@ You can still spot something odd and narrow it down, as long as the dimensions w
 And because lean spans are always on, they give you a steady baseline.
 You compare the incident against a normal day on the same terms.
 
-Lean signals help you find where to look.
-Rich signals help you understand what's going on there.
+Lean signals help you find where to look, and rich signals help you understand what's going on there.
 
 One gap remains.
 When you turn detail up, it only exists from that moment on, so there's no normal day to compare it against.
