@@ -34,6 +34,10 @@ I captained a team of around eight there, doing the hiring, the growth conversat
 
 I've spent as much time on how teams decide as on what they build, which is what pulled me toward leadership work rather than away from it.
 
+Linux Foundation courses I've completed along the way:
+
+{% include badge-row.html group="course" %}
+
 ## Outside work
 
 Family. Sport climbing instructor with the Alpenverein, running kids' courses where the real curriculum is confidence and trust. Founder and chair of *Togtrama*, a community social club in Frohnleiten that runs open-air cinemas, markets, and village events on volunteer enthusiasm alone. Cooking, the more questionable the method the better. And the outdoors, where I'm happiest away from a screen.
