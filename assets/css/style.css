@@ -349,9 +349,12 @@ th { font-family: var(--display); font-weight: 600; }
 .reading > h2 + h3::before,
 .reading > article > h2 + h3::before { display: none; }
 
+/* A page that opens on a section heading already has the page-head rule above it. */
 .reading > h2:first-child,
+.reading > .page-head + h2,
 .reading > article > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 .reading > h2:first-child::before,
+.reading > .page-head + h2::before,
 .reading > article > h2:first-child::before { display: none; }
 
 /* ============================================================
