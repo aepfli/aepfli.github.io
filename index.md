@@ -155,7 +155,6 @@ layout: home
           <p>Founder and chair of a community club in Frohnleiten that runs on volunteer enthusiasm alone.</p>
         </div>
       </div>
-      {% include badge-row.html group="ambassador" %}
     </div>
   </div>
 </section>
