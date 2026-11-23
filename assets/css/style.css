@@ -1084,6 +1084,15 @@ ul.tags .tag .count { color: var(--muted); margin-left: 0.2rem; }
 
 /* Conference photos. On the talks page a landscape and a portrait shot share
    one row at equal height, which is what the 2.25 : 1 split works out to. */
+/* A project's own logo, floated beside its section on the projects page. */
+.project-logo {
+  float: right;
+  width: 8.5rem;
+  margin: 0.2rem 0 1rem 1.5rem;
+}
+.project-logo img { display: block; }
+.reading > h2 { clear: both; }
+
 .stage-figure { margin: 1.6rem 0 0; }
 
 .stage-figure img,

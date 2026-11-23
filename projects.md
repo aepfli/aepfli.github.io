@@ -45,6 +45,13 @@ Contributed [PR #2114](https://github.com/open-telemetry/opentelemetry-demo/pull
 
 ## The Orange Case
 
+<a class="project-logo" href="https://orange-case.github.io">
+  <picture>
+    <source srcset="{{ '/assets/projects/orange-case.webp' | relative_url }}" type="image/webp">
+    <img src="{{ '/assets/projects/orange-case.png' | relative_url }}" width="520" height="532" loading="lazy" alt="The Orange Case logo, an orange hard-shell suitcase with ORANGE CASE stencilled on the lid">
+  </picture>
+</a>
+
 **[The Orange Case](https://orange-case.github.io)** is JoustMania, a Raspberry Pi jousting game with motion controllers, wired up as a live testbed for OpenFeature, runtime configuration, and observability under genuinely chaotic input.
 It started as the demo platform behind the KubeCon EU 2026 talk *18 Bluetooth Controllers Walk Into a Bar* (with Manuel Timelthaler), and 440+ of its PRs are mine.
 Now it lives in a case, with flagd and one OpenTelemetry collector that ships everything over OTLP to whichever observability backend is on trial, so the backends get compared under the same game, the same telemetry, and the same chaos.
