@@ -22,6 +22,8 @@ I speak regularly on feature flagging, observability, developer experience, and 
 
 I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature maintainer and technical steering committee member, which means the talks come from inside the projects rather than from the outside looking in. Every session is built around something I've actually had to make work in production, never a vendor pitch and never a slide deck read aloud.
 
+{% include badge-row.html group="speaker" %}
+
 ### Topics I speak on
 
 <dl class="split-list">
