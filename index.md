@@ -131,6 +131,10 @@ layout: home
           <p>First cohort at the <a href="https://aaif.io/ambassadors">Agentic AI Foundation</a>, the open home for the agentic AI stack.</p>
         </div>
         <div class="cred">
+          <h3>Cloud Native Graz organizer</h3>
+          <p>Organizing the <a href="https://ocgroups.dev/cncf/group/cloud-native-graz">CNCF community group</a> in Graz, regular in-person meetups with talks for the local cloud-native crowd.</p>
+        </div>
+        <div class="cred">
           <h3>Team captain at Dynatrace</h3>
           <p>Around eight engineers. Hiring, growth conversations, and the case for each promotion.</p>
         </div>
@@ -167,7 +171,7 @@ layout: home
       </figure>
       {% assign upcoming = site.data.talks | where: "section", "upcoming" %}
       {% include talk-list.html items=upcoming %}
-      <p class="past-note">Previously a keynote at Dutch Cloud Native Day, Devoxx Belgium, KCD Sofia, ContainerDays, KubeCon EU, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. The recordings are <a href="https://www.youtube.com/playlist?list=PLaXAUTJVYhCw">on YouTube</a>. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
+      <p class="past-note">Previously KubeCon NA, Cloud Native Denmark, a keynote at Dutch Cloud Native Day, Devoxx Belgium, KCD Sofia, ContainerDays, KubeCon EU, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. The recordings are <a href="https://www.youtube.com/playlist?list=PLaXAUTJVYhCw">on YouTube</a>. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
     </div>
   </div>
 </section>

@@ -8,23 +8,6 @@
 # links   : text and url, shown in order
 
 - section: upcoming
-  when: "Nov 9–12, 2026"
-  event: "KubeCon + CloudNativeCon NA"
-  where: "Salt Lake City"
-  title: "OpenFeature as a Control Plane for OpenTelemetry"
-  links:
-    - text: "Conference"
-      url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/"
-
-- section: upcoming
-  when: "Nov 19–20, 2026"
-  event: "Cloud Native Denmark"
-  where: "Copenhagen"
-  links:
-    - text: "Conference"
-      url: "https://cloudnativedenmark.dk/"
-
-- section: upcoming
   when: "Dec 2–3, 2026"
   event: "Cloud Native AI Summit"
   where: "Paris"
@@ -32,6 +15,33 @@
   links:
     - text: "Conference"
       url: "https://www.cloudnative.ai/events/paris"
+
+- section: conference
+  year: "2026"
+  when: "Nov 19–20"
+  event: "Cloud Native Denmark"
+  where: "Copenhagen"
+  title: "Two Standards Walk Into an Agent: Runtime Agent Control with OpenTelemetry and OpenFeature"
+  links:
+    - text: "Slides"
+      url: "https://orange-case.github.io/slides/2026-11-20-cloud-native-denmark-presentation/"
+    - text: "Conference"
+      url: "https://cloudnativedenmark.dk/"
+
+- section: conference
+  year: "2026"
+  when: "Nov 9–12"
+  event: "KubeCon + CloudNativeCon NA"
+  where: "Salt Lake City"
+  title: "OpenFeature as a Control Plane for OpenTelemetry"
+  note: "with Juliano Costa"
+  links:
+    - text: "Recording"
+      url: "https://www.youtube.com/watch?v=tvc7MmpJ82Y"
+    - text: "Write-up"
+      url: "/2026/11/13/openfeature-as-a-control-plane-for-opentelemetry.html"
+    - text: "Conference"
+      url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/"
 
 - section: conference
   year: "2026"
