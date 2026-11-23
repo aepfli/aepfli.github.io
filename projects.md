@@ -43,20 +43,14 @@ Granted approver status in 2023 for sustained work on documentation, linting, an
 The CNCF reference demo for distributed tracing.
 Contributed [PR #2114](https://github.com/open-telemetry/opentelemetry-demo/pull/2114), adapting the load-generator to use the OpenFeature OFREP provider instead of the in-process evaluator, so the demo exercises a realistic remote-evaluation path.
 
-## JoustMania
-
-**Demo platform** behind the KubeCon EU 2026 talk *18 Bluetooth Controllers Walk Into a Bar* (with Manuel Timelthaler). See [/talks]({{ '/talks/' | relative_url }}).
-A Raspberry Pi jousting game wired up as a live testbed for OpenFeature, runtime configuration, and observability tooling under genuinely chaotic input.
-Heavy involvement (440+ PRs) on the fork that drives the talk's demos.
-[Source repository](https://github.com/WatchMeJoustMyFlags/JoustMania)
-
 ## The Orange Case
 
-**[The Orange Case](https://orange-case.github.io).** The same JoustMania game in a case, same telemetry, same chaos, with only the observability backend swapped out, so the backends get compared under the same load.
-A Raspberry Pi 5, motion controllers, flagd, and one OpenTelemetry collector that ships everything over OTLP to whichever backend is on trial, with Jaeger and VictoriaMetrics living in the case.
-Six challenges put the backends side by side, from high-density metrics and trace scale to cross-trace correlation and GenAI cost, and not all of them are playable yet.
-The slides for my talks around it live there too, starting with [Cloud Native Denmark](https://orange-case.github.io/slides/2026-11-20-cloud-native-denmark-presentation/).
-[GitHub org](https://github.com/orange-case)
+**[The Orange Case](https://orange-case.github.io)** is JoustMania, a Raspberry Pi jousting game with motion controllers, wired up as a live testbed for OpenFeature, runtime configuration, and observability under genuinely chaotic input.
+It started as the demo platform behind the KubeCon EU 2026 talk *18 Bluetooth Controllers Walk Into a Bar* (with Manuel Timelthaler), and 440+ of its PRs are mine.
+Now it lives in a case, with flagd and one OpenTelemetry collector that ships everything over OTLP to whichever observability backend is on trial, so the backends get compared under the same game, the same telemetry, and the same chaos.
+Six challenges put them side by side, from high-density metrics and trace scale to cross-trace correlation and GenAI cost, and not all of them are playable yet.
+The slides for the talks built on it live there too, most recently [Cloud Native Denmark](https://orange-case.github.io/slides/2026-11-20-cloud-native-denmark-presentation/).
+[Website](https://orange-case.github.io) · [Source repository](https://github.com/orange-case/JoustMania) · [Talks]({{ '/talks/' | relative_url }})
 
 ## Smaller things I built
 
