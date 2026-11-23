@@ -171,7 +171,10 @@ layout: home
       </figure>
       {% assign upcoming = site.data.talks | where: "section", "upcoming" %}
       {% include talk-list.html items=upcoming %}
-      <p class="past-note">Previously KubeCon NA, Cloud Native Denmark, a keynote at Dutch Cloud Native Day, Devoxx Belgium, KCD Sofia, ContainerDays, KubeCon EU, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. The recordings are <a href="https://www.youtube.com/playlist?list=PLaXAUTJVYhCw">on YouTube</a>. <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
+      <p class="past-note">Previously KubeCon NA, Cloud Native Denmark, a keynote at Dutch Cloud Native Day, Devoxx Belgium, KCD Sofia, ContainerDays, KubeCon EU, DevoxxUK, JavaCro, JCON, Cloudland, JNation, and meetups across Europe. The recordings are <a href="https://www.youtube.com/playlist?list=PLaXAUTJVYhCw">on YouTube</a>,
+        and several of the live demos run on <a href="https://orange-case.github.io">The Orange Case</a>,
+        a motion-controller jousting game wired into OpenFeature and OpenTelemetry.
+        <a href="{{ '/talks/' | relative_url }}">Topics, formats, and booking &rarr;</a></p>
     </div>
   </div>
 </section>
