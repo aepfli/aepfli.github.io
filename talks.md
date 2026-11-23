@@ -86,6 +86,13 @@ I take the stage as a CNCF Ambassador, an AAIF Ambassador, and an OpenFeature ma
 ## Featured
 
 <div class="featured">
+  <h3>OpenFeature as a Control Plane for OpenTelemetry</h3>
+  <p class="meta">KubeCon + CloudNativeCon NA 2026 · Salt Lake City · with Juliano Costa</p>
+  <p>Telemetry settings read from flagd through OpenFeature, so sampling and detail can be turned up for the one request that failed and back down again, per service and without a redeploy. I played the OpenFeature person, Juliano the OpenTelemetry one, and we spent the end asking the room where this belongs.</p>
+  <p><a href="https://www.youtube.com/watch?v=tvc7MmpJ82Y">Watch the recording on YouTube →</a> · <a href="{% post_url 2026-11-12-openfeature-as-a-control-plane-for-opentelemetry %}">Read the write-up →</a></p>
+</div>
+
+<div class="featured">
   <h3>OpenFeature's Positive Impact on Confidence at Dynatrace</h3>
   <p class="meta">OpenFeature Summit @ KubeCon EU 2025 · London · with Todd Baert</p>
   <p>How OpenFeature changed the way we ship at Dynatrace, including the OpenTelemetry integration that gave SREs real visibility into flag evaluation in production.</p>

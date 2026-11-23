@@ -328,3 +328,7 @@ overpromises
 underproduces
 timeframe
 timestamp
+Jaeger
+VictoriaMetrics
+OTLP
+GenAI

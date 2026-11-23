@@ -50,6 +50,14 @@ A Raspberry Pi jousting game wired up as a live testbed for OpenFeature, runtime
 Heavy involvement (440+ PRs) on the fork that drives the talk's demos.
 [Source repository](https://github.com/WatchMeJoustMyFlags/JoustMania)
 
+## The Orange Case
+
+**[The Orange Case](https://orange-case.github.io).** The same JoustMania game in a case, same telemetry, same chaos, with only the observability backend swapped out, so the backends get compared under the same load.
+A Raspberry Pi 5, motion controllers, flagd, and one OpenTelemetry collector that ships everything over OTLP to whichever backend is on trial, with Jaeger and VictoriaMetrics living in the case.
+Six challenges put the backends side by side, from high-density metrics and trace scale to cross-trace correlation and GenAI cost, and not all of them are playable yet.
+The slides for my talks around it live there too, starting with [Cloud Native Denmark](https://orange-case.github.io/slides/2026-11-20-cloud-native-denmark-presentation/).
+[GitHub org](https://github.com/orange-case)
+
 ## Smaller things I built
 
 - [gradle-gitlab-repositories](https://github.com/aepfli/gradle-gitlab-repositories): Gradle plugin for multi-token GitLab dependency management
@@ -67,4 +75,5 @@ Heavy involvement (440+ PRs) on the fork that drives the talk's demos.
 - OpenFeature maintainer
 - Keptn approver (lifecycle-toolkit)
 - CNCF Ambassador
+- [Cloud Native Graz](https://ocgroups.dev/cncf/group/cloud-native-graz) organizer
 - JUnit Pioneer maintainer
