@@ -203,6 +203,15 @@
       url: "https://schrottner.at/openFeatureTalk/"
 
 - section: meetup
+  when: "Nov 2026"
+  event: "Amsterdam Java User Group"
+  where: "Amsterdam"
+  title: "Fun with Flags"
+  links:
+    - text: "Slides"
+      url: "https://schrottner.at/openFeatureTalk/"
+
+- section: meetup
   when: "Sep 2026"
   event: "Java User Group Nuremberg"
   where: "Nuremberg"
