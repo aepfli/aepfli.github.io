@@ -34,9 +34,7 @@ I captained a team of around eight there, doing the hiring, the growth conversat
 
 I've spent as much time on how teams decide as on what they build, which is what pulled me toward leadership work rather than away from it.
 
-Linux Foundation courses I've completed along the way:
-
-{% include badge-row.html group="course" %}
+The ambassador roles, speaking badges, and courses are verified [on Credly](https://www.credly.com/users/simon-schrottner).
 
 ## Outside work
 
